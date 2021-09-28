@@ -1,0 +1,44 @@
+html, body, p, ul, li, h1, h2, h3, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+ul, li {
+    list-style: none;
+}
+
+input:focus {
+    outline: medium;
+}
+
+i {
+    font-family: FontAwesome;
+    font-style: normal;
+}
+
+/*棣栭〉*/
+.header {
+    height: 60px;
+    line-height: 60px;
+    background-color: #fff;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header_box .header_logo {
+    float: left;
+}

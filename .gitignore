@@ -1,1 +1,5 @@
 .idea
+
+
+xsw-yybc/chapter5/photoweb/uploads/*
+!xsw-yybc/chapter5/photoweb/uploads/.keep

@@ -1,11 +1,13 @@
 package main
 
 import (
+	"fmt"
 	"math"
 	"runtime"
 	"sync"
 )
 
+// 测试目标函数
 func count() {
 	x := 0
 	for i := 0; i < math.MaxUint32; i++ {
@@ -16,12 +18,14 @@ func count() {
 
 }
 
+// 循环执行
 func test(n int) {
 	for i := 0; i < n; i++ {
 		count()
 	}
 }
 
+// 并发执行
 func test2(n int) {
 	var wg sync.WaitGroup
 	wg.Add(n)
@@ -37,6 +41,7 @@ func test2(n int) {
 }
 
 func main() {
+	fmt.Println("cpu 核数为: ", runtime.NumCPU())
 	n := runtime.GOMAXPROCS(0)
 	//test(n)
 	test2(n)

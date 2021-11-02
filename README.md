@@ -2,6 +2,12 @@
 
 > 请将项目放到 `$GOPATH/src/`文件夹下
 
+### 问题
+
++ cannot resolve directory
+
+如果在 ide 中出现 `cannot resolve directory`问题，可[参考](https://blog.csdn.net/weixin_44024220/article/details/105960432) 解决。
+
 ### 许式伟 《go语言编程》
 
 ![许式伟 《go语言编程》](assets/xsw.png)

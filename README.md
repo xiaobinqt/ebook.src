@@ -32,6 +32,14 @@
 
 #### 个人简评
 
+### 谢孟君 《go web编程》
+
+![谢孟君 go web 编程](assets/xmj-goweb.png)
+
+#### 源代码文件
+
+`xmj-goweb`
+
 ### 程杰 《大话设计模式》
 
 ![程杰 《大话设计模式》](assets/dhsjms.png)

@@ -8,6 +8,11 @@ import (
 	"gin-dev/routers"
 )
 
+// @title go-dev API
+// @version 1.0
+// @description An example of gin
+// @license.name MIT
+// @host 127.0.0.1:8000
 func main() {
 	router := routers.InitRouter()
 

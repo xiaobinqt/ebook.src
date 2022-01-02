@@ -1,3 +1,3 @@
-module go.ebook.src/dhsjms
+module go.src/dhsjms
 
 go 1.16

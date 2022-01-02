@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"go.ebook.src/xsw-yybc/chapter4/cgss/ipc"
+	"go.src/xsw-yybc/chapter4/cgss/ipc"
 )
 
 type CenterClient struct {

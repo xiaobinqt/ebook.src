@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"go.ebook.src/xsw-yybc/chapter4/cgss/ipc"
+	"go.src/xsw-yybc/chapter4/cgss/ipc"
 )
 
 var _ ipc.IpcServer = &CenterServer{} // 确认实现了 Server 接口

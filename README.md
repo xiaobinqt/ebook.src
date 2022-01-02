@@ -42,13 +42,13 @@
 
 `xmj-goweb`
 
-### 程杰 《大话设计模式》
+### 程杰 《大话数据结构》
 
-![程杰 《大话设计模式》](assets/dhsjms.png)
+![程杰 《大话设计模式》](assets/dhsjjg.png)
 
 #### 源文件代码
 
-`dhsjms`
+`dhsjjg`
 
 ### gee-7days
 

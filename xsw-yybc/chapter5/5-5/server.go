@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"net/rpc"
 
-	"go.ebook.src/xsw-yybc/chapter5/5-5/server"
+	"go.src/xsw-yybc/chapter5/5-5/server"
 )
 
 func main() {

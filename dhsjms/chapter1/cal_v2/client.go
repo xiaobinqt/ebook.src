@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"go.ebook.src/dhsjms/chapter1/cal_v2/cal"
+	"go.src/dhsjms/chapter1/cal_v2/cal"
 )
 
 func main() {

@@ -1,4 +1,4 @@
-module go.ebook.src/xsw-yybc
+module go.src/xsw-yybc
 
 go 1.16
 

@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"go.ebook.src/xsw-yybc/chapter4/cgss/cg"
-	"go.ebook.src/xsw-yybc/chapter4/cgss/ipc"
+	"go.src/xsw-yybc/chapter4/cgss/cg"
+	"go.src/xsw-yybc/chapter4/cgss/ipc"
 )
 
 var centerClient *cg.CenterClient

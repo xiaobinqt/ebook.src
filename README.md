@@ -8,6 +8,14 @@
 
 如果在 ide 中出现 `cannot resolve directory`问题，可[参考](https://blog.csdn.net/weixin_44024220/article/details/105960432) 解决。
 
+### dev 目录
+
+一些开发测试的代码。
+
+### leetcode
+
+刷 leetcode 的代码
+
 ### 许式伟 《go语言编程》
 
 ![许式伟 《go语言编程》](assets/xsw.png)
@@ -54,7 +62,7 @@
 
 本项目是根据[geektutu](https://github.com/geektutu)的[文章](https://geektutu.com/post/gee.html)开发的，赠人玫瑰，手留余香，感谢作者。
 
-### tree 数据结构 - 树
+
 
 
 

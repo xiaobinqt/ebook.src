@@ -1,0 +1,12 @@
+host: 127.0.0.1:1234
+info:
+  contact:
+    email: ×××@qq.com
+    name: API Support
+    url: http://www.cnblogs.com
+  description: Golang api of demo
+  termsOfService: http://github.com
+  title: Golang Esign API
+  version: "1.0"
+paths: { }
+swagger: "2.0"

@@ -17,17 +17,149 @@ var doc = `{
     "info": {
         "description": "{{escape .Description}}",
         "title": "{{.Title}}",
-        "termsOfService": "http://github.com",
-        "contact": {
-            "name": "API Support",
-            "url": "http://www.cnblogs.com",
-            "email": "×××@qq.com"
-        },
+        "contact": {},
         "version": "{{.Version}}"
     },
     "host": "{{.Host}}",
     "basePath": "{{.BasePath}}",
-    "paths": {}
+    "paths": {
+        "/api/get/{id}": {
+            "get": {
+                "security": [
+                    {
+                        "ApiToken": []
+                    }
+                ],
+                "tags": [
+                    "组1"
+                ],
+                "summary": "一个 get 请求",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "ID 信息",
+                        "name": "id",
+                        "in": "path",
+                        "required": true
+                    },
+                    {
+                        "type": "integer",
+                        "description": "第几页数据",
+                        "name": "page",
+                        "in": "query"
+                    },
+                    {
+                        "type": "integer",
+                        "description": "每页多少条数据",
+                        "name": "size",
+                        "in": "query"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/main.ReturnMessage"
+                        }
+                    }
+                }
+            }
+        },
+        "/api/post/formdata": {
+            "post": {
+                "tags": [
+                    "组2"
+                ],
+                "summary": "需要 formdata 参数",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "姓名",
+                        "name": "name",
+                        "in": "formData",
+                        "required": true
+                    },
+                    {
+                        "type": "file",
+                        "description": "需要上传的文件",
+                        "name": "upload_file",
+                        "in": "formData",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/main.ReturnMessage"
+                        }
+                    }
+                }
+            }
+        },
+        "/api/post/{id}": {
+            "post": {
+                "tags": [
+                    "组2"
+                ],
+                "summary": "一个 post 请求",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "ID",
+                        "name": "id",
+                        "in": "path",
+                        "required": true
+                    },
+                    {
+                        "description": "JSON数据",
+                        "name": "body",
+                        "in": "body",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/main.PostReq"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/main.ReturnMessage"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "main.PostReq": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                }
+            }
+        },
+        "main.ReturnMessage": {
+            "type": "object",
+            "properties": {
+                "code": {
+                    "type": "integer"
+                },
+                "msg": {
+                    "type": "string"
+                }
+            }
+        }
+    },
+    "securityDefinitions": {
+        "ApiToken": {
+            "type": "apiKey",
+            "name": "X-Token",
+            "in": "header"
+        }
+    }
 }`
 
 type swaggerInfo struct {
@@ -42,11 +174,11 @@ type swaggerInfo struct {
 // SwaggerInfo holds exported Swagger Info so clients can modify it
 var SwaggerInfo = swaggerInfo{
 	Version:     "1.0",
-	Host:        "127.0.0.1:1234",
+	Host:        "",
 	BasePath:    "",
 	Schemes:     []string{},
-	Title:       "Golang Esign API",
-	Description: "Golang api of demo",
+	Title:       "我的 gin swagger API",
+	Description: "我的 gin swagger API 描述",
 }
 
 type s struct{}

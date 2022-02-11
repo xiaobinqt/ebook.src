@@ -1,4 +1,4 @@
-module go.src/dev/gin-swagger
+module go.src/dev/gin/swagger
 
 go 1.16
 

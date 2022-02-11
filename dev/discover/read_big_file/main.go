@@ -8,7 +8,7 @@ import (
 
 func main() {
 	wd, _ := os.Getwd()
-	filepath := fmt.Sprintf("%s/dev/eval/read_big_file/read.txt", wd)
+	filepath := fmt.Sprintf("%s/dev/discover/read_big_file/read.txt", wd)
 	ReadBigFileByByte(filepath)
 }
 

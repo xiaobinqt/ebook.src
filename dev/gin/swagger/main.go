@@ -7,7 +7,7 @@ import (
 	"github.com/gin-gonic/gin"
 	swaggerFiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"
-	_ "go.src/dev/gin-swagger/docs"
+	_ "go.src/dev/gin/swagger/docs"
 )
 
 // 参考文档 https://swaggo.github.io/swaggo.io/declarative_comments_format/api_operation.html#mime-types

@@ -58,11 +58,6 @@
 
 `dhsjjg`
 
-### gee-7days
-
-本项目是根据[geektutu](https://github.com/geektutu)的[文章](https://geektutu.com/post/gee.html)开发的，赠人玫瑰，手留余香，感谢作者。
-
-
 
 
 

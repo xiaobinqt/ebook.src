@@ -35,23 +35,32 @@ func parsePattern(pattern string) []string {
 	return parts
 }
 
+func printAllChild(children []*node) {
+	for _, child := range children {
+		fmt.Printf("pattern: %s ,part: %s ,isWild: %t \n",
+			child.pattern, child.part, child.isWild)
+
+		if len(child.children) == 0 {
+			return
+		}
+		printAllChild(child.children)
+	}
+}
+
 func (r *router) addRoute(method string, pattern string, handler HandlerFunc) {
 	parts := parsePattern(pattern)
 
 	key := method + "-" + pattern
+	fmt.Println("key = ", key, "parts = ", parts, "pattern = ", pattern)
 	_, ok := r.roots[method]
 	if !ok {
 		r.roots[method] = &node{}
 	}
 	r.roots[method].insert(pattern, parts, 0)
-	r.handlers[key] = handler
-	fmt.Printf("key: %s , pattern: %s ,part: %s ,isWild: %t \n",
-		key, r.roots[method].pattern, r.roots[method].part, r.roots[method].isWild)
-	for _, each := range r.roots[method].children {
-		fmt.Println(each)
-	}
+	r.handlers[key] = handler // 帮定 handler
 
-	fmt.Println("-------------------------")
+	printAllChild(r.roots[method].children)
+	fmt.Printf("-------------------------(%s) \n", r.roots[method].pattern)
 }
 
 func (r *router) getRoute(method string, path string) (*node, map[string]string) {

@@ -15,6 +15,15 @@ type node struct {
 //	return fmt.Sprintf("node{pattern=%s, part=%s, isWild=%t}", n.pattern, n.part, n.isWild)
 //}
 
+func (n *node) matchChild(part string) *node {
+	for _, child := range n.children {
+		if child.part == part || child.isWild {
+			return child
+		}
+	}
+	return nil
+}
+
 func (n *node) insert(pattern string, parts []string, height int) {
 	if len(parts) == height { // 退出条件是 parts 循环完了
 		n.pattern = pattern
@@ -61,15 +70,7 @@ func (n *node) travel(list *([]*node)) {
 	}
 }
 
-func (n *node) matchChild(part string) *node {
-	for _, child := range n.children {
-		if child.part == part || child.isWild {
-			return child
-		}
-	}
-	return nil
-}
-
+// 所有匹配成功的节点，用于查找
 func (n *node) matchChildren(part string) []*node {
 	nodes := make([]*node, 0)
 	for _, child := range n.children {

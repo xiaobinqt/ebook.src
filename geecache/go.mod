@@ -1,3 +1,3 @@
-module ebook.src/geecache
+module geecache
 
-go 1.16
+go 1.13

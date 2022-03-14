@@ -1,0 +1,21 @@
+syntax = "proto3"; // 使用protobuf版本3
+
+option go_package = "./protobuf"; // 这个影响生成的目录及go的package命名
+
+// 定义一个计算服务, 输入为CalcRequest, 输出为CalcResponse
+service CalculatorService {
+  rpc calc(CalcRequest) returns (CalcResponse) {};
+}
+
+// 计算两个数某种运算(如加法)的参数
+message CalcRequest {
+  double a = 1;
+  double b = 2;
+  string op = 3;
+}
+
+// 计算结果
+message CalcResponse {
+  double r = 1;
+}
+

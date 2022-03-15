@@ -1,10 +1,12 @@
 package lru
 
-import "container/list"
+import (
+	"container/list"
+)
 
 // Cache is a LRU cache. It is not safe for concurrent access.
 type Cache struct {
-	maxBytes int64
+	maxBytes int64 // 0 means no limit
 	nbytes   int64
 	ll       *list.List
 	cache    map[string]*list.Element
@@ -40,10 +42,12 @@ func (c *Cache) Add(key string, value Value) {
 		c.nbytes += int64(value.Len()) - int64(kv.value.Len())
 		kv.value = value
 	} else {
-		ele := c.ll.PushFront(&entry{key, value})
-		c.cache[key] = ele
+		e := c.ll.PushFront(&entry{key, value})
+		c.cache[key] = e
 		c.nbytes += int64(len(key)) + int64(value.Len())
 	}
+
+	// 当有缓存超过限制时，删除最后一个元素直到缓存小于限制
 	for c.maxBytes != 0 && c.maxBytes < c.nbytes {
 		c.RemoveOldest()
 	}
@@ -61,14 +65,14 @@ func (c *Cache) Get(key string) (value Value, ok bool) {
 
 // RemoveOldest removes the oldest item
 func (c *Cache) RemoveOldest() {
-	ele := c.ll.Back()
+	ele := c.ll.Back() // 取出队首的元素
 	if ele != nil {
-		c.ll.Remove(ele)
+		c.ll.Remove(ele) // 从链表中删除
 		kv := ele.Value.(*entry)
-		delete(c.cache, kv.key)
-		c.nbytes -= int64(len(kv.key)) + int64(kv.value.Len())
+		delete(c.cache, kv.key)                                // 从map中删除
+		c.nbytes -= int64(len(kv.key)) + int64(kv.value.Len()) // 更新缓存大小
 		if c.OnEvicted != nil {
-			c.OnEvicted(kv.key, kv.value)
+			c.OnEvicted(kv.key, kv.value) // 使用者自定义的回调函数
 		}
 	}
 }

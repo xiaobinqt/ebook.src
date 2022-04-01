@@ -5,9 +5,11 @@ import (
 	"flag"
 	"fmt"
 	"html/template"
+	"io/ioutil"
 	"log"
 	"net/http"
 	"os"
+	"strings"
 )
 
 var (
@@ -23,6 +25,49 @@ type Conf struct {
 
 type Token struct {
 	AccessToken string `json:"access_token"`
+}
+
+type RefreshTokenReq struct {
+	RefreshToken string `json:"refresh_token"`
+	ClientId     string `json:"client_id"`
+	ClientSecret string `json:"client_secret"`
+	GrantType    string `json:"grant_type"`
+}
+
+func RefreshToken(token string) {
+	rtReq := RefreshTokenReq{
+		RefreshToken: token,
+		ClientId:     *clientID,
+		ClientSecret: *clientSecret,
+		GrantType:    "refresh_token",
+	}
+	jsonStr, _ := json.Marshal(rtReq)
+	log.Printf("RefreshToken jsonStr: %s", jsonStr)
+
+	var userInfoUrl = "https://github.com/login/oauth/access_token"
+	var req *http.Request
+	var err error
+	if req, err = http.NewRequest(http.MethodGet, userInfoUrl, strings.NewReader(string(jsonStr))); err != nil {
+		log.Printf(err.Error())
+		return
+	}
+	req.Header.Set("accept", "application/json")
+	req.Header.Set("Authorization", fmt.Sprintf("token %s", token))
+
+	// 发送请求并获取响应
+	var client = http.Client{}
+	var res *http.Response
+	if res, err = client.Do(req); err != nil {
+		log.Printf("client.Do err: %s", err.Error())
+		return
+	}
+	defer res.Body.Close()
+
+	respBody, err := ioutil.ReadAll(res.Body)
+	if err != nil {
+		log.Fatalf("RefreshToken ReadAll err: %s", err.Error())
+	}
+	log.Printf("RefreshToken respBody: %s", respBody)
 }
 
 // 认证并获取用户信息
@@ -41,6 +86,8 @@ func OAuth(w http.ResponseWriter, r *http.Request) {
 		fmt.Println(err)
 		return
 	}
+
+	//RefreshToken(token.AccessToken)
 
 	// 通过token，获取用户信息
 	var userInfo map[string]interface{}
@@ -82,15 +129,27 @@ func GetToken(url string) (*Token, error) {
 	req.Header.Set("accept", "application/json")
 
 	// 发送请求并获得响应
-	var httpClient = http.Client{}
-	var res *http.Response
+	var (
+		httpClient = http.Client{}
+		res        *http.Response
+		respBody   = make([]byte, 0)
+		token      Token
+	)
+
 	if res, err = httpClient.Do(req); err != nil {
 		return nil, err
 	}
 
+	respBody, err = ioutil.ReadAll(res.Body)
+	if err != nil {
+		return nil, err
+	}
+
+	log.Printf("token: %s", string(respBody))
+
 	// 将响应体解析为 token，并返回
-	var token Token
-	if err = json.NewDecoder(res.Body).Decode(&token); err != nil {
+	err = json.Unmarshal(respBody, &token)
+	if err != nil {
 		return nil, err
 	}
 	return &token, nil
@@ -148,6 +207,31 @@ func Html(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
+func UserInfo(w http.ResponseWriter, r *http.Request) {
+	token := r.URL.Query().Get("token")
+	log.Printf("UserInfo token: %s", token)
+	var (
+		err      error
+		userInfo map[string]interface{}
+	)
+	if userInfo, err = GetUserInfo(&Token{AccessToken: token}); err != nil {
+		fmt.Println("获取用户信息失败，错误信息为:", err)
+		return
+	}
+
+	//  将用户信息返回前端
+	var userInfoBytes []byte
+	if userInfoBytes, err = json.Marshal(userInfo); err != nil {
+		fmt.Println("在将用户信息(map)转为用户信息([]byte)时发生错误，错误信息为:", err)
+		return
+	}
+	w.Header().Set("Content-Type", "application/json")
+	if _, err = w.Write(userInfoBytes); err != nil {
+		fmt.Println("在将用户信息([]byte)返回前端时发生错误，错误信息为:", err)
+		return
+	}
+}
+
 func main() {
 	flag.Parse()
 	log.Printf("clientSecrets: %s,clientID: %s", *clientSecret, *clientID)
@@ -158,6 +242,7 @@ func main() {
 
 	http.HandleFunc("/", Html)
 	http.HandleFunc("/oauth/callback", OAuth)
+	http.HandleFunc("/getUserInfo", UserInfo)
 	if err := http.ListenAndServe(":9000", nil); err != nil {
 		fmt.Println("监听失败，错误信息为:", err)
 		return

@@ -1,10 +1,19 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 var _VERSION_ = "unknown"
 
 func main() {
-	print("version=" + _VERSION_ + "\n")
-	fmt.Println(1 % 2)
+	/**
+
+	1648606415
+	1648606749
+
+
+	*/
+	fmt.Println(5*60 - (time.Now().Unix() - 1648619668))
 }

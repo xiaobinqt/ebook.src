@@ -1,0 +1,20 @@
+{
+  "name": "node-sum",
+  "version": "1.0.0",
+  "description": "node-red 加法器",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node-red",
+    "add"
+  ],
+  "author": "xiaobinqt@163.com",
+  "license": "ISC",
+  "node-red": {
+    "nodes": {
+      "sum": "sum.js"
+    }
+  }
+}

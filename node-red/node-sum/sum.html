@@ -1,0 +1,49 @@
+<script type="text/javascript">
+    RED.nodes.registerType('sum', { // 这个值 必须和 js 中 RED.nodes.registerType 的值一致
+        category: '自定义节点', // 分类
+        color: '#a6bbcf', // 节点颜色
+        defaults: {
+            name: {value: ""}, // name 默认是空
+            add1: {value: 0}, // add1 默认值 0
+            add2: {value: 0}, // add2 默认值 0
+        },
+        inputs: 0, // 节点有多少输入 0 或者多个
+        outputs: 1, // 节点有多少输出 0 或者多个
+        icon: "file.png", // 节点使用的图标
+        paletteLabel: "加法器", // 节点显示的名称
+        label: function () { // 节点的工作区的标签
+            return this.name || "加法器";
+        },
+        // 钩子函数,双节节点调出 template 时触发
+        oneditprepare: function () {
+            console.log("oneditprepare 被调用");
+        },
+        // 钩子函数,点击 template 中的完成按钮时触发
+        oneditsave: function () {
+            console.log("oneditsave 被调用");
+        }
+    });
+</script>
+
+<!--data-template-name 必须和 js 中 RED.nodes.registerType 的值一致 -->
+<!--template 是模板，可以理解成表单，节点需要的信息可以从这里输入-->
+<script type="text/html" data-template-name="sum">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-add1"><i class="fa fa-tag"></i>加数1</label>
+        <input type="text" id="node-input-add1" placeholder="加数1">
+    </div>
+    <div class="form-row">
+        <label for="node-input-add2"><i class="fa fa-tag"></i>加数2</label>
+        <input type="text" id="node-input-add2" placeholder="加数2">
+    </div>
+</script>
+
+<!--data-help-name 必须和 js 中 RED.nodes.registerType 的值一致 -->
+<!--help 是节点的帮助文档-->
+<script type="text/html" data-help-name="sum">
+    <p>一个简单的加法器</p>
+</script>

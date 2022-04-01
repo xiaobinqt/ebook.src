@@ -11,9 +11,10 @@ kkk not exist
 import (
 	"flag"
 	"fmt"
-	"geecache"
 	"log"
 	"net/http"
+
+	"geecache"
 )
 
 var db = map[string]string{
@@ -23,7 +24,7 @@ var db = map[string]string{
 }
 
 func createGroup() *geecache.Group {
-	return geecache.NewGroup("scores", 2<<10, geecache.GetterFunc(
+	return geecache.NewGroup("scores", 2048, geecache.GetterFunc(
 		func(key string) ([]byte, error) {
 			log.Println("[SlowDB] search key", key)
 			if v, ok := db[key]; ok {

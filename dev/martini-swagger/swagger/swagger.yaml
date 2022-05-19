@@ -1,0 +1,61 @@
+basePath: /
+definitions:
+  main.EdgeInstanceList:
+    properties:
+      a:
+        type: string
+      b:
+        type: string
+    type: object
+  main.Req:
+    properties:
+      email:
+        description: 邮箱
+        type: string
+      password:
+        type: string
+    type: object
+info:
+  contact: { }
+  description: 测试 API V4.0
+  title: 测试 API
+  version: "4.0"
+paths:
+  /api/login/{user_id}:
+    post:
+      consumes:
+        - application/json
+      parameters:
+        - description: 用户ID
+          in: path
+          name: user_id
+          required: true
+          type: string
+        - description: 搜索内容
+          in: query
+          name: search
+          type: string
+        - description: 'email: 用户名，password: 密码'
+          in: body
+          name: data
+          required: true
+          schema:
+            $ref: '#/definitions/main.Req'
+      produces:
+        - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/main.EdgeInstanceList'
+      security:
+        - MyApiKey: [ ]
+      summary: 用户登录
+      tags:
+        - 用户管理
+securityDefinitions:
+  MyApiKey:
+    in: header
+    name: Xiaobinqt-Api-Key
+    type: apiKey
+swagger: "2.0"

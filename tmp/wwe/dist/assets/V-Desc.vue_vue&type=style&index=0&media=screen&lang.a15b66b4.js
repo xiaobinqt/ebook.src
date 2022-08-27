@@ -1,1 +1,0 @@
-import{d as e,j as r,k as t,U as s}from"./vendor.6243191d.js";var n=e({expose:[],props:{content:{type:String,required:!0},title:{type:String,required:!1}},setup:e=>(n,p)=>{return r(),t("span",null,s(((a=e.content).length>10&&(a=a.substr(0,10)+"..."),a)),1);var a}});export{n as _};

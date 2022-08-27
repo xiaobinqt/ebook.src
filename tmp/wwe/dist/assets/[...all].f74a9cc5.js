@@ -1,1 +1,0 @@
-import{l as e,j as a,k as n,m as t,n as o,p as s,T as r}from"./vendor.6243191d.js";const u={};u.render=function(u,d){const l=e("RouterView");return a(),n(l,null,{default:t((({Component:e})=>[o(r,{name:"translate-page-x",mode:"out-in"},{default:t((()=>[(a(),n(s(e)))])),_:2},1024)])),_:1})};export default u;

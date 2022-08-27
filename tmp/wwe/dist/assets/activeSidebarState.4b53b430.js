@@ -1,0 +1,1 @@
+import{r as s,w as e}from"./vendor.6243191d.js";const a=s("none");function l(s){a.value===s?a.value="none":a.value=s}e((()=>{document.querySelectorAll(".view-wrapper").forEach((s=>{"none"===a.value?s.classList.remove("is-pushed-full"):s.classList.contains("is-pushed-full")||s.classList.add("is-pushed-full")}))}));export{a,l as t};

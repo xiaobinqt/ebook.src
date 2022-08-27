@@ -1,0 +1,1 @@
+import{_ as a}from"./MinimalLayout.7b609a14.js";import{l as o,j as r,k as t,m as n,n as s}from"./vendor.6243191d.js";const e={};e.render=function(e,u){const i=o("RouterView"),l=a;return r(),t(l,null,{default:n((()=>[s(i)])),_:1})};export default e;

@@ -1,0 +1,78 @@
+{
+  "tree": [
+    {
+      "title": "package.json",
+      "children": null,
+      "id": "0175ef61-7dff-42f1-98ae-af5636e8475d"
+    },
+    {
+      "title": "README.md",
+      "children": null,
+      "id": "21145c95-02e3-49cf-81c8-cd7647cf9c50"
+    },
+    {
+      "title": "SourceData.json",
+      "children": null,
+      "id": "c7065406-89a4-49b9-bc16-52ebb1bbe917"
+    },
+    {
+      "title": "test",
+      "children": [
+        {
+          "title": "test_spec.js",
+          "children": null,
+          "id": "4af563ab-c66e-4cad-ba98-eb5eda0419c5"
+        }
+      ],
+      "id": "e20e6de7-f995-497b-a758-0eeba1794693"
+    },
+    {
+      "title": "tree.html",
+      "children": null,
+      "id": "cba0b9ab-a179-4f0c-aee2-950fbbdc4f0b"
+    },
+    {
+      "title": "tree.js",
+      "children": null,
+      "id": "440e1671-e196-4fa1-bee5-00838046d8c2"
+    },
+    {
+      "title": "utils",
+      "children": [
+        {
+          "title": "a.txt",
+          "children": null,
+          "id": "6aac05df-44a6-4198-b5d9-6f306bbcbe7b"
+        },
+        {
+          "title": "b",
+          "children": [
+            {
+              "title": "b.txt",
+              "children": null,
+              "id": "e344ac05-dede-405e-b82d-320f7550379d"
+            },
+            {
+              "title": "c",
+              "children": [
+                {
+                  "title": "c.txt",
+                  "children": null,
+                  "id": "c7d1c309-99e8-4c91-b15b-a1c11afab1d7"
+                }
+              ],
+              "id": "44aee0b3-ca33-4b66-ac0f-3ab03805f9ea"
+            }
+          ],
+          "id": "713f7b55-f23a-4133-ab3e-ddc8dda0a3df"
+        }
+      ],
+      "id": "7ec1c17f-8b1e-47b4-b471-309fa08b2ee8"
+    }
+  ],
+  "content": {
+    "a/b/c/c.txt": "bas64111111",
+    "a/b/b.txt": "bas6422222",
+    "a/a.txt": "bas6433333"
+  }
+}

@@ -1,0 +1,1 @@
+import{d as n,v as i,j as o,k as s,u as a}from"./vendor.6243191d.js";var e=n({expose:[],props:{icon:{type:String,required:!0}},setup(n){const e=n,c=i((()=>e.icon&&-1!==e.icon.indexOf(":")));return(i,e)=>(o(),s("span",{key:n.icon},[a(c)?(o(),s("i",{key:0,class:"iconify","data-icon":n.icon},null,8,["data-icon"])):(o(),s("i",{key:1,class:n.icon},null,2))]))}});export{e as _};

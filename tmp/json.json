@@ -1,0 +1,3521 @@
+[
+  {
+    "Id": 33906,
+    "name_prov": "北京市",
+    "code_prov": "110000",
+    "name_city": "北京市",
+    "code_city": "110100",
+    "name_coun": "房山区",
+    "code_coun": "110111"
+  },
+  {
+    "Id": 1013,
+    "name_prov": "天津市",
+    "code_prov": "120000",
+    "name_city": "天津市",
+    "code_city": "120100",
+    "name_coun": "蓟州区",
+    "code_coun": "120119"
+  },
+  {
+    "Id": 1,
+    "name_prov": "河北省",
+    "code_prov": "130000",
+    "name_city": "石家庄市",
+    "code_city": "130100",
+    "name_coun": "新华区",
+    "code_coun": "130105"
+  },
+  {
+    "Id": 30368,
+    "name_prov": "河北省",
+    "code_prov": "130000",
+    "name_city": "唐山市",
+    "code_city": "130200",
+    "name_coun": "玉田县",
+    "code_coun": "130229"
+  },
+  {
+    "Id": 30751,
+    "name_prov": "河北省",
+    "code_prov": "130000",
+    "name_city": "秦皇岛市",
+    "code_city": "130300",
+    "name_coun": "青龙满族自治县",
+    "code_coun": "130321"
+  },
+  {
+    "Id": 4678,
+    "name_prov": "河北省",
+    "code_prov": "130000",
+    "name_city": "邯郸市",
+    "code_city": "130400",
+    "name_coun": "肥乡区",
+    "code_coun": "130407"
+  },
+  {
+    "Id": 30171,
+    "name_prov": "河北省",
+    "code_prov": "130000",
+    "name_city": "邢台市",
+    "code_city": "130500",
+    "name_coun": "临西县",
+    "code_coun": "130535"
+  },
+  {
+    "Id": 29634,
+    "name_prov": "河北省",
+    "code_prov": "130000",
+    "name_city": "保定市",
+    "code_city": "130600",
+    "name_coun": "涞水县",
+    "code_coun": "130623"
+  },
+  {
+    "Id": 29939,
+    "name_prov": "河北省",
+    "code_prov": "130000",
+    "name_city": "张家口市",
+    "code_city": "130700",
+    "name_coun": "涿鹿县",
+    "code_coun": "130731"
+  },
+  {
+    "Id": 31231,
+    "name_prov": "河北省",
+    "code_prov": "130000",
+    "name_city": "承德市",
+    "code_city": "130800",
+    "name_coun": "隆化县",
+    "code_coun": "130825"
+  },
+  {
+    "Id": 31432,
+    "name_prov": "河北省",
+    "code_prov": "130000",
+    "name_city": "沧州市",
+    "code_city": "130900",
+    "name_coun": "海兴县",
+    "code_coun": "130924"
+  },
+  {
+    "Id": 30828,
+    "name_prov": "河北省",
+    "code_prov": "130000",
+    "name_city": "廊坊市",
+    "code_city": "131000",
+    "name_coun": "香河县",
+    "code_coun": "131024"
+  },
+  {
+    "Id": 30927,
+    "name_prov": "河北省",
+    "code_prov": "130000",
+    "name_city": "衡水市",
+    "code_city": "131100",
+    "name_coun": "故城县",
+    "code_coun": "131126"
+  },
+  {
+    "Id": 13449,
+    "name_prov": "山西省",
+    "code_prov": "140000",
+    "name_city": "太原市",
+    "code_city": "140100",
+    "name_coun": "清徐县",
+    "code_coun": "140121"
+  },
+  {
+    "Id": 11813,
+    "name_prov": "山西省",
+    "code_prov": "140000",
+    "name_city": "大同市",
+    "code_city": "140200",
+    "name_coun": "广灵县",
+    "code_coun": "140223"
+  },
+  {
+    "Id": 978,
+    "name_prov": "山西省",
+    "code_prov": "140000",
+    "name_city": "阳泉市",
+    "code_city": "140300",
+    "name_coun": "郊区",
+    "code_coun": "140311"
+  },
+  {
+    "Id": 11942,
+    "name_prov": "山西省",
+    "code_prov": "140000",
+    "name_city": "长治市",
+    "code_city": "140400",
+    "name_coun": "沁源县",
+    "code_coun": "140431"
+  },
+  {
+    "Id": 8767,
+    "name_prov": "山西省",
+    "code_prov": "140000",
+    "name_city": "晋城市",
+    "code_city": "140500",
+    "name_coun": "陵川县",
+    "code_coun": "140524"
+  },
+  {
+    "Id": 13657,
+    "name_prov": "山西省",
+    "code_prov": "140000",
+    "name_city": "朔州市",
+    "code_city": "140600",
+    "name_coun": "朔城区",
+    "code_coun": "140602"
+  },
+  {
+    "Id": 13529,
+    "name_prov": "山西省",
+    "code_prov": "140000",
+    "name_city": "晋中市",
+    "code_city": "140700",
+    "name_coun": "和顺县",
+    "code_coun": "140723"
+  },
+  {
+    "Id": 13717,
+    "name_prov": "山西省",
+    "code_prov": "140000",
+    "name_city": "运城市",
+    "code_city": "140800",
+    "name_coun": "芮城县",
+    "code_coun": "140830"
+  },
+  {
+    "Id": 16083,
+    "name_prov": "山西省",
+    "code_prov": "140000",
+    "name_city": "忻州市",
+    "code_city": "140900",
+    "name_coun": "繁峙县",
+    "code_coun": "140924"
+  },
+  {
+    "Id": 11642,
+    "name_prov": "山西省",
+    "code_prov": "140000",
+    "name_city": "临汾市",
+    "code_city": "141000",
+    "name_coun": "浮山县",
+    "code_coun": "141027"
+  },
+  {
+    "Id": 13289,
+    "name_prov": "山西省",
+    "code_prov": "140000",
+    "name_city": "吕梁市",
+    "code_city": "141100",
+    "name_coun": "岚县",
+    "code_coun": "141127"
+  },
+  {
+    "Id": 742,
+    "name_prov": "内蒙古自治区",
+    "code_prov": "150000",
+    "name_city": "呼和浩特市",
+    "code_city": "150100",
+    "name_coun": "回民区",
+    "code_coun": "150103"
+  },
+  {
+    "Id": 729,
+    "name_prov": "内蒙古自治区",
+    "code_prov": "150000",
+    "name_city": "包头市",
+    "code_city": "150200",
+    "name_coun": "东河区",
+    "code_coun": "150202"
+  },
+  {
+    "Id": 21800,
+    "name_prov": "内蒙古自治区",
+    "code_prov": "150000",
+    "name_city": "乌海市",
+    "code_city": "150300",
+    "name_coun": "海勃湾区",
+    "code_coun": "150302"
+  },
+  {
+    "Id": 10059,
+    "name_prov": "内蒙古自治区",
+    "code_prov": "150000",
+    "name_city": "赤峰市",
+    "code_city": "150400",
+    "name_coun": "巴林左旗",
+    "code_coun": "150422"
+  },
+  {
+    "Id": 734,
+    "name_prov": "内蒙古自治区",
+    "code_prov": "150000",
+    "name_city": "通辽市",
+    "code_city": "150500",
+    "name_coun": "扎鲁特旗",
+    "code_coun": "150526"
+  },
+  {
+    "Id": 10080,
+    "name_prov": "内蒙古自治区",
+    "code_prov": "150000",
+    "name_city": "鄂尔多斯市",
+    "code_city": "150600",
+    "name_coun": "鄂托克旗",
+    "code_coun": "150624"
+  },
+  {
+    "Id": 733,
+    "name_prov": "内蒙古自治区",
+    "code_prov": "150000",
+    "name_city": "呼伦贝尔市",
+    "code_city": "150700",
+    "name_coun": "海拉尔区",
+    "code_coun": "150702"
+  },
+  {
+    "Id": 718,
+    "name_prov": "内蒙古自治区",
+    "code_prov": "150000",
+    "name_city": "巴彦淖尔市",
+    "code_city": "150800",
+    "name_coun": "临河区",
+    "code_coun": "150802"
+  },
+  {
+    "Id": 21713,
+    "name_prov": "内蒙古自治区",
+    "code_prov": "150000",
+    "name_city": "乌兰察布市",
+    "code_city": "150900",
+    "name_coun": "兴和县",
+    "code_coun": "150924"
+  },
+  {
+    "Id": 16051,
+    "name_prov": "内蒙古自治区",
+    "code_prov": "150000",
+    "name_city": "兴安盟",
+    "code_city": "152200",
+    "name_coun": "乌兰浩特市",
+    "code_coun": "152201"
+  },
+  {
+    "Id": 737,
+    "name_prov": "内蒙古自治区",
+    "code_prov": "150000",
+    "name_city": "锡林郭勒盟",
+    "code_city": "152500",
+    "name_coun": "正蓝旗",
+    "code_coun": "152530"
+  },
+  {
+    "Id": 774,
+    "name_prov": "内蒙古自治区",
+    "code_prov": "150000",
+    "name_city": "阿拉善盟",
+    "code_city": "152900",
+    "name_coun": "额济纳旗",
+    "code_coun": "152923"
+  },
+  {
+    "Id": 4347,
+    "name_prov": "辽宁省",
+    "code_prov": "210000",
+    "name_city": "沈阳市",
+    "code_city": "210100",
+    "name_coun": "康平县",
+    "code_coun": "210123"
+  },
+  {
+    "Id": 66,
+    "name_prov": "辽宁省",
+    "code_prov": "210000",
+    "name_city": "大连市",
+    "code_city": "210200",
+    "name_coun": "普兰店区",
+    "code_coun": "210214"
+  },
+  {
+    "Id": 65,
+    "name_prov": "辽宁省",
+    "code_prov": "210000",
+    "name_city": "鞍山市",
+    "code_city": "210300",
+    "name_coun": "岫岩满族自治县",
+    "code_coun": "210323"
+  },
+  {
+    "Id": 40,
+    "name_prov": "辽宁省",
+    "code_prov": "210000",
+    "name_city": "抚顺市",
+    "code_city": "210400",
+    "name_coun": "东洲区",
+    "code_coun": "210403"
+  },
+  {
+    "Id": 28,
+    "name_prov": "辽宁省",
+    "code_prov": "210000",
+    "name_city": "本溪市",
+    "code_city": "210500",
+    "name_coun": "本溪满族自治县",
+    "code_coun": "210521"
+  },
+  {
+    "Id": 38,
+    "name_prov": "辽宁省",
+    "code_prov": "210000",
+    "name_city": "丹东市",
+    "code_city": "210600",
+    "name_coun": "振兴区",
+    "code_coun": "210603"
+  },
+  {
+    "Id": 50,
+    "name_prov": "辽宁省",
+    "code_prov": "210000",
+    "name_city": "锦州市",
+    "code_city": "210700",
+    "name_coun": "凌海市",
+    "code_coun": "210781"
+  },
+  {
+    "Id": 64,
+    "name_prov": "辽宁省",
+    "code_prov": "210000",
+    "name_city": "营口市",
+    "code_city": "210800",
+    "name_coun": "鲅鱼圈区",
+    "code_coun": "210804"
+  },
+  {
+    "Id": 42,
+    "name_prov": "辽宁省",
+    "code_prov": "210000",
+    "name_city": "阜新市",
+    "code_city": "210900",
+    "name_coun": "新邱区",
+    "code_coun": "210903"
+  },
+  {
+    "Id": 505,
+    "name_prov": "辽宁省",
+    "code_prov": "210000",
+    "name_city": "辽阳市",
+    "code_city": "211000",
+    "name_coun": "白塔区",
+    "code_coun": "211002"
+  },
+  {
+    "Id": 51,
+    "name_prov": "辽宁省",
+    "code_prov": "210000",
+    "name_city": "盘锦市",
+    "code_city": "211100",
+    "name_coun": "盘山县",
+    "code_coun": "211122"
+  },
+  {
+    "Id": 54,
+    "name_prov": "辽宁省",
+    "code_prov": "210000",
+    "name_city": "铁岭市",
+    "code_city": "211200",
+    "name_coun": "开原市",
+    "code_coun": "211282"
+  },
+  {
+    "Id": 30,
+    "name_prov": "辽宁省",
+    "code_prov": "210000",
+    "name_city": "朝阳市",
+    "code_city": "211300",
+    "name_coun": "朝阳县",
+    "code_coun": "211321"
+  },
+  {
+    "Id": 43,
+    "name_prov": "辽宁省",
+    "code_prov": "210000",
+    "name_city": "葫芦岛市",
+    "code_city": "211400",
+    "name_coun": "兴城市",
+    "code_coun": "211481"
+  },
+  {
+    "Id": 1238,
+    "name_prov": "吉林省",
+    "code_prov": "220000",
+    "name_city": "长春市",
+    "code_city": "220100",
+    "name_coun": "公主岭市",
+    "code_coun": "220184"
+  },
+  {
+    "Id": 1262,
+    "name_prov": "吉林省",
+    "code_prov": "220000",
+    "name_city": "吉林市",
+    "code_city": "220200",
+    "name_coun": "船营区",
+    "code_coun": "220204"
+  },
+  {
+    "Id": 1239,
+    "name_prov": "吉林省",
+    "code_prov": "220000",
+    "name_city": "四平市",
+    "code_city": "220300",
+    "name_coun": "伊通满族自治县",
+    "code_coun": "220323"
+  },
+  {
+    "Id": 1247,
+    "name_prov": "吉林省",
+    "code_prov": "220000",
+    "name_city": "辽源市",
+    "code_city": "220400",
+    "name_coun": "东辽县",
+    "code_coun": "220422"
+  },
+  {
+    "Id": 1235,
+    "name_prov": "吉林省",
+    "code_prov": "220000",
+    "name_city": "通化市",
+    "code_city": "220500",
+    "name_coun": "梅河口市",
+    "code_coun": "220581"
+  },
+  {
+    "Id": 22099,
+    "name_prov": "吉林省",
+    "code_prov": "220000",
+    "name_city": "白山市",
+    "code_city": "220600",
+    "name_coun": "临江市",
+    "code_coun": "220681"
+  },
+  {
+    "Id": 1237,
+    "name_prov": "吉林省",
+    "code_prov": "220000",
+    "name_city": "松原市",
+    "code_city": "220700",
+    "name_coun": "长岭县",
+    "code_coun": "220722"
+  },
+  {
+    "Id": 1249,
+    "name_prov": "吉林省",
+    "code_prov": "220000",
+    "name_city": "白城市",
+    "code_city": "220800",
+    "name_coun": "洮北区",
+    "code_coun": "220802"
+  },
+  {
+    "Id": 1232,
+    "name_prov": "吉林省",
+    "code_prov": "220000",
+    "name_city": "延边朝鲜族自治州",
+    "code_city": "222400",
+    "name_coun": "汪清县",
+    "code_coun": "222424"
+  },
+  {
+    "Id": 25320,
+    "name_prov": "黑龙江省",
+    "code_prov": "230000",
+    "name_city": "哈尔滨市",
+    "code_city": "230100",
+    "name_coun": "巴彦县",
+    "code_coun": "230126"
+  },
+  {
+    "Id": 26016,
+    "name_prov": "黑龙江省",
+    "code_prov": "230000",
+    "name_city": "齐齐哈尔市",
+    "code_city": "230200",
+    "name_coun": "甘南县",
+    "code_coun": "230225"
+  },
+  {
+    "Id": 25728,
+    "name_prov": "黑龙江省",
+    "code_prov": "230000",
+    "name_city": "鸡西市",
+    "code_city": "230300",
+    "name_coun": "鸡东县",
+    "code_coun": "230321"
+  },
+  {
+    "Id": 25594,
+    "name_prov": "黑龙江省",
+    "code_prov": "230000",
+    "name_city": "鹤岗市",
+    "code_city": "230400",
+    "name_coun": "东山区",
+    "code_coun": "230406"
+  },
+  {
+    "Id": 26181,
+    "name_prov": "黑龙江省",
+    "code_prov": "230000",
+    "name_city": "双鸭山市",
+    "code_city": "230500",
+    "name_coun": "四方台区",
+    "code_coun": "230505"
+  },
+  {
+    "Id": 25215,
+    "name_prov": "黑龙江省",
+    "code_prov": "230000",
+    "name_city": "大庆市",
+    "code_city": "230600",
+    "name_coun": "肇州县",
+    "code_coun": "230621"
+  },
+  {
+    "Id": 25041,
+    "name_prov": "黑龙江省",
+    "code_prov": "230000",
+    "name_city": "伊春市",
+    "code_city": "230700",
+    "name_coun": "铁力市",
+    "code_coun": "230781"
+  },
+  {
+    "Id": 25798,
+    "name_prov": "黑龙江省",
+    "code_prov": "230000",
+    "name_city": "佳木斯市",
+    "code_city": "230800",
+    "name_coun": "东风区",
+    "code_coun": "230805"
+  },
+  {
+    "Id": 25972,
+    "name_prov": "黑龙江省",
+    "code_prov": "230000",
+    "name_city": "七台河市",
+    "code_city": "230900",
+    "name_coun": "新兴区",
+    "code_coun": "230902"
+  },
+  {
+    "Id": 25897,
+    "name_prov": "黑龙江省",
+    "code_prov": "230000",
+    "name_city": "牡丹江市",
+    "code_city": "231000",
+    "name_coun": "东安区",
+    "code_coun": "231002"
+  },
+  {
+    "Id": 25643,
+    "name_prov": "黑龙江省",
+    "code_prov": "230000",
+    "name_city": "黑河市",
+    "code_city": "231100",
+    "name_coun": "爱辉区",
+    "code_coun": "231102"
+  },
+  {
+    "Id": 26234,
+    "name_prov": "黑龙江省",
+    "code_prov": "230000",
+    "name_city": "绥化市",
+    "code_city": "231200",
+    "name_coun": "兰西县",
+    "code_coun": "231222"
+  },
+  {
+    "Id": 19,
+    "name_prov": "黑龙江省",
+    "code_prov": "230000",
+    "name_city": "大兴安岭地区",
+    "code_city": "232700",
+    "name_coun": "松岭区",
+    "code_coun": "232762"
+  },
+  {
+    "Id": 1006,
+    "name_prov": "上海市",
+    "code_prov": "310000",
+    "name_city": "上海市",
+    "code_city": "310100",
+    "name_coun": "杨浦区",
+    "code_coun": "310110"
+  },
+  {
+    "Id": 5451,
+    "name_prov": "江苏省",
+    "code_prov": "320000",
+    "name_city": "南京市",
+    "code_city": "320100",
+    "name_coun": "江宁区",
+    "code_coun": "320115"
+  },
+  {
+    "Id": 4327,
+    "name_prov": "江苏省",
+    "code_prov": "320000",
+    "name_city": "无锡市",
+    "code_city": "320200",
+    "name_coun": "江阴市",
+    "code_coun": "320281"
+  },
+  {
+    "Id": 4963,
+    "name_prov": "江苏省",
+    "code_prov": "320000",
+    "name_city": "徐州市",
+    "code_city": "320300",
+    "name_coun": "丰县",
+    "code_coun": "320321"
+  },
+  {
+    "Id": 4931,
+    "name_prov": "江苏省",
+    "code_prov": "320000",
+    "name_city": "常州市",
+    "code_city": "320400",
+    "name_coun": "钟楼区",
+    "code_coun": "320404"
+  },
+  {
+    "Id": 4794,
+    "name_prov": "江苏省",
+    "code_prov": "320000",
+    "name_city": "苏州市",
+    "code_city": "320500",
+    "name_coun": "昆山市",
+    "code_coun": "320583"
+  },
+  {
+    "Id": 5756,
+    "name_prov": "江苏省",
+    "code_prov": "320000",
+    "name_city": "南通市",
+    "code_city": "320600",
+    "name_coun": "崇川区",
+    "code_coun": "320613"
+  },
+  {
+    "Id": 5214,
+    "name_prov": "江苏省",
+    "code_prov": "320000",
+    "name_city": "连云港市",
+    "code_city": "320700",
+    "name_coun": "灌云县",
+    "code_coun": "320723"
+  },
+  {
+    "Id": 5092,
+    "name_prov": "江苏省",
+    "code_prov": "320000",
+    "name_city": "淮安市",
+    "code_city": "320800",
+    "name_coun": "清江浦区",
+    "code_coun": "320812"
+  },
+  {
+    "Id": 5181,
+    "name_prov": "江苏省",
+    "code_prov": "320000",
+    "name_city": "盐城市",
+    "code_city": "320900",
+    "name_coun": "建湖县",
+    "code_coun": "320925"
+  },
+  {
+    "Id": 5162,
+    "name_prov": "江苏省",
+    "code_prov": "320000",
+    "name_city": "扬州市",
+    "code_city": "321000",
+    "name_coun": "高邮市",
+    "code_coun": "321084"
+  },
+  {
+    "Id": 5526,
+    "name_prov": "江苏省",
+    "code_prov": "320000",
+    "name_city": "镇江市",
+    "code_city": "321100",
+    "name_coun": "句容市",
+    "code_coun": "321183"
+  },
+  {
+    "Id": 5610,
+    "name_prov": "江苏省",
+    "code_prov": "320000",
+    "name_city": "泰州市",
+    "code_city": "321200",
+    "name_coun": "高港区",
+    "code_coun": "321203"
+  },
+  {
+    "Id": 5272,
+    "name_prov": "江苏省",
+    "code_prov": "320000",
+    "name_city": "宿迁市",
+    "code_city": "321300",
+    "name_coun": "泗洪县",
+    "code_coun": "321324"
+  },
+  {
+    "Id": 35480,
+    "name_prov": "浙江省",
+    "code_prov": "330000",
+    "name_city": "杭州市",
+    "code_city": "330100",
+    "name_coun": "富阳区",
+    "code_coun": "330111"
+  },
+  {
+    "Id": 35136,
+    "name_prov": "浙江省",
+    "code_prov": "330000",
+    "name_city": "宁波市",
+    "code_city": "330200",
+    "name_coun": "北仑区",
+    "code_coun": "330206"
+  },
+  {
+    "Id": 35839,
+    "name_prov": "浙江省",
+    "code_prov": "330000",
+    "name_city": "温州市",
+    "code_city": "330300",
+    "name_coun": "平阳县",
+    "code_coun": "330326"
+  },
+  {
+    "Id": 35055,
+    "name_prov": "浙江省",
+    "code_prov": "330000",
+    "name_city": "嘉兴市",
+    "code_city": "330400",
+    "name_coun": "桐乡市",
+    "code_coun": "330483"
+  },
+  {
+    "Id": 35756,
+    "name_prov": "浙江省",
+    "code_prov": "330000",
+    "name_city": "湖州市",
+    "code_city": "330500",
+    "name_coun": "安吉县",
+    "code_coun": "330523"
+  },
+  {
+    "Id": 35229,
+    "name_prov": "浙江省",
+    "code_prov": "330000",
+    "name_city": "绍兴市",
+    "code_city": "330600",
+    "name_coun": "嵊州市",
+    "code_coun": "330683"
+  },
+  {
+    "Id": 34979,
+    "name_prov": "浙江省",
+    "code_prov": "330000",
+    "name_city": "金华市",
+    "code_city": "330700",
+    "name_coun": "磐安县",
+    "code_coun": "330727"
+  },
+  {
+    "Id": 35089,
+    "name_prov": "浙江省",
+    "code_prov": "330000",
+    "name_city": "衢州市",
+    "code_city": "330800",
+    "name_coun": "衢江区",
+    "code_coun": "330803"
+  },
+  {
+    "Id": 36054,
+    "name_prov": "浙江省",
+    "code_prov": "330000",
+    "name_city": "舟山市",
+    "code_city": "330900",
+    "name_coun": "定海区",
+    "code_coun": "330902"
+  },
+  {
+    "Id": 34991,
+    "name_prov": "浙江省",
+    "code_prov": "330000",
+    "name_city": "台州市",
+    "code_city": "331000",
+    "name_coun": "天台县",
+    "code_coun": "331023"
+  },
+  {
+    "Id": 35069,
+    "name_prov": "浙江省",
+    "code_prov": "330000",
+    "name_city": "丽水市",
+    "code_city": "331100",
+    "name_coun": "云和县",
+    "code_coun": "331125"
+  },
+  {
+    "Id": 27900,
+    "name_prov": "安徽省",
+    "code_prov": "340000",
+    "name_city": "合肥市",
+    "code_city": "340100",
+    "name_coun": "肥东县",
+    "code_coun": "340122"
+  },
+  {
+    "Id": 29089,
+    "name_prov": "安徽省",
+    "code_prov": "340000",
+    "name_city": "芜湖市",
+    "code_city": "340200",
+    "name_coun": "繁昌区",
+    "code_coun": "340211"
+  },
+  {
+    "Id": 28275,
+    "name_prov": "安徽省",
+    "code_prov": "340000",
+    "name_city": "蚌埠市",
+    "code_city": "340300",
+    "name_coun": "固镇县",
+    "code_coun": "340323"
+  },
+  {
+    "Id": 28683,
+    "name_prov": "安徽省",
+    "code_prov": "340000",
+    "name_city": "淮南市",
+    "code_city": "340400",
+    "name_coun": "田家庵区",
+    "code_coun": "340403"
+  },
+  {
+    "Id": 29001,
+    "name_prov": "安徽省",
+    "code_prov": "340000",
+    "name_city": "马鞍山市",
+    "code_city": "340500",
+    "name_coun": "含山县",
+    "code_coun": "340522"
+  },
+  {
+    "Id": 28645,
+    "name_prov": "安徽省",
+    "code_prov": "340000",
+    "name_city": "淮北市",
+    "code_city": "340600",
+    "name_coun": "杜集区",
+    "code_coun": "340602"
+  },
+  {
+    "Id": 29057,
+    "name_prov": "安徽省",
+    "code_prov": "340000",
+    "name_city": "铜陵市",
+    "code_city": "340700",
+    "name_coun": "铜官区",
+    "code_coun": "340705"
+  },
+  {
+    "Id": 28109,
+    "name_prov": "安徽省",
+    "code_prov": "340000",
+    "name_city": "安庆市",
+    "code_city": "340800",
+    "name_coun": "大观区",
+    "code_coun": "340803"
+  },
+  {
+    "Id": 28778,
+    "name_prov": "安徽省",
+    "code_prov": "340000",
+    "name_city": "黄山市",
+    "code_city": "341000",
+    "name_coun": "黄山区",
+    "code_coun": "341003"
+  },
+  {
+    "Id": 28009,
+    "name_prov": "安徽省",
+    "code_prov": "340000",
+    "name_city": "滁州市",
+    "code_city": "341100",
+    "name_coun": "定远县",
+    "code_coun": "341125"
+  },
+  {
+    "Id": 28476,
+    "name_prov": "安徽省",
+    "code_prov": "340000",
+    "name_city": "阜阳市",
+    "code_city": "341200",
+    "name_coun": "临泉县",
+    "code_coun": "341221"
+  },
+  {
+    "Id": 29168,
+    "name_prov": "安徽省",
+    "code_prov": "340000",
+    "name_city": "宿州市",
+    "code_city": "341300",
+    "name_coun": "砀山县",
+    "code_coun": "341321"
+  },
+  {
+    "Id": 28878,
+    "name_prov": "安徽省",
+    "code_prov": "340000",
+    "name_city": "六安市",
+    "code_city": "341500",
+    "name_coun": "金寨县",
+    "code_coun": "341524"
+  },
+  {
+    "Id": 28325,
+    "name_prov": "安徽省",
+    "code_prov": "340000",
+    "name_city": "亳州市",
+    "code_city": "341600",
+    "name_coun": "利辛县",
+    "code_coun": "341623"
+  },
+  {
+    "Id": 28421,
+    "name_prov": "安徽省",
+    "code_prov": "340000",
+    "name_city": "池州市",
+    "code_city": "341700",
+    "name_coun": "贵池区",
+    "code_coun": "341702"
+  },
+  {
+    "Id": 29278,
+    "name_prov": "安徽省",
+    "code_prov": "340000",
+    "name_city": "宣城市",
+    "code_city": "341800",
+    "name_coun": "绩溪县",
+    "code_coun": "341824"
+  },
+  {
+    "Id": 21245,
+    "name_prov": "福建省",
+    "code_prov": "350000",
+    "name_city": "福州市",
+    "code_city": "350100",
+    "name_coun": "仓山区",
+    "code_coun": "350104"
+  },
+  {
+    "Id": 21543,
+    "name_prov": "福建省",
+    "code_prov": "350000",
+    "name_city": "厦门市",
+    "code_city": "350200",
+    "name_coun": "湖里区",
+    "code_coun": "350206"
+  },
+  {
+    "Id": 16277,
+    "name_prov": "福建省",
+    "code_prov": "350000",
+    "name_city": "莆田市",
+    "code_city": "350300",
+    "name_coun": "涵江区",
+    "code_coun": "350303"
+  },
+  {
+    "Id": 20739,
+    "name_prov": "福建省",
+    "code_prov": "350000",
+    "name_city": "三明市",
+    "code_city": "350400",
+    "name_coun": "尤溪县",
+    "code_coun": "350426"
+  },
+  {
+    "Id": 20883,
+    "name_prov": "福建省",
+    "code_prov": "350000",
+    "name_city": "泉州市",
+    "code_city": "350500",
+    "name_coun": "安溪县",
+    "code_coun": "350524"
+  },
+  {
+    "Id": 21583,
+    "name_prov": "福建省",
+    "code_prov": "350000",
+    "name_city": "漳州市",
+    "code_city": "350600",
+    "name_coun": "龙海区",
+    "code_coun": "350681"
+  },
+  {
+    "Id": 21400,
+    "name_prov": "福建省",
+    "code_prov": "350000",
+    "name_city": "南平市",
+    "code_city": "350700",
+    "name_coun": "顺昌县",
+    "code_coun": "350721"
+  },
+  {
+    "Id": 21117,
+    "name_prov": "福建省",
+    "code_prov": "350000",
+    "name_city": "龙岩市",
+    "code_city": "350800",
+    "name_coun": "连城县",
+    "code_coun": "350825"
+  },
+  {
+    "Id": 2492,
+    "name_prov": "福建省",
+    "code_prov": "350000",
+    "name_city": "宁德市",
+    "code_city": "350900",
+    "name_coun": "福安市",
+    "code_coun": "350981"
+  },
+  {
+    "Id": 8435,
+    "name_prov": "江西省",
+    "code_prov": "360000",
+    "name_city": "南昌市",
+    "code_city": "360100",
+    "name_coun": "南昌县",
+    "code_coun": "360121"
+  },
+  {
+    "Id": 2488,
+    "name_prov": "江西省",
+    "code_prov": "360000",
+    "name_city": "景德镇市",
+    "code_city": "360200",
+    "name_coun": "珠山区",
+    "code_coun": "360203"
+  },
+  {
+    "Id": 8715,
+    "name_prov": "江西省",
+    "code_prov": "360000",
+    "name_city": "萍乡市",
+    "code_city": "360300",
+    "name_coun": "安源区",
+    "code_coun": "360302"
+  },
+  {
+    "Id": 10381,
+    "name_prov": "江西省",
+    "code_prov": "360000",
+    "name_city": "九江市",
+    "code_city": "360400",
+    "name_coun": "柴桑区",
+    "code_coun": "360404"
+  },
+  {
+    "Id": 8684,
+    "name_prov": "江西省",
+    "code_prov": "360000",
+    "name_city": "新余市",
+    "code_city": "360500",
+    "name_coun": "渝水区",
+    "code_coun": "360502"
+  },
+  {
+    "Id": 17029,
+    "name_prov": "江西省",
+    "code_prov": "360000",
+    "name_city": "鹰潭市",
+    "code_city": "360600",
+    "name_coun": "月湖区",
+    "code_coun": "360602"
+  },
+  {
+    "Id": 16725,
+    "name_prov": "江西省",
+    "code_prov": "360000",
+    "name_city": "赣州市",
+    "code_city": "360700",
+    "name_coun": "赣县区",
+    "code_coun": "360704"
+  },
+  {
+    "Id": 16323,
+    "name_prov": "江西省",
+    "code_prov": "360000",
+    "name_city": "吉安市",
+    "code_city": "360800",
+    "name_coun": "遂川县",
+    "code_coun": "360827"
+  },
+  {
+    "Id": 16529,
+    "name_prov": "江西省",
+    "code_prov": "360000",
+    "name_city": "宜春市",
+    "code_city": "360900",
+    "name_coun": "奉新县",
+    "code_coun": "360921"
+  },
+  {
+    "Id": 8537,
+    "name_prov": "江西省",
+    "code_prov": "360000",
+    "name_city": "抚州市",
+    "code_city": "361000",
+    "name_coun": "临川区",
+    "code_coun": "361002"
+  },
+  {
+    "Id": 14099,
+    "name_prov": "江西省",
+    "code_prov": "360000",
+    "name_city": "上饶市",
+    "code_city": "361100",
+    "name_coun": "鄱阳县",
+    "code_coun": "361128"
+  },
+  {
+    "Id": 887,
+    "name_prov": "山东省",
+    "code_prov": "370000",
+    "name_city": "济南市",
+    "code_city": "370100",
+    "name_coun": "商河县",
+    "code_coun": "370126"
+  },
+  {
+    "Id": 867,
+    "name_prov": "山东省",
+    "code_prov": "370000",
+    "name_city": "青岛市",
+    "code_city": "370200",
+    "name_coun": "平度市",
+    "code_coun": "370283"
+  },
+  {
+    "Id": 23237,
+    "name_prov": "山东省",
+    "code_prov": "370000",
+    "name_city": "淄博市",
+    "code_city": "370300",
+    "name_coun": "张店区",
+    "code_coun": "370303"
+  },
+  {
+    "Id": 23324,
+    "name_prov": "山东省",
+    "code_prov": "370000",
+    "name_city": "枣庄市",
+    "code_city": "370400",
+    "name_coun": "山亭区",
+    "code_coun": "370406"
+  },
+  {
+    "Id": 33612,
+    "name_prov": "山东省",
+    "code_prov": "370000",
+    "name_city": "东营市",
+    "code_city": "370500",
+    "name_coun": "垦利区",
+    "code_coun": "370505"
+  },
+  {
+    "Id": 20053,
+    "name_prov": "山东省",
+    "code_prov": "370000",
+    "name_city": "烟台市",
+    "code_city": "370600",
+    "name_coun": "福山区",
+    "code_coun": "370611"
+  },
+  {
+    "Id": 955,
+    "name_prov": "山东省",
+    "code_prov": "370000",
+    "name_city": "潍坊市",
+    "code_city": "370700",
+    "name_coun": "奎文区",
+    "code_coun": "370705"
+  },
+  {
+    "Id": 958,
+    "name_prov": "山东省",
+    "code_prov": "370000",
+    "name_city": "济宁市",
+    "code_city": "370800",
+    "name_coun": "微山县",
+    "code_coun": "370826"
+  },
+  {
+    "Id": 23505,
+    "name_prov": "山东省",
+    "code_prov": "370000",
+    "name_city": "泰安市",
+    "code_city": "370900",
+    "name_coun": "泰山区",
+    "code_coun": "370902"
+  },
+  {
+    "Id": 23852,
+    "name_prov": "山东省",
+    "code_prov": "370000",
+    "name_city": "威海市",
+    "code_city": "371000",
+    "name_coun": "环翠区",
+    "code_coun": "371002"
+  },
+  {
+    "Id": 842,
+    "name_prov": "山东省",
+    "code_prov": "370000",
+    "name_city": "日照市",
+    "code_city": "371100",
+    "name_coun": "莒县",
+    "code_coun": "371122"
+  },
+  {
+    "Id": 33477,
+    "name_prov": "山东省",
+    "code_prov": "370000",
+    "name_city": "临沂市",
+    "code_city": "371300",
+    "name_coun": "沂水县",
+    "code_coun": "371323"
+  },
+  {
+    "Id": 22309,
+    "name_prov": "山东省",
+    "code_prov": "370000",
+    "name_city": "德州市",
+    "code_city": "371400",
+    "name_coun": "夏津县",
+    "code_coun": "371427"
+  },
+  {
+    "Id": 23592,
+    "name_prov": "山东省",
+    "code_prov": "370000",
+    "name_city": "聊城市",
+    "code_city": "371500",
+    "name_coun": "高唐县",
+    "code_coun": "371526"
+  },
+  {
+    "Id": 22223,
+    "name_prov": "山东省",
+    "code_prov": "370000",
+    "name_city": "滨州市",
+    "code_city": "371600",
+    "name_coun": "滨城区",
+    "code_coun": "371602"
+  },
+  {
+    "Id": 16023,
+    "name_prov": "山东省",
+    "code_prov": "370000",
+    "name_city": "菏泽市",
+    "code_city": "371700",
+    "name_coun": "曹县",
+    "code_coun": "371721"
+  },
+  {
+    "Id": 3566,
+    "name_prov": "河南省",
+    "code_prov": "410000",
+    "name_city": "郑州市",
+    "code_city": "410100",
+    "name_coun": "中原区",
+    "code_coun": "410102"
+  },
+  {
+    "Id": 3438,
+    "name_prov": "河南省",
+    "code_prov": "410000",
+    "name_city": "开封市",
+    "code_city": "410200",
+    "name_coun": "龙亭区",
+    "code_coun": "410202"
+  },
+  {
+    "Id": 3650,
+    "name_prov": "河南省",
+    "code_prov": "410000",
+    "name_city": "洛阳市",
+    "code_city": "410300",
+    "name_coun": "西工区",
+    "code_coun": "410303"
+  },
+  {
+    "Id": 3471,
+    "name_prov": "河南省",
+    "code_prov": "410000",
+    "name_city": "平顶山市",
+    "code_city": "410400",
+    "name_coun": "新华区",
+    "code_coun": "410402"
+  },
+  {
+    "Id": 3617,
+    "name_prov": "河南省",
+    "code_prov": "410000",
+    "name_city": "安阳市",
+    "code_city": "410500",
+    "name_coun": "殷都区",
+    "code_coun": "410505"
+  },
+  {
+    "Id": 3414,
+    "name_prov": "河南省",
+    "code_prov": "410000",
+    "name_city": "鹤壁市",
+    "code_city": "410600",
+    "name_coun": "鹤山区",
+    "code_coun": "410602"
+  },
+  {
+    "Id": 3519,
+    "name_prov": "河南省",
+    "code_prov": "410000",
+    "name_city": "新乡市",
+    "code_city": "410700",
+    "name_coun": "红旗区",
+    "code_coun": "410702"
+  },
+  {
+    "Id": 3425,
+    "name_prov": "河南省",
+    "code_prov": "410000",
+    "name_city": "焦作市",
+    "code_city": "410800",
+    "name_coun": "解放区",
+    "code_coun": "410802"
+  },
+  {
+    "Id": 7812,
+    "name_prov": "河南省",
+    "code_prov": "410000",
+    "name_city": "濮阳市",
+    "code_city": "410900",
+    "name_coun": "清丰县",
+    "code_coun": "410922"
+  },
+  {
+    "Id": 6621,
+    "name_prov": "河南省",
+    "code_prov": "410000",
+    "name_city": "许昌市",
+    "code_city": "411000",
+    "name_coun": "鄢陵县",
+    "code_coun": "411024"
+  },
+  {
+    "Id": 3460,
+    "name_prov": "河南省",
+    "code_prov": "410000",
+    "name_city": "漯河市",
+    "code_city": "411100",
+    "name_coun": "召陵区",
+    "code_coun": "411104"
+  },
+  {
+    "Id": 3494,
+    "name_prov": "河南省",
+    "code_prov": "410000",
+    "name_city": "三门峡市",
+    "code_city": "411200",
+    "name_coun": "湖滨区",
+    "code_coun": "411202"
+  },
+  {
+    "Id": 3463,
+    "name_prov": "河南省",
+    "code_prov": "410000",
+    "name_city": "南阳市",
+    "code_city": "411300",
+    "name_coun": "卧龙区",
+    "code_coun": "411303"
+  },
+  {
+    "Id": 3497,
+    "name_prov": "河南省",
+    "code_prov": "410000",
+    "name_city": "商丘市",
+    "code_city": "411400",
+    "name_coun": "梁园区",
+    "code_coun": "411402"
+  },
+  {
+    "Id": 3539,
+    "name_prov": "河南省",
+    "code_prov": "410000",
+    "name_city": "信阳市",
+    "code_city": "411500",
+    "name_coun": "浉河区",
+    "code_coun": "411502"
+  },
+  {
+    "Id": 6610,
+    "name_prov": "河南省",
+    "code_prov": "410000",
+    "name_city": "周口市",
+    "code_city": "411600",
+    "name_coun": "扶沟县",
+    "code_coun": "411621"
+  },
+  {
+    "Id": 4875,
+    "name_prov": "河南省",
+    "code_prov": "410000",
+    "name_city": "驻马店市",
+    "code_city": "411700",
+    "name_coun": "汝南县",
+    "code_coun": "411727"
+  },
+  {
+    "Id": 3513,
+    "name_prov": "河南省",
+    "code_prov": "410000",
+    "name_city": "济源市",
+    "code_city": "419001",
+    "name_coun": "济源市",
+    "code_coun": "419001"
+  },
+  {
+    "Id": 12562,
+    "name_prov": "湖北省",
+    "code_prov": "420000",
+    "name_city": "武汉市",
+    "code_city": "420100",
+    "name_coun": "蔡甸区",
+    "code_coun": "420114"
+  },
+  {
+    "Id": 14914,
+    "name_prov": "湖北省",
+    "code_prov": "420000",
+    "name_city": "黄石市",
+    "code_city": "420200",
+    "name_coun": "西塞山区",
+    "code_coun": "420203"
+  },
+  {
+    "Id": 10397,
+    "name_prov": "湖北省",
+    "code_prov": "420000",
+    "name_city": "十堰市",
+    "code_city": "420300",
+    "name_coun": "丹江口市",
+    "code_coun": "420381"
+  },
+  {
+    "Id": 12473,
+    "name_prov": "湖北省",
+    "code_prov": "420000",
+    "name_city": "宜昌市",
+    "code_city": "420500",
+    "name_coun": "当阳市",
+    "code_coun": "420582"
+  },
+  {
+    "Id": 10737,
+    "name_prov": "湖北省",
+    "code_prov": "420000",
+    "name_city": "襄阳市",
+    "code_city": "420600",
+    "name_coun": "保康县",
+    "code_coun": "420626"
+  },
+  {
+    "Id": 14724,
+    "name_prov": "湖北省",
+    "code_prov": "420000",
+    "name_city": "鄂州市",
+    "code_city": "420700",
+    "name_coun": "华容区",
+    "code_coun": "420703"
+  },
+  {
+    "Id": 12413,
+    "name_prov": "湖北省",
+    "code_prov": "420000",
+    "name_city": "荆门市",
+    "code_city": "420800",
+    "name_coun": "东宝区",
+    "code_coun": "420802"
+  },
+  {
+    "Id": 12277,
+    "name_prov": "湖北省",
+    "code_prov": "420000",
+    "name_city": "孝感市",
+    "code_city": "420900",
+    "name_coun": "安陆市",
+    "code_coun": "420982"
+  },
+  {
+    "Id": 12697,
+    "name_prov": "湖北省",
+    "code_prov": "420000",
+    "name_city": "荆州市",
+    "code_city": "421000",
+    "name_coun": "公安县",
+    "code_coun": "421022"
+  },
+  {
+    "Id": 14792,
+    "name_prov": "湖北省",
+    "code_prov": "420000",
+    "name_city": "黄冈市",
+    "code_city": "421100",
+    "name_coun": "武穴市",
+    "code_coun": "421182"
+  },
+  {
+    "Id": 11507,
+    "name_prov": "湖北省",
+    "code_prov": "420000",
+    "name_city": "咸宁市",
+    "code_city": "421200",
+    "name_coun": "赤壁市",
+    "code_coun": "421281"
+  },
+  {
+    "Id": 14749,
+    "name_prov": "湖北省",
+    "code_prov": "420000",
+    "name_city": "随州市",
+    "code_city": "421300",
+    "name_coun": "曾都区",
+    "code_coun": "421303"
+  },
+  {
+    "Id": 11571,
+    "name_prov": "湖北省",
+    "code_prov": "420000",
+    "name_city": "恩施土家族苗族自治州",
+    "code_city": "422800",
+    "name_coun": "巴东县",
+    "code_coun": "422823"
+  },
+  {
+    "Id": 2485,
+    "name_prov": "湖北省",
+    "code_prov": "420000",
+    "name_city": "仙桃市",
+    "code_city": "429004",
+    "name_coun": "仙桃市",
+    "code_coun": "429004"
+  },
+  {
+    "Id": 12681,
+    "name_prov": "湖北省",
+    "code_prov": "420000",
+    "name_city": "潜江市",
+    "code_city": "429005",
+    "name_coun": "潜江市",
+    "code_coun": "429005"
+  },
+  {
+    "Id": 12387,
+    "name_prov": "湖北省",
+    "code_prov": "420000",
+    "name_city": "天门市",
+    "code_city": "429006",
+    "name_coun": "天门市",
+    "code_coun": "429006"
+  },
+  {
+    "Id": 10849,
+    "name_prov": "湖北省",
+    "code_prov": "420000",
+    "name_city": "神农架林区",
+    "code_city": "429021",
+    "name_coun": "神农架林区",
+    "code_coun": "429021"
+  },
+  {
+    "Id": 3836,
+    "name_prov": "湖南省",
+    "code_prov": "430000",
+    "name_city": "长沙市",
+    "code_city": "430100",
+    "name_coun": "雨花区",
+    "code_coun": "430111"
+  },
+  {
+    "Id": 3827,
+    "name_prov": "湖南省",
+    "code_prov": "430000",
+    "name_city": "株洲市",
+    "code_city": "430200",
+    "name_coun": "茶陵县",
+    "code_coun": "430224"
+  },
+  {
+    "Id": 3829,
+    "name_prov": "湖南省",
+    "code_prov": "430000",
+    "name_city": "湘潭市",
+    "code_city": "430300",
+    "name_coun": "湘潭县",
+    "code_coun": "430321"
+  },
+  {
+    "Id": 3895,
+    "name_prov": "湖南省",
+    "code_prov": "430000",
+    "name_city": "衡阳市",
+    "code_city": "430400",
+    "name_coun": "常宁市",
+    "code_coun": "430482"
+  },
+  {
+    "Id": 5983,
+    "name_prov": "湖南省",
+    "code_prov": "430000",
+    "name_city": "邵阳市",
+    "code_city": "430500",
+    "name_coun": "新宁县",
+    "code_coun": "430528"
+  },
+  {
+    "Id": 3834,
+    "name_prov": "湖南省",
+    "code_prov": "430000",
+    "name_city": "岳阳市",
+    "code_city": "430600",
+    "name_coun": "汨罗市",
+    "code_coun": "430681"
+  },
+  {
+    "Id": 3894,
+    "name_prov": "湖南省",
+    "code_prov": "430000",
+    "name_city": "常德市",
+    "code_city": "430700",
+    "name_coun": "安乡县",
+    "code_coun": "430721"
+  },
+  {
+    "Id": 4819,
+    "name_prov": "湖南省",
+    "code_prov": "430000",
+    "name_city": "张家界市",
+    "code_city": "430800",
+    "name_coun": "慈利县",
+    "code_coun": "430821"
+  },
+  {
+    "Id": 3984,
+    "name_prov": "湖南省",
+    "code_prov": "430000",
+    "name_city": "益阳市",
+    "code_city": "430900",
+    "name_coun": "资阳区",
+    "code_coun": "430902"
+  },
+  {
+    "Id": 3908,
+    "name_prov": "湖南省",
+    "code_prov": "430000",
+    "name_city": "郴州市",
+    "code_city": "431000",
+    "name_coun": "桂东县",
+    "code_coun": "431027"
+  },
+  {
+    "Id": 4493,
+    "name_prov": "湖南省",
+    "code_prov": "430000",
+    "name_city": "永州市",
+    "code_city": "431100",
+    "name_coun": "道县",
+    "code_coun": "431124"
+  },
+  {
+    "Id": 3901,
+    "name_prov": "湖南省",
+    "code_prov": "430000",
+    "name_city": "怀化市",
+    "code_city": "431200",
+    "name_coun": "鹤城区",
+    "code_coun": "431202"
+  },
+  {
+    "Id": 3900,
+    "name_prov": "湖南省",
+    "code_prov": "430000",
+    "name_city": "娄底市",
+    "code_city": "431300",
+    "name_coun": "娄星区",
+    "code_coun": "431302"
+  },
+  {
+    "Id": 3847,
+    "name_prov": "湖南省",
+    "code_prov": "430000",
+    "name_city": "湘西土家族苗族自治州",
+    "code_city": "433100",
+    "name_coun": "花垣县",
+    "code_coun": "433124"
+  },
+  {
+    "Id": 37677,
+    "name_prov": "广东省",
+    "code_prov": "440000",
+    "name_city": "广州市",
+    "code_city": "440100",
+    "name_coun": "天河区",
+    "code_coun": "440106"
+  },
+  {
+    "Id": 38353,
+    "name_prov": "广东省",
+    "code_prov": "440000",
+    "name_city": "韶关市",
+    "code_city": "440200",
+    "name_coun": "翁源县",
+    "code_coun": "440229"
+  },
+  {
+    "Id": 34914,
+    "name_prov": "广东省",
+    "code_prov": "440000",
+    "name_city": "深圳市",
+    "code_city": "440300",
+    "name_coun": "南山区",
+    "code_coun": "440305"
+  },
+  {
+    "Id": 38335,
+    "name_prov": "广东省",
+    "code_prov": "440000",
+    "name_city": "珠海市",
+    "code_city": "440400",
+    "name_coun": "香洲区",
+    "code_coun": "440402"
+  },
+  {
+    "Id": 38706,
+    "name_prov": "广东省",
+    "code_prov": "440000",
+    "name_city": "汕头市",
+    "code_city": "440500",
+    "name_coun": "潮南区",
+    "code_coun": "440514"
+  },
+  {
+    "Id": 38266,
+    "name_prov": "广东省",
+    "code_prov": "440000",
+    "name_city": "佛山市",
+    "code_city": "440600",
+    "name_coun": "顺德区",
+    "code_coun": "440606"
+  },
+  {
+    "Id": 34852,
+    "name_prov": "广东省",
+    "code_prov": "440000",
+    "name_city": "江门市",
+    "code_city": "440700",
+    "name_coun": "台山市",
+    "code_coun": "440781"
+  },
+  {
+    "Id": 34817,
+    "name_prov": "广东省",
+    "code_prov": "440000",
+    "name_city": "湛江市",
+    "code_city": "440800",
+    "name_coun": "雷州市",
+    "code_coun": "440882"
+  },
+  {
+    "Id": 38504,
+    "name_prov": "广东省",
+    "code_prov": "440000",
+    "name_city": "茂名市",
+    "code_city": "440900",
+    "name_coun": "茂南区",
+    "code_coun": "440902"
+  },
+  {
+    "Id": 37733,
+    "name_prov": "广东省",
+    "code_prov": "440000",
+    "name_city": "肇庆市",
+    "code_city": "441200",
+    "name_coun": "封开县",
+    "code_coun": "441225"
+  },
+  {
+    "Id": 37860,
+    "name_prov": "广东省",
+    "code_prov": "440000",
+    "name_city": "惠州市",
+    "code_city": "441300",
+    "name_coun": "博罗县",
+    "code_coun": "441322"
+  },
+  {
+    "Id": 38592,
+    "name_prov": "广东省",
+    "code_prov": "440000",
+    "name_city": "梅州市",
+    "code_city": "441400",
+    "name_coun": "大埔县",
+    "code_coun": "441422"
+  },
+  {
+    "Id": 38753,
+    "name_prov": "广东省",
+    "code_prov": "440000",
+    "name_city": "汕尾市",
+    "code_city": "441500",
+    "name_coun": "城区",
+    "code_coun": "441502"
+  },
+  {
+    "Id": 34713,
+    "name_prov": "广东省",
+    "code_prov": "440000",
+    "name_city": "河源市",
+    "code_city": "441600",
+    "name_coun": "东源县",
+    "code_coun": "441625"
+  },
+  {
+    "Id": 34753,
+    "name_prov": "广东省",
+    "code_prov": "440000",
+    "name_city": "阳江市",
+    "code_city": "441700",
+    "name_coun": "阳西县",
+    "code_coun": "441721"
+  },
+  {
+    "Id": 38054,
+    "name_prov": "广东省",
+    "code_prov": "440000",
+    "name_city": "清远市",
+    "code_city": "441800",
+    "name_coun": "佛冈县",
+    "code_coun": "441821"
+  },
+  {
+    "Id": 34897,
+    "name_prov": "广东省",
+    "code_prov": "440000",
+    "name_city": "东莞市",
+    "code_city": "441900",
+    "name_coun": "东莞市",
+    "code_coun": "441900"
+  },
+  {
+    "Id": 34886,
+    "name_prov": "广东省",
+    "code_prov": "440000",
+    "name_city": "中山市",
+    "code_city": "442000",
+    "name_coun": "中山市",
+    "code_coun": "442000"
+  },
+  {
+    "Id": 38457,
+    "name_prov": "广东省",
+    "code_prov": "440000",
+    "name_city": "潮州市",
+    "code_city": "445100",
+    "name_coun": "饶平县",
+    "code_coun": "445122"
+  },
+  {
+    "Id": 37941,
+    "name_prov": "广东省",
+    "code_prov": "440000",
+    "name_city": "揭阳市",
+    "code_city": "445200",
+    "name_coun": "惠来县",
+    "code_coun": "445224"
+  },
+  {
+    "Id": 34779,
+    "name_prov": "广东省",
+    "code_prov": "440000",
+    "name_city": "云浮市",
+    "code_city": "445300",
+    "name_coun": "新兴县",
+    "code_coun": "445321"
+  },
+  {
+    "Id": 34927,
+    "name_prov": "广西壮族自治区",
+    "code_prov": "450000",
+    "name_city": "南宁市",
+    "code_city": "450100",
+    "name_coun": "马山县",
+    "code_coun": "450124"
+  },
+  {
+    "Id": 34933,
+    "name_prov": "广西壮族自治区",
+    "code_prov": "450000",
+    "name_city": "柳州市",
+    "code_city": "450200",
+    "name_coun": "三江侗族自治县",
+    "code_coun": "450226"
+  },
+  {
+    "Id": 36561,
+    "name_prov": "广西壮族自治区",
+    "code_prov": "450000",
+    "name_city": "桂林市",
+    "code_city": "450300",
+    "name_coun": "平乐县",
+    "code_coun": "450330"
+  },
+  {
+    "Id": 37172,
+    "name_prov": "广西壮族自治区",
+    "code_prov": "450000",
+    "name_city": "梧州市",
+    "code_city": "450400",
+    "name_coun": "藤县",
+    "code_coun": "450422"
+  },
+  {
+    "Id": 36841,
+    "name_prov": "广西壮族自治区",
+    "code_prov": "450000",
+    "name_city": "北海市",
+    "code_city": "450500",
+    "name_coun": "海城区",
+    "code_coun": "450502"
+  },
+  {
+    "Id": 36867,
+    "name_prov": "广西壮族自治区",
+    "code_prov": "450000",
+    "name_city": "防城港市",
+    "code_city": "450600",
+    "name_coun": "上思县",
+    "code_coun": "450621"
+  },
+  {
+    "Id": 37106,
+    "name_prov": "广西壮族自治区",
+    "code_prov": "450000",
+    "name_city": "钦州市",
+    "code_city": "450700",
+    "name_coun": "灵山县",
+    "code_coun": "450721"
+  },
+  {
+    "Id": 36896,
+    "name_prov": "广西壮族自治区",
+    "code_prov": "450000",
+    "name_city": "贵港市",
+    "code_city": "450800",
+    "name_coun": "港北区",
+    "code_coun": "450802"
+  },
+  {
+    "Id": 37226,
+    "name_prov": "广西壮族自治区",
+    "code_prov": "450000",
+    "name_city": "玉林市",
+    "code_city": "450900",
+    "name_coun": "北流市",
+    "code_coun": "450981"
+  },
+  {
+    "Id": 36713,
+    "name_prov": "广西壮族自治区",
+    "code_prov": "450000",
+    "name_city": "百色市",
+    "code_city": "451000",
+    "name_coun": "平果市",
+    "code_coun": "451082"
+  },
+  {
+    "Id": 34702,
+    "name_prov": "广西壮族自治区",
+    "code_prov": "450000",
+    "name_city": "贺州市",
+    "code_city": "451100",
+    "name_coun": "富川瑶族自治县",
+    "code_coun": "451123"
+  },
+  {
+    "Id": 36968,
+    "name_prov": "广西壮族自治区",
+    "code_prov": "450000",
+    "name_city": "河池市",
+    "code_city": "451200",
+    "name_coun": "大化瑶族自治县",
+    "code_coun": "451229"
+  },
+  {
+    "Id": 37456,
+    "name_prov": "广西壮族自治区",
+    "code_prov": "450000",
+    "name_city": "来宾市",
+    "code_city": "451300",
+    "name_coun": "象州县",
+    "code_coun": "451322"
+  },
+  {
+    "Id": 37359,
+    "name_prov": "广西壮族自治区",
+    "code_prov": "450000",
+    "name_city": "崇左市",
+    "code_city": "451400",
+    "name_coun": "龙州县",
+    "code_coun": "451423"
+  },
+  {
+    "Id": 34928,
+    "name_prov": "海南省",
+    "code_prov": "460000",
+    "name_city": "海口市",
+    "code_city": "460100",
+    "name_coun": "美兰区",
+    "code_coun": "460108"
+  },
+  {
+    "Id": 36041,
+    "name_prov": "海南省",
+    "code_prov": "460000",
+    "name_city": "三亚市",
+    "code_city": "460200",
+    "name_coun": "天涯区",
+    "code_coun": "460204"
+  },
+  {
+    "Id": 38968,
+    "name_prov": "海南省",
+    "code_prov": "460000",
+    "name_city": "三沙市",
+    "code_city": "460300",
+    "name_coun": "三沙市",
+    "code_coun": "460300"
+  },
+  {
+    "Id": 36103,
+    "name_prov": "海南省",
+    "code_prov": "460000",
+    "name_city": "儋州市",
+    "code_city": "460400",
+    "name_coun": "儋州市",
+    "code_coun": "460400"
+  },
+  {
+    "Id": 36085,
+    "name_prov": "海南省",
+    "code_prov": "460000",
+    "name_city": "五指山市",
+    "code_city": "469001",
+    "name_coun": "五指山市",
+    "code_coun": "469001"
+  },
+  {
+    "Id": 36164,
+    "name_prov": "海南省",
+    "code_prov": "460000",
+    "name_city": "琼海市",
+    "code_city": "469002",
+    "name_coun": "琼海市",
+    "code_coun": "469002"
+  },
+  {
+    "Id": 36131,
+    "name_prov": "海南省",
+    "code_prov": "460000",
+    "name_city": "文昌市",
+    "code_city": "469005",
+    "name_coun": "文昌市",
+    "code_coun": "469005"
+  },
+  {
+    "Id": 36056,
+    "name_prov": "海南省",
+    "code_prov": "460000",
+    "name_city": "万宁市",
+    "code_city": "469006",
+    "name_coun": "万宁市",
+    "code_coun": "469006"
+  },
+  {
+    "Id": 36065,
+    "name_prov": "海南省",
+    "code_prov": "460000",
+    "name_city": "东方市",
+    "code_city": "469007",
+    "name_coun": "东方市",
+    "code_coun": "469007"
+  },
+  {
+    "Id": 36113,
+    "name_prov": "海南省",
+    "code_prov": "460000",
+    "name_city": "定安县",
+    "code_city": "469021",
+    "name_coun": "定安县",
+    "code_coun": "469021"
+  },
+  {
+    "Id": 36126,
+    "name_prov": "海南省",
+    "code_prov": "460000",
+    "name_city": "屯昌县",
+    "code_city": "469022",
+    "name_coun": "屯昌县",
+    "code_coun": "469022"
+  },
+  {
+    "Id": 36142,
+    "name_prov": "海南省",
+    "code_prov": "460000",
+    "name_city": "澄迈县",
+    "code_city": "469023",
+    "name_coun": "澄迈县",
+    "code_coun": "469023"
+  },
+  {
+    "Id": 36072,
+    "name_prov": "海南省",
+    "code_prov": "460000",
+    "name_city": "临高县",
+    "code_city": "469024",
+    "name_coun": "临高县",
+    "code_coun": "469024"
+  },
+  {
+    "Id": 36174,
+    "name_prov": "海南省",
+    "code_prov": "460000",
+    "name_city": "白沙黎族自治县",
+    "code_city": "469025",
+    "name_coun": "白沙黎族自治县",
+    "code_coun": "469025"
+  },
+  {
+    "Id": 36136,
+    "name_prov": "海南省",
+    "code_prov": "460000",
+    "name_city": "昌江黎族自治县",
+    "code_city": "469026",
+    "name_coun": "昌江黎族自治县",
+    "code_coun": "469026"
+  },
+  {
+    "Id": 36077,
+    "name_prov": "海南省",
+    "code_prov": "460000",
+    "name_city": "乐东黎族自治县",
+    "code_city": "469027",
+    "name_coun": "乐东黎族自治县",
+    "code_coun": "469027"
+  },
+  {
+    "Id": 36188,
+    "name_prov": "海南省",
+    "code_prov": "460000",
+    "name_city": "陵水黎族自治县",
+    "code_city": "469028",
+    "name_coun": "陵水黎族自治县",
+    "code_coun": "469028"
+  },
+  {
+    "Id": 36092,
+    "name_prov": "海南省",
+    "code_prov": "460000",
+    "name_city": "保亭黎族苗族自治县",
+    "code_city": "469029",
+    "name_coun": "保亭黎族苗族自治县",
+    "code_coun": "469029"
+  },
+  {
+    "Id": 36152,
+    "name_prov": "海南省",
+    "code_prov": "460000",
+    "name_city": "琼中黎族苗族自治县",
+    "code_city": "469030",
+    "name_coun": "琼中黎族苗族自治县",
+    "code_coun": "469030"
+  },
+  {
+    "Id": 14992,
+    "name_prov": "重庆市",
+    "code_prov": "500000",
+    "name_city": "重庆市",
+    "code_city": "500100",
+    "name_coun": "沙坪坝区",
+    "code_coun": "500106"
+  },
+  {
+    "Id": 15016,
+    "name_prov": "重庆市",
+    "code_prov": "500000",
+    "name_city": "重庆市",
+    "code_city": "500200",
+    "name_coun": "酉阳土家族苗族自治县",
+    "code_coun": "500242"
+  },
+  {
+    "Id": 9174,
+    "name_prov": "四川省",
+    "code_prov": "510000",
+    "name_city": "成都市",
+    "code_city": "510100",
+    "name_coun": "都江堰市",
+    "code_coun": "510181"
+  },
+  {
+    "Id": 3203,
+    "name_prov": "四川省",
+    "code_prov": "510000",
+    "name_city": "自贡市",
+    "code_city": "510300",
+    "name_coun": "荣县",
+    "code_coun": "510321"
+  },
+  {
+    "Id": 19082,
+    "name_prov": "四川省",
+    "code_prov": "510000",
+    "name_city": "攀枝花市",
+    "code_city": "510400",
+    "name_coun": "盐边县",
+    "code_coun": "510422"
+  },
+  {
+    "Id": 18685,
+    "name_prov": "四川省",
+    "code_prov": "510000",
+    "name_city": "泸州市",
+    "code_city": "510500",
+    "name_coun": "江阳区",
+    "code_coun": "510502"
+  },
+  {
+    "Id": 9233,
+    "name_prov": "四川省",
+    "code_prov": "510000",
+    "name_city": "德阳市",
+    "code_city": "510600",
+    "name_coun": "绵竹市",
+    "code_coun": "510683"
+  },
+  {
+    "Id": 3163,
+    "name_prov": "四川省",
+    "code_prov": "510000",
+    "name_city": "绵阳市",
+    "code_city": "510700",
+    "name_coun": "游仙区",
+    "code_coun": "510704"
+  },
+  {
+    "Id": 3074,
+    "name_prov": "四川省",
+    "code_prov": "510000",
+    "name_city": "广元市",
+    "code_city": "510800",
+    "name_coun": "苍溪县",
+    "code_coun": "510824"
+  },
+  {
+    "Id": 19125,
+    "name_prov": "四川省",
+    "code_prov": "510000",
+    "name_city": "遂宁市",
+    "code_city": "510900",
+    "name_coun": "蓬溪县",
+    "code_coun": "510921"
+  },
+  {
+    "Id": 18996,
+    "name_prov": "四川省",
+    "code_prov": "510000",
+    "name_city": "内江市",
+    "code_city": "511000",
+    "name_coun": "威远县",
+    "code_coun": "511024"
+  },
+  {
+    "Id": 3201,
+    "name_prov": "四川省",
+    "code_prov": "510000",
+    "name_city": "乐山市",
+    "code_city": "511100",
+    "name_coun": "市中区",
+    "code_coun": "511102"
+  },
+  {
+    "Id": 9938,
+    "name_prov": "四川省",
+    "code_prov": "510000",
+    "name_city": "南充市",
+    "code_city": "511300",
+    "name_coun": "西充县",
+    "code_coun": "511325"
+  },
+  {
+    "Id": 3192,
+    "name_prov": "四川省",
+    "code_prov": "510000",
+    "name_city": "眉山市",
+    "code_city": "511400",
+    "name_coun": "仁寿县",
+    "code_coun": "511421"
+  },
+  {
+    "Id": 3191,
+    "name_prov": "四川省",
+    "code_prov": "510000",
+    "name_city": "宜宾市",
+    "code_city": "511500",
+    "name_coun": "叙州区",
+    "code_coun": "511504"
+  },
+  {
+    "Id": 18115,
+    "name_prov": "四川省",
+    "code_prov": "510000",
+    "name_city": "广安市",
+    "code_city": "511600",
+    "name_coun": "邻水县",
+    "code_coun": "511623"
+  },
+  {
+    "Id": 3093,
+    "name_prov": "四川省",
+    "code_prov": "510000",
+    "name_city": "达州市",
+    "code_city": "511700",
+    "name_coun": "万源市",
+    "code_coun": "511781"
+  },
+  {
+    "Id": 9218,
+    "name_prov": "四川省",
+    "code_prov": "510000",
+    "name_city": "雅安市",
+    "code_city": "511800",
+    "name_coun": "雨城区",
+    "code_coun": "511802"
+  },
+  {
+    "Id": 3078,
+    "name_prov": "四川省",
+    "code_prov": "510000",
+    "name_city": "巴中市",
+    "code_city": "511900",
+    "name_coun": "平昌县",
+    "code_coun": "511923"
+  },
+  {
+    "Id": 19314,
+    "name_prov": "四川省",
+    "code_prov": "510000",
+    "name_city": "资阳市",
+    "code_city": "512000",
+    "name_coun": "安岳县",
+    "code_coun": "512021"
+  },
+  {
+    "Id": 9720,
+    "name_prov": "四川省",
+    "code_prov": "510000",
+    "name_city": "阿坝藏族羌族自治州",
+    "code_city": "513200",
+    "name_coun": "茂县",
+    "code_coun": "513223"
+  },
+  {
+    "Id": 9784,
+    "name_prov": "四川省",
+    "code_prov": "510000",
+    "name_city": "甘孜藏族自治州",
+    "code_city": "513300",
+    "name_coun": "康定市",
+    "code_coun": "513301"
+  },
+  {
+    "Id": 3200,
+    "name_prov": "四川省",
+    "code_prov": "510000",
+    "name_city": "凉山彝族自治州",
+    "code_city": "513400",
+    "name_coun": "会理市",
+    "code_coun": "513425"
+  },
+  {
+    "Id": 26639,
+    "name_prov": "贵州省",
+    "code_prov": "520000",
+    "name_city": "贵阳市",
+    "code_city": "520100",
+    "name_coun": "观山湖区",
+    "code_coun": "520115"
+  },
+  {
+    "Id": 26841,
+    "name_prov": "贵州省",
+    "code_prov": "520000",
+    "name_city": "六盘水市",
+    "code_city": "520200",
+    "name_coun": "六枝特区",
+    "code_coun": "520203"
+  },
+  {
+    "Id": 27515,
+    "name_prov": "贵州省",
+    "code_prov": "520000",
+    "name_city": "遵义市",
+    "code_city": "520300",
+    "name_coun": "播州区",
+    "code_coun": "520304"
+  },
+  {
+    "Id": 26762,
+    "name_prov": "贵州省",
+    "code_prov": "520000",
+    "name_city": "安顺市",
+    "code_city": "520400",
+    "name_coun": "紫云苗族布依族自治县",
+    "code_coun": "520425"
+  },
+  {
+    "Id": 3684,
+    "name_prov": "贵州省",
+    "code_prov": "520000",
+    "name_city": "毕节市",
+    "code_city": "520500",
+    "name_coun": "金沙县",
+    "code_coun": "520523"
+  },
+  {
+    "Id": 27348,
+    "name_prov": "贵州省",
+    "code_prov": "520000",
+    "name_city": "铜仁市",
+    "code_city": "520600",
+    "name_coun": "玉屏侗族自治县",
+    "code_coun": "520622"
+  },
+  {
+    "Id": 27224,
+    "name_prov": "贵州省",
+    "code_prov": "520000",
+    "name_city": "黔西南布依族苗族自治州",
+    "code_city": "522300",
+    "name_coun": "安龙县",
+    "code_coun": "522328"
+  },
+  {
+    "Id": 26919,
+    "name_prov": "贵州省",
+    "code_prov": "520000",
+    "name_city": "黔东南苗族侗族自治州",
+    "code_city": "522600",
+    "name_coun": "天柱县",
+    "code_coun": "522627"
+  },
+  {
+    "Id": 27120,
+    "name_prov": "贵州省",
+    "code_prov": "520000",
+    "name_city": "黔南布依族苗族自治州",
+    "code_city": "522700",
+    "name_coun": "都匀市",
+    "code_coun": "522701"
+  },
+  {
+    "Id": 32295,
+    "name_prov": "云南省",
+    "code_prov": "530000",
+    "name_city": "昆明市",
+    "code_city": "530100",
+    "name_coun": "呈贡区",
+    "code_coun": "530114"
+  },
+  {
+    "Id": 32418,
+    "name_prov": "云南省",
+    "code_prov": "530000",
+    "name_city": "曲靖市",
+    "code_city": "530300",
+    "name_coun": "富源县",
+    "code_coun": "530325"
+  },
+  {
+    "Id": 33025,
+    "name_prov": "云南省",
+    "code_prov": "530000",
+    "name_city": "玉溪市",
+    "code_city": "530400",
+    "name_coun": "澄江市",
+    "code_coun": "530481"
+  },
+  {
+    "Id": 32532,
+    "name_prov": "云南省",
+    "code_prov": "530000",
+    "name_city": "保山市",
+    "code_city": "530500",
+    "name_coun": "昌宁县",
+    "code_coun": "530524"
+  },
+  {
+    "Id": 33060,
+    "name_prov": "云南省",
+    "code_prov": "530000",
+    "name_city": "昭通市",
+    "code_city": "530600",
+    "name_coun": "绥江县",
+    "code_coun": "530626"
+  },
+  {
+    "Id": 32889,
+    "name_prov": "云南省",
+    "code_prov": "530000",
+    "name_city": "丽江市",
+    "code_city": "530700",
+    "name_coun": "古城区",
+    "code_coun": "530702"
+  },
+  {
+    "Id": 32951,
+    "name_prov": "云南省",
+    "code_prov": "530000",
+    "name_city": "普洱市",
+    "code_city": "530800",
+    "name_coun": "江城哈尼族彝族自治县",
+    "code_coun": "530826"
+  },
+  {
+    "Id": 3273,
+    "name_prov": "云南省",
+    "code_prov": "530000",
+    "name_city": "临沧市",
+    "code_city": "530900",
+    "name_coun": "云县",
+    "code_coun": "530922"
+  },
+  {
+    "Id": 32598,
+    "name_prov": "云南省",
+    "code_prov": "530000",
+    "name_city": "楚雄彝族自治州",
+    "code_city": "532300",
+    "name_coun": "元谋县",
+    "code_coun": "532328"
+  },
+  {
+    "Id": 32777,
+    "name_prov": "云南省",
+    "code_prov": "530000",
+    "name_city": "红河哈尼族彝族自治州",
+    "code_city": "532500",
+    "name_coun": "个旧市",
+    "code_coun": "532501"
+  },
+  {
+    "Id": 3251,
+    "name_prov": "云南省",
+    "code_prov": "530000",
+    "name_city": "文山壮族苗族自治州",
+    "code_city": "532600",
+    "name_coun": "文山市",
+    "code_coun": "532601"
+  },
+  {
+    "Id": 3278,
+    "name_prov": "云南省",
+    "code_prov": "530000",
+    "name_city": "西双版纳傣族自治州",
+    "code_city": "532800",
+    "name_coun": "勐海县",
+    "code_coun": "532822"
+  },
+  {
+    "Id": 3242,
+    "name_prov": "云南省",
+    "code_prov": "530000",
+    "name_city": "大理白族自治州",
+    "code_city": "532900",
+    "name_coun": "南涧彝族自治县",
+    "code_coun": "532926"
+  },
+  {
+    "Id": 32695,
+    "name_prov": "云南省",
+    "code_prov": "530000",
+    "name_city": "德宏傣族景颇族自治州",
+    "code_city": "533100",
+    "name_coun": "陇川县",
+    "code_coun": "533124"
+  },
+  {
+    "Id": 3382,
+    "name_prov": "云南省",
+    "code_prov": "530000",
+    "name_city": "怒江傈僳族自治州",
+    "code_city": "533300",
+    "name_coun": "兰坪白族普米族自治县",
+    "code_coun": "533325"
+  },
+  {
+    "Id": 32748,
+    "name_prov": "云南省",
+    "code_prov": "530000",
+    "name_city": "迪庆藏族自治州",
+    "code_city": "533400",
+    "name_coun": "维西傈僳族自治县",
+    "code_coun": "533423"
+  },
+  {
+    "Id": 10121,
+    "name_prov": "西藏自治区",
+    "code_prov": "540000",
+    "name_city": "拉萨市",
+    "code_city": "540100",
+    "name_coun": "城关区",
+    "code_coun": "540102"
+  },
+  {
+    "Id": 14358,
+    "name_prov": "西藏自治区",
+    "code_prov": "540000",
+    "name_city": "日喀则市",
+    "code_city": "540200",
+    "name_coun": "南木林县",
+    "code_coun": "540221"
+  },
+  {
+    "Id": 10181,
+    "name_prov": "西藏自治区",
+    "code_prov": "540000",
+    "name_city": "昌都市",
+    "code_city": "540300",
+    "name_coun": "八宿县",
+    "code_coun": "540326"
+  },
+  {
+    "Id": 10307,
+    "name_prov": "西藏自治区",
+    "code_prov": "540000",
+    "name_city": "林芝市",
+    "code_city": "540400",
+    "name_coun": "巴宜区",
+    "code_coun": "540402"
+  },
+  {
+    "Id": 14282,
+    "name_prov": "西藏自治区",
+    "code_prov": "540000",
+    "name_city": "山南市",
+    "code_city": "540500",
+    "name_coun": "错那县",
+    "code_coun": "540530"
+  },
+  {
+    "Id": 14552,
+    "name_prov": "西藏自治区",
+    "code_prov": "540000",
+    "name_city": "那曲市",
+    "code_city": "540600",
+    "name_coun": "聂荣县",
+    "code_coun": "540623"
+  },
+  {
+    "Id": 14645,
+    "name_prov": "西藏自治区",
+    "code_prov": "540000",
+    "name_city": "阿里地区",
+    "code_city": "542500",
+    "name_coun": "革吉县",
+    "code_coun": "542525"
+  },
+  {
+    "Id": 2819,
+    "name_prov": "陕西省",
+    "code_prov": "610000",
+    "name_city": "西安市",
+    "code_city": "610100",
+    "name_coun": "碑林区",
+    "code_coun": "610103"
+  },
+  {
+    "Id": 2830,
+    "name_prov": "陕西省",
+    "code_prov": "610000",
+    "name_city": "铜川市",
+    "code_city": "610200",
+    "name_coun": "印台区",
+    "code_coun": "610203"
+  },
+  {
+    "Id": 10990,
+    "name_prov": "陕西省",
+    "code_prov": "610000",
+    "name_city": "宝鸡市",
+    "code_city": "610300",
+    "name_coun": "陈仓区",
+    "code_coun": "610304"
+  },
+  {
+    "Id": 10856,
+    "name_prov": "陕西省",
+    "code_prov": "610000",
+    "name_city": "咸阳市",
+    "code_city": "610400",
+    "name_coun": "彬州市",
+    "code_coun": "610482"
+  },
+  {
+    "Id": 11272,
+    "name_prov": "陕西省",
+    "code_prov": "610000",
+    "name_city": "渭南市",
+    "code_city": "610500",
+    "name_coun": "白水县",
+    "code_coun": "610527"
+  },
+  {
+    "Id": 2811,
+    "name_prov": "陕西省",
+    "code_prov": "610000",
+    "name_city": "延安市",
+    "code_city": "610600",
+    "name_coun": "黄陵县",
+    "code_coun": "610632"
+  },
+  {
+    "Id": 11098,
+    "name_prov": "陕西省",
+    "code_prov": "610000",
+    "name_city": "汉中市",
+    "code_city": "610700",
+    "name_coun": "城固县",
+    "code_coun": "610722"
+  },
+  {
+    "Id": 2812,
+    "name_prov": "陕西省",
+    "code_prov": "610000",
+    "name_city": "榆林市",
+    "code_city": "610800",
+    "name_coun": "定边县",
+    "code_coun": "610825"
+  },
+  {
+    "Id": 10487,
+    "name_prov": "陕西省",
+    "code_prov": "610000",
+    "name_city": "安康市",
+    "code_city": "610900",
+    "name_coun": "白河县",
+    "code_coun": "610929"
+  },
+  {
+    "Id": 10635,
+    "name_prov": "陕西省",
+    "code_prov": "610000",
+    "name_city": "商洛市",
+    "code_city": "611000",
+    "name_coun": "丹凤县",
+    "code_coun": "611022"
+  },
+  {
+    "Id": 1900,
+    "name_prov": "甘肃省",
+    "code_prov": "620000",
+    "name_city": "兰州市",
+    "code_city": "620100",
+    "name_coun": "永登县",
+    "code_coun": "620121"
+  },
+  {
+    "Id": 2370,
+    "name_prov": "甘肃省",
+    "code_prov": "620000",
+    "name_city": "嘉峪关市",
+    "code_city": "620200",
+    "name_coun": "嘉峪关市",
+    "code_coun": "620200"
+  },
+  {
+    "Id": 1897,
+    "name_prov": "甘肃省",
+    "code_prov": "620000",
+    "name_city": "金昌市",
+    "code_city": "620300",
+    "name_coun": "永昌县",
+    "code_coun": "620321"
+  },
+  {
+    "Id": 1908,
+    "name_prov": "甘肃省",
+    "code_prov": "620000",
+    "name_city": "白银市",
+    "code_city": "620400",
+    "name_coun": "平川区",
+    "code_coun": "620403"
+  },
+  {
+    "Id": 1853,
+    "name_prov": "甘肃省",
+    "code_prov": "620000",
+    "name_city": "天水市",
+    "code_city": "620500",
+    "name_coun": "张家川回族自治县",
+    "code_coun": "620525"
+  },
+  {
+    "Id": 1898,
+    "name_prov": "甘肃省",
+    "code_prov": "620000",
+    "name_city": "武威市",
+    "code_city": "620600",
+    "name_coun": "古浪县",
+    "code_coun": "620622"
+  },
+  {
+    "Id": 1887,
+    "name_prov": "甘肃省",
+    "code_prov": "620000",
+    "name_city": "张掖市",
+    "code_city": "620700",
+    "name_coun": "甘州区",
+    "code_coun": "620702"
+  },
+  {
+    "Id": 1952,
+    "name_prov": "甘肃省",
+    "code_prov": "620000",
+    "name_city": "平凉市",
+    "code_city": "620800",
+    "name_coun": "华亭市",
+    "code_coun": "620881"
+  },
+  {
+    "Id": 1882,
+    "name_prov": "甘肃省",
+    "code_prov": "620000",
+    "name_city": "酒泉市",
+    "code_city": "620900",
+    "name_coun": "瓜州县",
+    "code_coun": "620922"
+  },
+  {
+    "Id": 1864,
+    "name_prov": "甘肃省",
+    "code_prov": "620000",
+    "name_city": "庆阳市",
+    "code_city": "621000",
+    "name_coun": "华池县",
+    "code_coun": "621023"
+  },
+  {
+    "Id": 1856,
+    "name_prov": "甘肃省",
+    "code_prov": "620000",
+    "name_city": "定西市",
+    "code_city": "621100",
+    "name_coun": "通渭县",
+    "code_coun": "621121"
+  },
+  {
+    "Id": 2010,
+    "name_prov": "甘肃省",
+    "code_prov": "620000",
+    "name_city": "陇南市",
+    "code_city": "621200",
+    "name_coun": "礼县",
+    "code_coun": "621226"
+  },
+  {
+    "Id": 24583,
+    "name_prov": "甘肃省",
+    "code_prov": "620000",
+    "name_city": "临夏回族自治州",
+    "code_city": "622900",
+    "name_coun": "东乡族自治县",
+    "code_coun": "622926"
+  },
+  {
+    "Id": 1875,
+    "name_prov": "甘肃省",
+    "code_prov": "620000",
+    "name_city": "甘南藏族自治州",
+    "code_city": "623000",
+    "name_coun": "舟曲县",
+    "code_coun": "623023"
+  },
+  {
+    "Id": 2691,
+    "name_prov": "青海省",
+    "code_prov": "630000",
+    "name_city": "西宁市",
+    "code_city": "630100",
+    "name_coun": "大通回族土族自治县",
+    "code_coun": "630121"
+  },
+  {
+    "Id": 2523,
+    "name_prov": "青海省",
+    "code_prov": "630000",
+    "name_city": "海东市",
+    "code_city": "630200",
+    "name_coun": "互助土族自治县",
+    "code_coun": "630223"
+  },
+  {
+    "Id": 2500,
+    "name_prov": "青海省",
+    "code_prov": "630000",
+    "name_city": "海北藏族自治州",
+    "code_city": "632200",
+    "name_coun": "门源回族自治县",
+    "code_coun": "632221"
+  },
+  {
+    "Id": 2661,
+    "name_prov": "青海省",
+    "code_prov": "630000",
+    "name_city": "黄南藏族自治州",
+    "code_city": "632300",
+    "name_coun": "同仁市",
+    "code_coun": "632301"
+  },
+  {
+    "Id": 2600,
+    "name_prov": "青海省",
+    "code_prov": "630000",
+    "name_city": "海南藏族自治州",
+    "code_city": "632500",
+    "name_coun": "同德县",
+    "code_coun": "632522"
+  },
+  {
+    "Id": 2754,
+    "name_prov": "青海省",
+    "code_prov": "630000",
+    "name_city": "果洛藏族自治州",
+    "code_city": "632600",
+    "name_coun": "班玛县",
+    "code_coun": "632622"
+  },
+  {
+    "Id": 2783,
+    "name_prov": "青海省",
+    "code_prov": "630000",
+    "name_city": "玉树藏族自治州",
+    "code_city": "632700",
+    "name_coun": "玉树市",
+    "code_coun": "632701"
+  },
+  {
+    "Id": 2632,
+    "name_prov": "青海省",
+    "code_prov": "630000",
+    "name_city": "海西蒙古族藏族自治州",
+    "code_city": "632800",
+    "name_coun": "天峻县",
+    "code_coun": "632823"
+  },
+  {
+    "Id": 32095,
+    "name_prov": "宁夏回族自治区",
+    "code_prov": "640000",
+    "name_city": "银川市",
+    "code_city": "640100",
+    "name_coun": "兴庆区",
+    "code_coun": "640104"
+  },
+  {
+    "Id": 32017,
+    "name_prov": "宁夏回族自治区",
+    "code_prov": "640000",
+    "name_city": "石嘴山市",
+    "code_city": "640200",
+    "name_coun": "大武口区",
+    "code_coun": "640202"
+  },
+  {
+    "Id": 32056,
+    "name_prov": "宁夏回族自治区",
+    "code_prov": "640000",
+    "name_city": "吴忠市",
+    "code_city": "640300",
+    "name_coun": "利通区",
+    "code_coun": "640302"
+  },
+  {
+    "Id": 31951,
+    "name_prov": "宁夏回族自治区",
+    "code_prov": "640000",
+    "name_city": "固原市",
+    "code_city": "640400",
+    "name_coun": "泾源县",
+    "code_coun": "640424"
+  },
+  {
+    "Id": 32133,
+    "name_prov": "宁夏回族自治区",
+    "code_prov": "640000",
+    "name_city": "中卫市",
+    "code_city": "640500",
+    "name_coun": "沙坡头区",
+    "code_coun": "640502"
+  },
+  {
+    "Id": 20165,
+    "name_prov": "新疆维吾尔自治区",
+    "code_prov": "650000",
+    "name_city": "乌鲁木齐市",
+    "code_city": "650100",
+    "name_coun": "达坂城区",
+    "code_coun": "650107"
+  },
+  {
+    "Id": 20303,
+    "name_prov": "新疆维吾尔自治区",
+    "code_prov": "650000",
+    "name_city": "克拉玛依市",
+    "code_city": "650200",
+    "name_coun": "克拉玛依区",
+    "code_coun": "650203"
+  },
+  {
+    "Id": 20245,
+    "name_prov": "新疆维吾尔自治区",
+    "code_prov": "650000",
+    "name_city": "吐鲁番市",
+    "code_city": "650400",
+    "name_coun": "托克逊县",
+    "code_coun": "650422"
+  },
+  {
+    "Id": 1085,
+    "name_prov": "新疆维吾尔自治区",
+    "code_prov": "650000",
+    "name_city": "哈密市",
+    "code_city": "650500",
+    "name_coun": "巴里坤哈萨克自治县",
+    "code_coun": "650521"
+  },
+  {
+    "Id": 1060,
+    "name_prov": "新疆维吾尔自治区",
+    "code_prov": "650000",
+    "name_city": "昌吉回族自治州",
+    "code_city": "652300",
+    "name_coun": "阜康市",
+    "code_coun": "652302"
+  },
+  {
+    "Id": 1054,
+    "name_prov": "新疆维吾尔自治区",
+    "code_prov": "650000",
+    "name_city": "博尔塔拉蒙古自治州",
+    "code_city": "652700",
+    "name_coun": "温泉县",
+    "code_coun": "652723"
+  },
+  {
+    "Id": 1041,
+    "name_prov": "新疆维吾尔自治区",
+    "code_prov": "650000",
+    "name_city": "巴音郭楞蒙古自治州",
+    "code_city": "652800",
+    "name_coun": "若羌县",
+    "code_coun": "652824"
+  },
+  {
+    "Id": 8797,
+    "name_prov": "新疆维吾尔自治区",
+    "code_prov": "650000",
+    "name_city": "阿克苏地区",
+    "code_city": "652900",
+    "name_coun": "拜城县",
+    "code_coun": "652926"
+  },
+  {
+    "Id": 9496,
+    "name_prov": "新疆维吾尔自治区",
+    "code_prov": "650000",
+    "name_city": "克孜勒苏柯尔克孜自治州",
+    "code_city": "653000",
+    "name_coun": "阿图什市",
+    "code_coun": "653001"
+  },
+  {
+    "Id": 1162,
+    "name_prov": "新疆维吾尔自治区",
+    "code_prov": "650000",
+    "name_city": "喀什地区",
+    "code_city": "653100",
+    "name_coun": "莎车县",
+    "code_coun": "653125"
+  },
+  {
+    "Id": 1121,
+    "name_prov": "新疆维吾尔自治区",
+    "code_prov": "650000",
+    "name_city": "和田地区",
+    "code_city": "653200",
+    "name_coun": "皮山县",
+    "code_coun": "653223"
+  },
+  {
+    "Id": 1201,
+    "name_prov": "新疆维吾尔自治区",
+    "code_prov": "650000",
+    "name_city": "伊犁哈萨克自治州",
+    "code_city": "654000",
+    "name_coun": "霍尔果斯市",
+    "code_coun": "654004"
+  },
+  {
+    "Id": 1174,
+    "name_prov": "新疆维吾尔自治区",
+    "code_prov": "650000",
+    "name_city": "塔城地区",
+    "code_city": "654200",
+    "name_coun": "乌苏市",
+    "code_coun": "654202"
+  },
+  {
+    "Id": 1177,
+    "name_prov": "新疆维吾尔自治区",
+    "code_prov": "650000",
+    "name_city": "阿勒泰地区",
+    "code_city": "654300",
+    "name_coun": "哈巴河县",
+    "code_coun": "654324"
+  },
+  {
+    "Id": 1198,
+    "name_prov": "新疆维吾尔自治区",
+    "code_prov": "650000",
+    "name_city": "胡杨河市",
+    "code_city": "659000",
+    "name_coun": "胡杨河市",
+    "code_coun": "659010"
+  },
+  {
+    "Id": 20557,
+    "name_prov": "新疆维吾尔自治区",
+    "code_prov": "650000",
+    "name_city": "石河子市",
+    "code_city": "659001",
+    "name_coun": "石河子市",
+    "code_coun": "659001"
+  },
+  {
+    "Id": 9461,
+    "name_prov": "新疆维吾尔自治区",
+    "code_prov": "650000",
+    "name_city": "阿拉尔市",
+    "code_city": "659002",
+    "name_coun": "阿拉尔市",
+    "code_coun": "659002"
+  },
+  {
+    "Id": 20565,
+    "name_prov": "新疆维吾尔自治区",
+    "code_prov": "650000",
+    "name_city": "图木舒克市",
+    "code_city": "659003",
+    "name_coun": "图木舒克市",
+    "code_coun": "659003"
+  },
+  {
+    "Id": 20551,
+    "name_prov": "新疆维吾尔自治区",
+    "code_prov": "650000",
+    "name_city": "五家渠市",
+    "code_city": "659004",
+    "name_coun": "五家渠市",
+    "code_coun": "659004"
+  },
+  {
+    "Id": 9550,
+    "name_prov": "新疆维吾尔自治区",
+    "code_prov": "650000",
+    "name_city": "北屯市",
+    "code_city": "659005",
+    "name_coun": "北屯市",
+    "code_coun": "659005"
+  },
+  {
+    "Id": 10391,
+    "name_prov": "新疆维吾尔自治区",
+    "code_prov": "650000",
+    "name_city": "铁门关市",
+    "code_city": "659006",
+    "name_coun": "铁门关市",
+    "code_coun": "659006"
+  },
+  {
+    "Id": 20688,
+    "name_prov": "新疆维吾尔自治区",
+    "code_prov": "650000",
+    "name_city": "双河市",
+    "code_city": "659007",
+    "name_coun": "双河市",
+    "code_coun": "659007"
+  },
+  {
+    "Id": 19772,
+    "name_prov": "新疆维吾尔自治区",
+    "code_prov": "650000",
+    "name_city": "可克达拉市",
+    "code_city": "659008",
+    "name_coun": "可克达拉市",
+    "code_coun": "659008"
+  },
+  {
+    "Id": 4024,
+    "name_prov": "新疆维吾尔自治区",
+    "code_prov": "650000",
+    "name_city": "昆玉市",
+    "code_city": "659009",
+    "name_coun": "昆玉市",
+    "code_coun": "659009"
+  },
+  {
+    "Id": 4067,
+    "name_prov": "台湾省",
+    "code_prov": "710000",
+    "name_city": "台北市",
+    "code_city": "710100",
+    "name_coun": "大同区",
+    "code_coun": "710103"
+  },
+  {
+    "Id": 4076,
+    "name_prov": "台湾省",
+    "code_prov": "710000",
+    "name_city": "高雄市",
+    "code_city": "710200",
+    "name_coun": "湖内区",
+    "code_coun": "710223"
+  },
+  {
+    "Id": 4069,
+    "name_prov": "台湾省",
+    "code_prov": "710000",
+    "name_city": "新北市",
+    "code_city": "710300",
+    "name_coun": "深坑区",
+    "code_coun": "710307"
+  },
+  {
+    "Id": 4068,
+    "name_prov": "台湾省",
+    "code_prov": "710000",
+    "name_city": "台中市",
+    "code_city": "710400",
+    "name_coun": "中区",
+    "code_coun": "710403"
+  },
+  {
+    "Id": 4072,
+    "name_prov": "台湾省",
+    "code_prov": "710000",
+    "name_city": "台南市",
+    "code_city": "710500",
+    "name_coun": "盐水区",
+    "code_coun": "710509"
+  },
+  {
+    "Id": 4066,
+    "name_prov": "台湾省",
+    "code_prov": "710000",
+    "name_city": "桃园市",
+    "code_city": "710600",
+    "name_coun": "八德市",
+    "code_coun": "710603"
+  },
+  {
+    "Id": 34487,
+    "name_prov": "台湾省",
+    "code_prov": "710000",
+    "name_city": "基隆市",
+    "code_city": "719001",
+    "name_coun": "基隆市",
+    "code_coun": "719001"
+  },
+  {
+    "Id": 4120,
+    "name_prov": "台湾省",
+    "code_prov": "710000",
+    "name_city": "新竹市",
+    "code_city": "719002",
+    "name_coun": "新竹市",
+    "code_coun": "719002"
+  },
+  {
+    "Id": 4065,
+    "name_prov": "台湾省",
+    "code_prov": "710000",
+    "name_city": "嘉义市",
+    "code_city": "719003",
+    "name_coun": "嘉义市",
+    "code_coun": "719003"
+  },
+  {
+    "Id": 4251,
+    "name_prov": "台湾省",
+    "code_prov": "710000",
+    "name_city": "新竹县",
+    "code_city": "719004",
+    "name_coun": "新竹县",
+    "code_coun": "719004"
+  },
+  {
+    "Id": 4230,
+    "name_prov": "台湾省",
+    "code_prov": "710000",
+    "name_city": "宜兰县",
+    "code_city": "719005",
+    "name_coun": "宜兰县",
+    "code_coun": "719005"
+  },
+  {
+    "Id": 4236,
+    "name_prov": "台湾省",
+    "code_prov": "710000",
+    "name_city": "苗栗县",
+    "code_city": "719006",
+    "name_coun": "苗栗县",
+    "code_coun": "719006"
+  },
+  {
+    "Id": 4194,
+    "name_prov": "台湾省",
+    "code_prov": "710000",
+    "name_city": "彰化县",
+    "code_city": "719007",
+    "name_coun": "彰化县",
+    "code_coun": "719007"
+  },
+  {
+    "Id": 4189,
+    "name_prov": "台湾省",
+    "code_prov": "710000",
+    "name_city": "云林县",
+    "code_city": "719008",
+    "name_coun": "云林县",
+    "code_coun": "719008"
+  },
+  {
+    "Id": 4192,
+    "name_prov": "台湾省",
+    "code_prov": "710000",
+    "name_city": "南投县",
+    "code_city": "719009",
+    "name_coun": "南投县",
+    "code_coun": "719009"
+  },
+  {
+    "Id": 4187,
+    "name_prov": "台湾省",
+    "code_prov": "710000",
+    "name_city": "嘉义县",
+    "code_city": "719010",
+    "name_coun": "嘉义县",
+    "code_coun": "719010"
+  },
+  {
+    "Id": 4190,
+    "name_prov": "台湾省",
+    "code_prov": "710000",
+    "name_city": "屏东县",
+    "code_city": "719011",
+    "name_coun": "屏东县",
+    "code_coun": "719011"
+  },
+  {
+    "Id": 4196,
+    "name_prov": "台湾省",
+    "code_prov": "710000",
+    "name_city": "台东县",
+    "code_city": "719012",
+    "name_coun": "台东县",
+    "code_coun": "719012"
+  },
+  {
+    "Id": 4193,
+    "name_prov": "台湾省",
+    "code_prov": "710000",
+    "name_city": "花莲县",
+    "code_city": "719013",
+    "name_coun": "花莲县",
+    "code_coun": "719013"
+  },
+  {
+    "Id": 12940,
+    "name_prov": "台湾省",
+    "code_prov": "710000",
+    "name_city": "澎湖县",
+    "code_city": "719014",
+    "name_coun": "澎湖县",
+    "code_coun": "719014"
+  },
+  {
+    "Id": 36484,
+    "name_prov": "香港",
+    "code_prov": "810000",
+    "name_city": "香港",
+    "code_city": "810000",
+    "name_coun": "离岛区",
+    "code_coun": "810110"
+  },
+  {
+    "Id": 36483,
+    "name_prov": "澳门",
+    "code_prov": "820000",
+    "name_city": "澳门",
+    "code_city": "820000",
+    "name_coun": "望德堂区",
+    "code_coun": "820002"
+  },
+  {
+    "Id": 39991,
+    "name_prov": "苏鲁交界",
+    "code_prov": "990000",
+    "name_city": "海域",
+    "code_city": "999900",
+    "name_coun": "海域",
+    "code_coun": "999900"
+  }
+]

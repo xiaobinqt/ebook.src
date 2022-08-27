@@ -1,0 +1,10 @@
+/*! _variables.scss | Vuero | Css ninja 2020-2021 */
+.form-card {
+    background: #fff;
+    border-radius: 3px;
+    padding: 45px
+}
+
+.form-card .form-inner {
+    max-width: 800px
+}

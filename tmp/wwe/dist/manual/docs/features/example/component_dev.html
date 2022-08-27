@@ -1,0 +1,1707 @@
+<!DOCTYPE HTML>
+<html lang="zh-hans">
+<head>
+    <meta charset="UTF-8">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <title>组件节点开发 · 柔性开发仿真一体化云平台</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="description" content="">
+    <meta name="generator" content="GitBook 3.2.3">
+    <meta name="author" content="希云科技">
+
+
+    <link rel="stylesheet" href="../../../gitbook/style.css">
+
+
+    <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-code/plugin.css">
+
+
+    <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-intopic-toc/style.css">
+
+
+    <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+
+
+    <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-emphasize/plugin.css">
+
+
+    <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+
+
+    <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-splitter/splitter.css">
+
+
+    <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+
+
+    <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-highlight/website.css">
+
+
+    <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-search/search.css">
+
+
+    <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-fontsettings/website.css">
+
+
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152"
+          href="../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+
+    <link rel="next" href="function_dev.html"/>
+
+
+    <link rel="prev" href="seniorapp_dev.html"/>
+
+
+</head>
+<body>
+
+<div class="book">
+    <div class="book-summary">
+
+
+        <div id="book-search-input" role="search">
+            <input type="text" placeholder="输入并搜索"/>
+        </div>
+
+
+        <nav role="navigation">
+
+
+            <ul class="summary">
+
+
+                <li class="chapter " data-level="1.1" data-path="../../../">
+
+                    <a href="../../../">
+
+
+                        Introduction
+
+                    </a>
+
+
+                </li>
+
+                <li class="chapter " data-level="1.2" data-path="../user/">
+
+                    <a href="../user/">
+
+
+                        用户通用基础功能
+
+                    </a>
+
+
+                    <ul class="articles">
+
+
+                        <li class="chapter " data-level="1.2.1" data-path="../user/register.html">
+
+                            <a href="../user/register.html">
+
+
+                                用户注册
+
+                            </a>
+
+
+                        </li>
+
+                        <li class="chapter " data-level="1.2.2" data-path="../user/login.html">
+
+                            <a href="../user/login.html">
+
+
+                                用户登录
+
+                            </a>
+
+
+                        </li>
+
+                        <li class="chapter " data-level="1.2.3" data-path="../user/update_profile.html">
+
+                            <a href="../user/update_profile.html">
+
+
+                                修改个人信息
+
+                            </a>
+
+
+                        </li>
+
+                        <li class="chapter " data-level="1.2.4" data-path="../user/update_password.html">
+
+                            <a href="../user/update_password.html">
+
+
+                                修改密码
+
+                            </a>
+
+
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+                <li class="chapter " data-level="1.3" data-path="../admin/">
+
+                    <a href="../admin/">
+
+
+                        管理员功能
+
+                    </a>
+
+
+                    <ul class="articles">
+
+
+                        <li class="chapter " data-level="1.3.1" data-path="../admin/role.html">
+
+                            <a href="../admin/role.html">
+
+
+                                角色切换
+
+                            </a>
+
+
+                        </li>
+
+                        <li class="chapter " data-level="1.3.2" data-path="../admin/user.html">
+
+                            <a href="../admin/user.html">
+
+
+                                用户管理
+
+                            </a>
+
+
+                        </li>
+
+                        <li class="chapter " data-level="1.3.3" data-path="../admin/edge.html">
+
+                            <a href="../admin/edge.html">
+
+
+                                终端管理
+
+                            </a>
+
+
+                        </li>
+
+                        <li class="chapter " data-level="1.3.4" data-path="../admin/app.html">
+
+                            <a href="../admin/app.html">
+
+
+                                应用实例管理
+
+                            </a>
+
+
+                        </li>
+
+                        <li class="chapter " data-level="1.3.5" data-path="../admin/device.html">
+
+                            <a href="../admin/device.html">
+
+
+                                设备模型管理
+
+                            </a>
+
+
+                        </li>
+
+                        <li class="chapter " data-level="1.3.6" data-path="../admin/datatype.html">
+
+                            <a href="../admin/datatype.html">
+
+
+                                数据图表管理
+
+                            </a>
+
+
+                        </li>
+
+                        <li class="chapter " data-level="1.3.7" data-path="../admin/component.html">
+
+                            <a href="../admin/component.html">
+
+
+                                组件节点管理
+
+                            </a>
+
+
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+                <li class="chapter " data-level="1.4" data-path="../developer/">
+
+                    <a href="../developer/">
+
+
+                        研发人员功能
+
+                    </a>
+
+
+                    <ul class="articles">
+
+
+                        <li class="chapter " data-level="1.4.1" data-path="../developer/project.html">
+
+                            <a href="../developer/project.html">
+
+
+                                项目管理
+
+                            </a>
+
+
+                        </li>
+
+                        <li class="chapter " data-level="1.4.2" data-path="../developer/code.html">
+
+                            <a href="../developer/code.html">
+
+
+                                源代码管理
+
+                            </a>
+
+
+                        </li>
+
+                        <li class="chapter " data-level="1.4.3" data-path="../developer/node_ide.html">
+
+                            <a href="../developer/node_ide.html">
+
+
+                                可视化IDE开发环境
+
+                            </a>
+
+
+                        </li>
+
+                        <li class="chapter " data-level="1.4.4" data-path="../developer/web_ide.html">
+
+                            <a href="../developer/web_ide.html">
+
+
+                                WebIDE开发环境
+
+                            </a>
+
+
+                        </li>
+
+                        <li class="chapter " data-level="1.4.5" data-path="../developer/ci.html">
+
+                            <a href="../developer/ci.html">
+
+
+                                持续集成
+
+                            </a>
+
+
+                        </li>
+
+                        <li class="chapter " data-level="1.4.6" data-path="../developer/artifacts.html">
+
+                            <a href="../developer/artifacts.html">
+
+
+                                查看制品
+
+                            </a>
+
+
+                        </li>
+
+                        <li class="chapter " data-level="1.4.7" data-path="../developer/cd.html">
+
+                            <a href="../developer/cd.html">
+
+
+                                持续部署
+
+                            </a>
+
+
+                        </li>
+
+                        <li class="chapter " data-level="1.4.8" data-path="../developer/version.html">
+
+                            <a href="../developer/version.html">
+
+
+                                发版管理
+
+                            </a>
+
+
+                        </li>
+
+                        <li class="chapter " data-level="1.4.9" data-path="../developer/component.html">
+
+                            <a href="../developer/component.html">
+
+
+                                个人组件节点管理
+
+                            </a>
+
+
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+                <li class="chapter " data-level="1.5" data-path="./">
+
+                    <a href="./">
+
+
+                        开发示例
+
+                    </a>
+
+
+                    <ul class="articles">
+
+
+                        <li class="chapter " data-level="1.5.1" data-path="seniorapp_dev.html">
+
+                            <a href="seniorapp_dev.html">
+
+
+                                高级APP开发
+
+                            </a>
+
+
+                        </li>
+
+                        <li class="chapter active" data-level="1.5.2" data-path="component_dev.html">
+
+                            <a href="component_dev.html">
+
+
+                                组件节点开发
+
+                            </a>
+
+
+                        </li>
+
+                        <li class="chapter " data-level="1.5.3" data-path="function_dev.html">
+
+                            <a href="function_dev.html">
+
+
+                                自定义函数
+
+                            </a>
+
+
+                        </li>
+
+
+                    </ul>
+
+                </li>
+
+
+                <li class="divider"></li>
+
+                <li>
+                    <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                        本书使用 GitBook 发布
+                    </a>
+                </li>
+            </ul>
+
+
+        </nav>
+
+
+    </div>
+
+    <div class="book-body">
+
+        <div class="body-inner">
+
+
+            <div class="book-header" role="navigation">
+
+
+                <!-- Title -->
+                <h1>
+                    <i class="fa fa-circle-o-notch fa-spin"></i>
+                    <a href="../../..">组件节点开发</a>
+                </h1>
+            </div>
+
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+
+                    <div id="book-search-results">
+                        <div class="search-noresults">
+
+                            <section class="normal markdown-section">
+
+                                <h1 id="&#x7EC4;&#x4EF6;&#x8282;&#x70B9;&#x5F00;&#x53D1;&#x6D41;&#x7A0B;">&#x7EC4;&#x4EF6;&#x8282;&#x70B9;&#x5F00;&#x53D1;&#x6D41;&#x7A0B;</h1>
+                                <h2 id="&#x9002;&#x7528;&#x4EBA;&#x7FA4;">&#x9002;&#x7528;&#x4EBA;&#x7FA4;</h2>
+                                <p>&#x9700;&#x8981;&#x4E86;&#x89E3; npm &#x8BED;&#x6CD5;&#xFF0C;npm&#x7B80;&#x5355;&#x547D;&#x4EE4;&#x3001;&#x7EC4;&#x4EF6;&#x4F9D;&#x8D56;&#x7BA1;&#x7406;
+                                    &#x719F;&#x6089; js &#x548C;css&#x57FA;&#x7840;&#x8BED;&#x6CD5;&#xFF0C;&#x5982;json&#x5BF9;&#x8C61;&#x3001;JS&#x5BF9;&#x8C61;&#x7684;&#x4F7F;&#x7528;&#x3001;&#x5FAA;&#x73AF;&#x8BED;&#x53E5;&#x3001;&#x6761;&#x4EF6;&#x8BED;&#x53E5;&#x3001;&#x6BD4;&#x8F83;&#x5224;&#x65AD;&#x3001;&#x7C7B;&#x578B;&#x5224;&#x65AD;&#x3002;</p>
+                                <p>&#x53C2;&#x8003;&#x6587;&#x732E;&#xFF1A;<a
+                                        href="https://www.runoob.com/js/js-tutorial.html" target="_blank">https://www.runoob.com/js/js-tutorial.html</a>
+                                </p>
+                                <p>&#x719F;&#x6089;jquery&#x8BED;&#x6CD5;&#xFF0C;&#x5982;&#x9009;&#x62E9;&#x5668;&#x7684;&#x4F7F;&#x7528;&#x3001;&#x4E8B;&#x4EF6;&#x7ED1;&#x5B9A;&#x3002;</p>
+                                <p>&#x53C2;&#x8003;&#x6587;&#x732E;&#xFF1A;<a
+                                        href="https://www.w3school.com.cn/jquery/index.asp" target="_blank">https://www.w3school.com.cn/jquery/index.asp</a>
+                                </p>
+                                <h2 id="&#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#x8282;&#x70B9;&#x6784;&#x6210;">
+                                    &#x81EA;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#x8282;&#x70B9;&#x6784;&#x6210;</h2>
+                                <p>&#x7EC4;&#x4EF6;&#x8282;&#x70B9;&#x4E2D;&#x6700;&#x4E3B;&#x8981;&#x7EC4;&#x6210;&#x90E8;&#x5206;&#x5305;&#x62EC;&#x4E00;&#x4E2A;js&#x6587;&#x4EF6;&#x548C;&#x4E00;&#x4E2A;html&#x6587;&#x4EF6;&#xFF0C;js&#x6587;&#x4EF6;&#x4E3B;&#x8981;&#x5B9A;&#x4E49;&#x4E86;&#x7EC4;&#x4EF6;&#x5177;&#x4F53;&#x505A;&#x4E9B;&#x4EC0;&#x4E48;&#x4E8B;&#x60C5;&#xFF0C;&#x6709;&#x4EC0;&#x4E48;&#x6837;&#x7684;&#x529F;&#x80FD;&#xFF1B;&#x800C;html&#x6587;&#x4EF6;&#x4E3B;&#x8981;&#x5B9A;&#x4E49;&#x4E86;&#x7EC4;&#x4EF6;&#x7684;&#x5C5E;&#x6027;&#xFF0C;&#x7EC4;&#x4EF6;&#x7F16;&#x8F91;&#x6846;&#x683C;&#x5F0F;&#x548C;&#x5E2E;&#x52A9;&#x4FE1;&#x606F;&#x3002;</p>
+                                <h3 id="js&#x6587;&#x4EF6;&#x7684;&#x57FA;&#x672C;&#x683C;&#x5F0F;&#x5982;&#x4E0B;&#xFF1A;">
+                                    js&#x6587;&#x4EF6;&#x7684;&#x57FA;&#x672C;&#x683C;&#x5F0F;&#x5982;&#x4E0B;&#xFF1A;</h3>
+                                <p><img src="../../../assets/component_dev4.png" alt="&#x754C;&#x9762;&#x4ECB;&#x7ECD;">
+                                </p>
+                                <p>&#x6CE8;&#x518C;&#x8282;&#x70B9;&#x7C7B;&#x578B;&#x4E3A;&quot;nodetype&quot;&#xFF0C;&#x8BE5;&#x7C7B;&#x578B;&#x540D;&#x5B57;&#x81EA;&#x5DF1;&#x53EF;&#x4EE5;&#x968F;&#x4FBF;&#x8D77;&#xFF0C;&#x4F46;&#x8981;&#x6CE8;&#x610F;js&#x4E2D;&#x7684;&#x7C7B;&#x578B;&#x540D;&#x8981;&#x4E0E;html&#x4E2D;&#x4E00;&#x81F4;&#xFF0C;&#x5E76;&#x58F0;&#x660E;&#x56DE;&#x8C03;&#x51FD;&#x6570;&quot;functionName&quot;,&#x8BE5;&#x51FD;&#x6570;&#x5B9E;&#x73B0;&#x4E86;&#x521B;&#x5EFA;&#x5B9E;&#x4F8B;&#x8282;&#x70B9;&#x5E76;&#x6CE8;&#x518C;&#x4E00;&#x4E9B;&#x76D1;&#x542C;&#x51FD;&#x6570;&#x3002;</p>
+                                <p><strong>&#x8282;&#x70B9; <code>. js</code>&#x6587;&#x4EF6;&#x5B9A;&#x4E49;&#x4E86;&#x8282;&#x70B9;&#x7684;&#x8FD0;&#x884C;&#x65F6;&#x884C;&#x4E3A;&#x3002;</strong>
+                                </p>
+                                <h4 id="&#x8282;&#x70B9;&#x6784;&#x9020;&#x51FD;&#x6570;">&#x8282;&#x70B9;&#x6784;&#x9020;&#x51FD;&#x6570;</h4>
+                                <p>&#x8282;&#x70B9;&#x5B9A;&#x4E49;&#x4E00;&#x4E2A;&#x6784;&#x9020;&#x51FD;&#x6570;,&#x53EF;&#x7528;&#x4E8E;&#x521B;&#x5EFA;&#x65B0;&#x5B9E;&#x4F8B;&#x7684;&#x8282;&#x70B9;&#x3002;&#x51FD;&#x6570;&#x4F1A;&#x5728;&#x8FD0;&#x884C;&#x65F6;&#x6CE8;&#x518C;,&#x56E0;&#x6B64;&#x5B83;&#x53EF;&#x4EE5;&#x8C03;&#x7528;&#x5F53;&#x76F8;&#x5E94;&#x7C7B;&#x578B;&#x7684;&#x8282;&#x70B9;&#x90E8;&#x7F72;&#x5728;&#x4E00;&#x4E2A;&#x6D41;&#x3002;
+                                    &#x3000;&#x3000;
+                                    &#x51FD;&#x6570;&#x4F20;&#x9012;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x5305;&#x542B;&#x6D41;&#x7F16;&#x8F91;&#x5668;&#x7684;&#x5C5E;&#x6027;&#x8BBE;&#x7F6E;&#x3002;
+                                    &#x3000;&#x3000;
+                                    &#x5B83;&#x5FC5;&#x987B;&#x505A;&#x7684;&#x7B2C;&#x4E00;&#x4EF6;&#x4E8B;&#x662F;&#x8C03;&#x7528;RED.nodes&#x3002;createNode&#x521D;&#x59CB;&#x5316;&#x7684;&#x51FD;&#x6570;&#xFF0C;&#x7531;&#x6240;&#x6709;&#x8282;&#x70B9;&#x5171;&#x4EAB;&#x7684;&#x7279;&#x6027;&#x3002;&#x5728;&#x90A3;&#x4E4B;&#x540E;,&#x751F;&#x6D3B;&#x7684;&#x7279;&#x5B9A;&#x4E8E;&#x8282;&#x70B9;&#x7684;&#x4EE3;&#x7801;&#x3002;</p>
+                                <pre><code>function SampleNode(config) {
+    RED.nodes.createNode(this,config);
+    // node-specific code goes here
+}
+RED.nodes.registerType(&quot;sample&quot;,SampleNode);
+</code></pre>
+                                <h4 id="&#x63A5;&#x6536;&#x6D88;&#x606F;">&#x63A5;&#x6536;&#x6D88;&#x606F;</h4>
+                                <p>&#x8282;&#x70B9;&#x4E0A;&#x6CE8;&#x518C;&#x4E00;&#x4E2A;&#x4FA6;&#x542C;&#x5668;&#x7684;&#x8F93;&#x5165;&#x4E8B;&#x4EF6;&#x6D41;&#x4ECE;&#x4E0A;&#x6E38;&#x8282;&#x70B9;&#x63A5;&#x6536;&#x6D88;&#x606F;&#x3002;</p>
+                                <pre><code>this.on(&apos;input&apos;, function(msg, send, done) {
+    // do something with &apos;msg&apos;
+});
+</code></pre>
+                                <h4 id="&#x53D1;&#x9001;&#x6D88;&#x606F;">&#x53D1;&#x9001;&#x6D88;&#x606F;</h4>
+                                <p>&#x53EF;&#x4EE5;&#x5C06;&#x6D88;&#x606F;&#x53D1;&#x9001;&#x5230;&#x8282;&#x70B9;&#x6D41;&#x4F7F;&#x7528;send&#x51FD;&#x6570;</p>
+                                <pre><code>var msg = { payload:&quot;hi&quot; }
+this.send(msg);
+</code></pre>
+                                <h3 id="html&#x6587;&#x4EF6;&#x683C;&#x5F0F;&#x5982;&#x4E0B;&#xFF1A;">html&#x6587;&#x4EF6;&#x683C;&#x5F0F;&#x5982;&#x4E0B;&#xFF1A;</h3>
+                                <p><img src="../../../assets/component_dev5.png" alt="&#x754C;&#x9762;&#x4ECB;&#x7ECD;">
+                                </p>
+                                <p><strong>&#x8282;&#x70B9;<code>.html</code>&#x6587;&#x4EF6;&#x5B9A;&#x4E49;&#x4E86;&#x8282;&#x70B9;&#x5728;&#x7F16;&#x8F91;&#x5668;&#x4E2D;&#x7684;&#x663E;&#x793A;&#x65B9;&#x5F0F;&#x3002;&#x5B83;&#x5305;&#x542B;&#x4E09;&#x4E2A;&#x4E0D;&#x540C;&#x7684;&#x90E8;&#x5206;&#xFF0C;&#x6BCF;&#x4E2A;&#x90E8;&#x5206;&#x90FD;&#x5305;&#x88F9;&#x5728;&#x81EA;&#x5DF1;&#x7684;<code>&lt;script&gt;</code>&#x6807;&#x7B7E;&#x4E2D;&#xFF1A;</strong>
+                                </p>
+                                <ol>
+                                    <li>&#x5728;&#x7F16;&#x8F91;&#x5668;&#x4E2D;&#x6CE8;&#x518C;&#x7684;&#x4E3B;&#x8282;&#x70B9;&#x5B9A;&#x4E49;&#x3002;&#x8FD9;&#x5B9A;&#x4E49;&#x4E86;&#x8BF8;&#x5982;&#x8C03;&#x8272;&#x677F;&#x7C7B;&#x522B;&#x3001;&#x53EF;&#x7F16;&#x8F91;&#x5C5E;&#x6027;
+                                        ( <code>defaults</code>) &#x548C;&#x8981;&#x4F7F;&#x7528;&#x7684;&#x56FE;&#x6807;&#x7B49;&#x5185;&#x5BB9;&#x3002;&#x5B83;&#x5728;&#x4E00;&#x4E2A;&#x5E38;&#x89C4;&#x7684;
+                                        javascript &#x811A;&#x672C;&#x6807;&#x7B7E;&#x4E2D;
+                                    </li>
+                                    <li>&#x5B9A;&#x4E49;&#x8282;&#x70B9;&#x7F16;&#x8F91;&#x5BF9;&#x8BDD;&#x6846;&#x5185;&#x5BB9;&#x7684;&#x7F16;&#x8F91;&#x6A21;&#x677F;&#x3002;&#x5B83;&#x5728;
+                                        type
+                                        &#x7684;&#x811A;&#x672C;&#x4E2D;&#x5B9A;&#x4E49;&#xFF0C;<code>text/x-red</code>&#x5E76;<code>data-template-name</code>&#x8BBE;&#x7F6E;&#x4E3A;&#x8282;&#x70B9;&#x7684;&#x7C7B;&#x578B;&#x3002;
+                                    </li>
+                                    <li>&#x663E;&#x793A;&#x5728;&#x201C;&#x4FE1;&#x606F;&#x201D;&#x4FA7;&#x680F;&#x9009;&#x9879;&#x5361;&#x4E2D;&#x7684;&#x5E2E;&#x52A9;&#x6587;&#x672C;&#x3002;&#x5B83;&#x5728;
+                                        type
+                                        &#x7684;&#x811A;&#x672C;&#x4E2D;&#x5B9A;&#x4E49;&#xFF0C;<code>text/x-red</code>&#x5E76;<code>data-help-name</code>&#x8BBE;&#x7F6E;&#x4E3A;&#x8282;&#x70B9;&#x7684;
+                                        &#x7C7B;&#x578B;&#x3002;
+                                    </li>
+                                </ol>
+                                <h4 id="&#x8282;&#x70B9;&#x5C5E;&#x6027;&#x5B9A;&#x4E49;">&#x8282;&#x70B9;&#x5C5E;&#x6027;&#x5B9A;&#x4E49;</h4>
+                                <p>&#x4E00;&#x4E2A;&#x8282;&#x70B9;&#x5FC5;&#x987B;&#x5728;&#x7F16;&#x8F91;&#x5668;&#x4E2D;&#x4F7F;&#x7528;<code>RED.nodes.registerType</code>&#x6CE8;&#x518C;&#x51FD;&#x6570;&#x3002;
+                                    &#x8FD9;&#x4E2A;&#x51FD;&#x6570;&#x6709;&#x4E24;&#x4E2A;&#x53C2;&#x6570;;&#x8282;&#x70B9;&#x7684;&#x7C7B;&#x578B;&#x548C;&#x5B83;&#x7684;&#x5C5E;&#x6027;&#x5B9A;&#x4E49;:
+                                </p>
+                                <pre><code class="lang-html"><span class="hljs-tag">&lt;<span
+                                        class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span
+                                        class="hljs-string">&quot;text/javascript&quot;</span>&gt;</span><span
+                                        class="actionscript">
+    RED.nodes.registerType(<span class="hljs-string">&apos;node-type&apos;</span>,{
+        <span class="hljs-comment">// node definition</span>
+    });
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+                                <h4 id="&#x8282;&#x70B9;&#x5168;&#x90E8;&#x5C5E;&#x6027;">&#x8282;&#x70B9;&#x5168;&#x90E8;&#x5C5E;&#x6027;</h4>
+                                <ul>
+                                    <li><code>category</code>: &#xFF08;&#x5B57;&#x7B26;&#x4E32;&#xFF09;&#x8282;&#x70B9;&#x7684;&#x5206;&#x7C7B;&#x7C7B;&#x522B;
+                                    </li>
+                                    <li><code>defaults</code>: &#xFF08;&#x5BF9;&#x8C61;&#xFF09;&#x8282;&#x70B9;&#x7684;&#x53EF;&#x7F16;&#x8F91;&#x5C5E;&#x6027;
+                                    </li>
+                                    <li><code>credentials</code>: &#xFF08;&#x5BF9;&#x8C61;&#xFF09;&#x8282;&#x70B9;&#x7684;&#x51ED;&#x8BC1;&#x5C5E;&#x6027;&#x3002;
+                                    </li>
+                                    <li><code>inputs</code>: &#xFF08;&#x6570;&#x5B57;&#xFF09;&#x7684;&#x8282;&#x70B9;&#x6709;&#x591A;&#x5C11;&#x8F93;&#x5165;&#x5177;&#x6709;&#xFF0C;&#x65E0;&#x8BBA;&#x662F;0&#x6216;1
+                                    </li>
+                                    <li><code>outputs</code>: (&#x6570;&#x5B57;) &#x8282;&#x70B9;&#x6709;&#x591A;&#x5C11;&#x4E2A;&#x8F93;&#x51FA;&#x3002;&#x53EF;&#x4EE5;0&#x6216;&#x66F4;&#x591A;
+                                    </li>
+                                    <li><code>color</code>: (&#x5B57;&#x7B26;&#x4E32;)&#x8282;&#x70B9;&#x8981;&#x4F7F;&#x7528;&#x7684;&#x80CC;&#x666F;&#x989C;&#x8272;
+                                    </li>
+                                    <li><code>paletteLabel</code>: (&#x5B57;&#x7B26;&#x4E32;|&#x51FD;&#x6570;)&#x63A7;&#x4EF6;&#x533A;&#x4E2D;&#x663E;&#x793A;&#x7684;&#x8282;&#x70B9;&#x540D;&#x79F0;
+                                    </li>
+                                    <li><code>label</code>: (&#x5B57;&#x7B26;&#x4E32;|&#x51FD;&#x6570;)&#x5DE5;&#x4F5C;&#x533A;&#x4E2D;&#x663E;&#x793A;&#x7684;&#x8282;&#x70B9;&#x540D;&#x79F0;
+                                    </li>
+                                    <li><code>labelStyle</code>: (&#x5B57;&#x7B26;&#x4E32;|&#x51FD;&#x6570;)&#x5E94;&#x7528;&#x4E8E;&#x8282;&#x70B9;&#x7684;&#x6837;&#x5F0F;
+                                    </li>
+                                    <li><code>inputLabels</code>: (&#x5B57;&#x7B26;&#x4E32;|&#x51FD;&#x6570;)&#x5728;&#x60AC;&#x505C;&#x65F6;&#x6DFB;&#x52A0;&#x5230;&#x8282;&#x70B9;&#x8F93;&#x5165;&#x7AEF;&#x53E3;&#x7684;&#x53EF;&#x9009;&#x6807;&#x7B7E;
+                                    </li>
+                                    <li><code>outputLabels</code>: (&#x5B57;&#x7B26;&#x4E32;|&#x51FD;&#x6570;)&#x5728;&#x60AC;&#x505C;&#x65F6;&#x6DFB;&#x52A0;&#x5230;&#x8282;&#x70B9;&#x8F93;&#x51FA;&#x7AEF;&#x53E3;&#x7684;&#x53EF;&#x9009;&#x6807;&#x7B7E;
+                                    </li>
+                                    <li><code>icon</code>: &#xFF08;&#x5B57;&#x7B26;&#x4E32;&#xFF09;&#x8981;&#x4F7F;&#x7528;&#x7684;&#x56FE;&#x6807;
+                                    </li>
+                                    <li><code>align</code>: &#xFF08;&#x5B57;&#x7B26;&#x4E32;&#xFF09;&#x56FE;&#x6807;&#x548C;&#x6807;&#x7B7E;&#x7684;&#x5BF9;&#x9F50;&#x65B9;&#x5F0F;
+                                    </li>
+                                    <li><code>oneditprepare</code>:&#xFF08;&#x51FD;&#x6570;&#xFF09;&#x5728;&#x6784;&#x5EFA;&#x7F16;&#x8F91;&#x5BF9;&#x8BDD;&#x6846;&#x65F6;&#x8C03;&#x7528;&#x7684;&#x81EA;&#x5B9A;&#x4E49;&#x7F16;&#x8F91;&#x884C;&#x4E3A;
+                                    </li>
+                                    <li><code>oneditsave</code>: &#xFF08;&#x51FD;&#x6570;&#xFF09;&#x5728;&#x7F16;&#x8F91;&#x5BF9;&#x8BDD;&#x6846;&#x6B63;&#x5E38;&#x65F6;&#x8C03;&#x7528;&#x7684;&#x81EA;&#x5B9A;&#x4E49;&#x7F16;&#x8F91;&#x884C;&#x4E3A;
+                                    </li>
+                                    <li><code>oneditcancel</code>: &#xFF08;&#x51FD;&#x6570;&#xFF09;&#x5728;&#x53D6;&#x6D88;&#x7F16;&#x8F91;&#x5BF9;&#x8BDD;&#x6846;&#x65F6;&#x8C03;&#x7528;&#x7684;&#x81EA;&#x5B9A;&#x4E49;&#x7F16;&#x8F91;&#x884C;&#x4E3A;
+                                    </li>
+                                    <li><code>oneditdelete</code>: &#xFF08;&#x51FD;&#x6570;&#xFF09;&#x5728;&#x6309;&#x4E0B;&#x914D;&#x7F6E;&#x8282;&#x70B9;&#x7F16;&#x8F91;&#x5BF9;&#x8BDD;&#x6846;&#x4E2D;&#x7684;&#x5220;&#x9664;&#x6309;&#x94AE;&#x65F6;&#x8C03;&#x7528;&#x7684;&#x81EA;&#x5B9A;&#x4E49;&#x7F16;&#x8F91;&#x884C;&#x4E3A;
+                                    </li>
+                                    <li><code>oneditresize</code>: &#xFF08;&#x51FD;&#x6570;&#xFF09;&#x5728;&#x8C03;&#x6574;&#x7F16;&#x8F91;&#x5BF9;&#x8BDD;&#x6846;&#x5927;&#x5C0F;&#x65F6;&#x8C03;&#x7528;&#x7684;&#x81EA;&#x5B9A;&#x4E49;&#x7F16;&#x8F91;&#x884C;&#x4E3A;
+                                    </li>
+                                    <li><code>onpaletteadd</code>: &#xFF08;&#x51FD;&#x6570;&#xFF09;&#x5728;&#x5C06;&#x8282;&#x70B9;&#x7C7B;&#x578B;&#x6DFB;&#x52A0;&#x5230;&#x8C03;&#x8272;&#x677F;&#x65F6;&#x8C03;&#x7528;&#x7684;&#x81EA;&#x5B9A;&#x4E49;&#x7F16;&#x8F91;&#x884C;&#x4E3A;
+                                    </li>
+                                    <li><code>onpaletteremove</code>: &#xFF08;&#x51FD;&#x6570;&#xFF09;&#x5728;&#x4ECE;&#x8C03;&#x8272;&#x677F;&#x4E2D;&#x5220;&#x9664;&#x8282;&#x70B9;&#x7C7B;&#x578B;&#x65F6;&#x8C03;&#x7528;&#x7684;&#x81EA;&#x5B9A;&#x4E49;&#x7F16;&#x8F91;&#x884C;&#x4E3A;
+                                    </li>
+                                </ul>
+                                <h4 id="&#x7F16;&#x8F91;&#x5BF9;&#x8BDD;&#x6846;">&#x7F16;&#x8F91;&#x5BF9;&#x8BDD;&#x6846;</h4>
+                                <p>&#x8282;&#x70B9;&#x7684;&#x7F16;&#x8F91;&#x6A21;&#x677F;&#x63CF;&#x8FF0;&#x7684;&#x5185;&#x5BB9;&#x7F16;&#x8F91;&#x5BF9;&#x8BDD;&#x6846;</p>
+                                <pre><code class="lang-html"><span class="hljs-tag">&lt;<span
+                                        class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span
+                                        class="hljs-string">&quot;text/html&quot;</span> <span class="hljs-attr">data-template-name</span>=<span
+                                        class="hljs-string">&quot;node-type&quot;</span>&gt;</span><span
+                                        class="handlebars"><span class="xml">
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span
+            class="hljs-string">&quot;form-row&quot;</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span
+                class="hljs-string">&quot;node-input-name&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span
+                                        class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span
+                                        class="hljs-string">&quot;fa fa-tag&quot;</span>&gt;</span><span
+                                        class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span> Name<span
+                                        class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span
+                class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;node-input-name&quot;</span> <span
+                class="hljs-attr">placeholder</span>=<span class="hljs-string">&quot;Name&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span
+            class="hljs-string">&quot;form-tips&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span
+                                        class="hljs-name">b</span>&gt;</span>Tip:<span class="hljs-tag">&lt;/<span
+                                        class="hljs-name">b</span>&gt;</span> This is here to help.<span
+                                        class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</span></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+                                <h4 id="&#x5E2E;&#x52A9;&#x6587;&#x672C;">&#x5E2E;&#x52A9;&#x6587;&#x672C;</h4>
+                                <p>&#x5F53;&#x9009;&#x62E9;&#x4E00;&#x4E2A;&#x8282;&#x70B9;,&#x5B83;&#x5E2E;&#x52A9;&#x6587;&#x672C;&#x663E;&#x793A;&#x5728;info&#x9009;&#x9879;&#x5361;&#x3002;&#x8FD9;&#x5E94;&#x8BE5;&#x63D0;&#x4F9B;&#x4E00;&#x4E2A;&#x6709;&#x610F;&#x4E49;&#x7684;&#x63CF;&#x8FF0;&#x7684;&#x8282;&#x70B9;&#x3002;&#x5B83;&#x5E94;&#x8BE5;&#x786E;&#x5B9A;
+                                    &#x5B83;&#x4F20;&#x51FA;&#x6D88;&#x606F;&#x96C6;&#x548C;&#x5C5E;&#x6027;&#x53EF;&#x4EE5;&#x8BBE;&#x7F6E;&#x4F20;&#x5165;&#x7684;&#x6D88;&#x606F;</p>
+                                <p>&#x7B2C;&#x4E00;&#x4E2A;<code>&lt; p &gt;</code>&#x7684;&#x5185;&#x5BB9;&#x6807;&#x8BB0;&#x7528;&#x4F5C;&#x5F53;&#x60AC;&#x505C;&#x5728;&#x5DE5;&#x5177;&#x63D0;&#x793A;&#x8282;&#x70B9;&#x7684;&#x91CD;&#x8981;&#x6807;&#x9898;&#x3002;
+                                </p>
+                                <pre><code class="lang-html"><span class="hljs-tag">&lt;<span
+                                        class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span
+                                        class="hljs-string">&quot;text/html&quot;</span> <span class="hljs-attr">data-help-name</span>=<span
+                                        class="hljs-string">&quot;node-type&quot;</span>&gt;</span><span
+                                        class="handlebars"><span class="xml">
+   <span class="hljs-tag">&lt;<span
+           class="hljs-name">p</span>&gt;</span>Some useful help text to introduce the node.<span class="hljs-tag">&lt;/<span
+                                        class="hljs-name">p</span>&gt;</span>
+   <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Outputs<span class="hljs-tag">&lt;/<span
+                                        class="hljs-name">h3</span>&gt;</span>
+       <span class="hljs-tag">&lt;<span class="hljs-name">dl</span> <span class="hljs-attr">class</span>=<span
+               class="hljs-string">&quot;message-properties&quot;</span>&gt;</span>
+       <span class="hljs-tag">&lt;<span class="hljs-name">dt</span>&gt;</span>payload
+           <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span
+                   class="hljs-string">&quot;property-type&quot;</span>&gt;</span>string | buffer<span class="hljs-tag">&lt;/<span
+                                        class="hljs-name">span</span>&gt;</span>
+       <span class="hljs-tag">&lt;/<span class="hljs-name">dt</span>&gt;</span>
+   <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Details<span class="hljs-tag">&lt;/<span
+                                        class="hljs-name">h3</span>&gt;</span>
+   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Some more information about the node.<span
+                                        class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+</span></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+                                <h3 id="packagejson&#x6587;&#x4EF6;">package.json&#x6587;&#x4EF6;</h3>
+                                <p>package.json&#x6587;&#x4EF6;&#x53EF;&#x4EE5;&#x4F7F;&#x8282;&#x70B9;&#x901A;&#x8FC7;npm&#x5B89;&#x88C5;&#xFF0C;package.json&#x683C;&#x5F0F;&#x5982;&#x4E0B;&#xFF1A;</p>
+                                <p><img src="../../../assets/component_dev6.png" alt="&#x754C;&#x9762;&#x4ECB;&#x7ECD;">
+                                </p>
+                                <p>package&#x6587;&#x4EF6;&#x4E3B;&#x8981;&#x662F;&#x914D;&#x7F6E;&#x8282;&#x70B9;&#x5B89;&#x88C5;&#x6240;&#x9700;&#x5185;&#x5BB9;&#xFF0C;&#x5305;&#x540D;&#x79F0;&#x3001;&#x7248;&#x672C;&#x53F7;&#x3001;&#x5BF9;&#x5E94;&#x7684;js&#x6587;&#x4EF6;&#x7B49;&#x3002;</p>
+                                <h3 id="&#x65E5;&#x5FD7;&#x7EC4;&#x4EF6;&#x8C03;&#x7528;">&#x65E5;&#x5FD7;&#x7EC4;&#x4EF6;&#x8C03;&#x7528;</h3>
+                                <p>&#x5728;&#x7EC4;&#x4EF6;&#x5E93;&#x5F00;&#x53D1;&#x4E2D;&#xFF0C;&#x53EF;&#x80FD;&#x9700;&#x8981;&#x4E0D;&#x540C;&#x7EA7;&#x522B;&#x7684;&#x65E5;&#x5FD7;&#x8BB0;&#x5F55;&#xFF0C;&#x7CFB;&#x7EDF;&#x652F;&#x6301;8&#x79CD;&#x6807;&#x51C6;&#x7684;&#x65E5;&#x5FD7;&#x7EA7;&#x522B;&#x7B56;&#x7565;&#xFF0C;&#x5206;&#x522B;&#x4E3A;&#xFF1A;fatal,error,warn,info,debug,trace,audit,metric&#xFF0C;&#x53EF;&#x6839;&#x636E;&#x5F00;&#x53D1;&#x9700;&#x8981;&#xFF0C;&#x5236;&#x5B9A;&#x89C4;&#x5219;&#xFF0C;&#x8F93;&#x51FA;&#x4E0D;&#x540C;&#x7EA7;&#x522B;&#x7684;&#x65E5;&#x5FD7;&#x3002;</p>
+                                <p>&#x5E38;&#x89C1;&#x65E5;&#x5FD7;&#x7B56;&#x7565;&#xFF1A;
+                                    ERROR | &#x9519;&#x8BEF;&#xFF1A;&#x6307;&#x660E;&#x9519;&#x8BEF;&#x4E8B;&#x4EF6;&#xFF0C;&#x4F46;&#x5E94;&#x7528;&#x53EF;&#x80FD;&#x8FD8;&#x80FD;&#x7EE7;&#x7EED;&#x8FD0;&#x884C;&#x3002;
+                                    WARN | &#x8B66;&#x544A;&#xFF1A;&#x6307;&#x660E;&#x53EF;&#x80FD;&#x6F5C;&#x5728;&#x7684;&#x5371;&#x9669;&#x72B6;&#x51B5;&#x3002;
+                                    INFO | &#x4FE1;&#x606F;&#xFF1A;&#x6307;&#x660E;&#x63CF;&#x8FF0;&#x4FE1;&#x606F;&#xFF0C;&#x4ECE;&#x7C97;&#x7C92;&#x5EA6;&#x4E0A;&#x63CF;&#x8FF0;&#x4E86;&#x5E94;&#x7528;&#x8FD0;&#x884C;&#x8FC7;&#x7A0B;&#x3002;
+                                    DEBUG | &#x8C03;&#x8BD5;&#xFF1A;&#x6307;&#x660E;&#x7EC6;&#x81F4;&#x7684;&#x4E8B;&#x4EF6;&#x4FE1;&#x606F;&#xFF0C;&#x5BF9;&#x8C03;&#x8BD5;&#x5E94;&#x7528;&#x6700;&#x6709;&#x7528;&#x3002; </p>
+                                <p>&#x5728;&#x521B;&#x5EFA;&#x8282;&#x70B9;&#x7684;&#x51FD;&#x6570;&#x4E2D;&#x6DFB;&#x52A0;&#x6253;&#x5370;&#x65E5;&#x5FD7;&#x4EE3;&#x7801;</p>
+                                <pre><code>node.logger.info(&quot;payload:&quot;+msg.payload);
+</code></pre>
+                                <p><img src="../../../assets/component_dev30.png"
+                                        alt="&#x754C;&#x9762;&#x4ECB;&#x7ECD;"></p>
+                                <p>&#x53EF;&#x5728;&#x5F00;&#x53D1;&#x673A;&#x7EC8;&#x7AEF;&#x63A7;&#x5236;&#x53F0;&#x4E2D;&#x89C2;&#x5BDF;&#x65E5;&#x5FD7;&#xFF0C;&#x70B9;&#x51FB;<code>&#x8BBE;&#x7F6E;</code>-&gt;<code>&#x5F00;&#x53D1;&#x673A;</code>-&gt;<code>&#x6253;&#x5F00;&#x7EC8;&#x7AEF;</code>
+                                </p>
+                                <p><img src="../../../assets/component_dev31.png"
+                                        alt="&#x754C;&#x9762;&#x4ECB;&#x7ECD;"></p>
+                                <p>&#x6253;&#x5F00;&#x5F00;&#x53D1;&#x673A;&#x7EC8;&#x7AEF;&#xFF0C;&#x8F93;&#x5165;
+                                    docker logs flexcloud -f &#x547D;&#x4EE4;&#xFF0C;&#x8FDB;&#x5165;&#x5BB9;&#x5668;&#x89C2;&#x5BDF;&#x65E5;&#x5FD7;</p>
+                                <p><img src="../../../assets/component_dev32.png"
+                                        alt="&#x754C;&#x9762;&#x4ECB;&#x7ECD;"></p>
+                                <p>&#x65E5;&#x5FD7;&#x8BB0;&#x5F55;&#x683C;&#x5F0F;&#x4E3A;&#xFF1A;&#x8282;&#x70B9;ID
+                                    &#x81EA;&#x5B9A;&#x4E49;&#x4FE1;&#x606F; </p>
+                                <p><img src="../../../assets/component_dev34.png"
+                                        alt="&#x754C;&#x9762;&#x4ECB;&#x7ECD;"></p>
+                                <p>&#x4E3A;&#x4E86;&#x65B9;&#x4FBF;&#x89C2;&#x5BDF;&#x548C;&#x8C03;&#x8BD5;&#xFF0C;Debug&#x7EA7;&#x522B;&#x65E5;&#x5FD7;&#x9664;&#x5728;&#x63A7;&#x5236;&#x53F0;&#x8BB0;&#x5F55;&#x5916;&#xFF0C;&#x8FD8;&#x4F1A;&#x5728;&#x8C03;&#x8BD5;&#x7A97;&#x53E3;&#x4E2D;&#x663E;&#x793A;&#x3002;</p>
+                                <p><img src="../../../assets/component_dev33.png"
+                                        alt="&#x754C;&#x9762;&#x4ECB;&#x7ECD;"></p>
+                                <p>&#x9879;&#x76EE;&#x90E8;&#x7F72;&#x6210;&#x529F;&#x540E;&#xFF0C;&#x53EF;&#x5728;&#x90E8;&#x7F72;&#x8BE6;&#x60C5;&#x9875;&#x67E5;&#x770B;&#x8282;&#x70B9;&#x5177;&#x4F53;&#x7684;&#x65E5;&#x5FD7;&#xFF0C;</p>
+                                <p><img src="../../../assets/component_dev35.png"
+                                        alt="&#x754C;&#x9762;&#x4ECB;&#x7ECD;"></p>
+                                <p>&#x82E5;APP&#x5E94;&#x7528;&#x4E2D;&#x5B58;&#x5728;error&#x65E5;&#x5FD7;&#xFF0C;&#x5219;&#x8282;&#x70B9;&#x4F1A;&#x663E;&#x793A;&#x4E3A;&#x7EA2;&#x8272;</p>
+                                <p><img src="../../../assets/component_dev37.png"
+                                        alt="&#x754C;&#x9762;&#x4ECB;&#x7ECD;"></p>
+                                <p>&#x70B9;&#x51FB;<code>&#x8282;&#x70B9;</code>&#x4F1A;&#x663E;&#x793A;&#x5F53;&#x524D;&#x8282;&#x70B9;&#x7684;&#x76F8;&#x5173;&#x65E5;&#x5FD7;&#xFF0C;&#x53EF;&#x6839;&#x636E;&#x7C7B;&#x578B;&#x8FDB;&#x884C;&#x8FC7;&#x6EE4;
+                                </p>
+                                <p><img src="../../../assets/component_dev36.png"
+                                        alt="&#x754C;&#x9762;&#x4ECB;&#x7ECD;"></p>
+                                <h2 id="&#x9879;&#x76EE;&#x5B9E;&#x4F8B;">&#x9879;&#x76EE;&#x5B9E;&#x4F8B;</h2>
+                                <h3 id="&#x7EC4;&#x4EF6;&#x8282;&#x70B9;&#x5F00;&#x53D1;&#x5B9E;&#x4F8B;&#xFF1A;&#x8BBE;&#x5907;&#x6CE8;&#x518C;">
+                                    &#x7EC4;&#x4EF6;&#x8282;&#x70B9;&#x5F00;&#x53D1;&#x5B9E;&#x4F8B;&#xFF1A;&#x8BBE;&#x5907;&#x6CE8;&#x518C;</h3>
+                                <h4 id="&#x6B65;&#x9AA4;1&#x3001;&#x9996;&#x5148;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x7EC4;&#x4EF6;&#x8282;&#x70B9;&#x9879;&#x76EE;&#xFF0C;&#x767B;&#x5F55;&#x540E;&#x8FDB;&#x5165;&#x9879;&#x76EE;&#x5217;&#x8868;&#xFF0C;&#x70B9;&#x51FB;&#x521B;&#x5EFA;&#x9879;&#x76EE;&#x6309;&#x94AE;&#x3002;">
+                                    &#x6B65;&#x9AA4;1&#x3001;&#x9996;&#x5148;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x7EC4;&#x4EF6;&#x8282;&#x70B9;&#x9879;&#x76EE;&#xFF0C;&#x767B;&#x5F55;&#x540E;&#x8FDB;&#x5165;&#x9879;&#x76EE;&#x5217;&#x8868;&#xFF0C;&#x70B9;&#x51FB;<code>&#x521B;&#x5EFA;&#x9879;&#x76EE;</code>&#x6309;&#x94AE;&#x3002;
+                                </h4>
+                                <p><img src="../../../assets/component_dev1.png" alt="&#x754C;&#x9762;&#x4ECB;&#x7ECD;">
+                                </p>
+                                <p>&#x9879;&#x76EE;&#x7C7B;&#x578B;&#x9009;&#x62E9;&#x7EC4;&#x4EF6;&#x8282;&#x70B9;&#xFF0C;&#x70B9;&#x51FB;<code>&#x786E;&#x8BA4;</code>&#x6309;&#x94AE;&#x521B;&#x5EFA;&#x65B0;&#x9879;&#x76EE;&#x3002;
+                                </p>
+                                <p><img src="../../../assets/component_dev2.png" alt="&#x754C;&#x9762;&#x4ECB;&#x7ECD;">
+                                </p>
+                                <h4 id="&#x6B65;&#x9AA4;2&#x3001;&#x8FDB;&#x5165;&#x9879;&#x76EE;&#xFF0C;&#x7CFB;&#x7EDF;&#x4F1A;&#x81EA;&#x52A8;&#x521B;&#x5EFA;&#x7EC4;&#x4EF6;&#x8282;&#x70B9;&#x5F00;&#x53D1;&#x6240;&#x9700;&#x7684;&#x51E0;&#x4E2A;&#x6587;&#x4EF6;&#x6A21;&#x677F;&#xFF0C;&#x70B9;&#x51FB;webide&#x6309;&#x94AE;&#x8FDB;&#x5165;&#x5F00;&#x53D1;&#x73AF;&#x5883;">
+                                    &#x6B65;&#x9AA4;2&#x3001;&#x8FDB;&#x5165;&#x9879;&#x76EE;&#xFF0C;&#x7CFB;&#x7EDF;&#x4F1A;&#x81EA;&#x52A8;&#x521B;&#x5EFA;&#x7EC4;&#x4EF6;&#x8282;&#x70B9;&#x5F00;&#x53D1;&#x6240;&#x9700;&#x7684;&#x51E0;&#x4E2A;&#x6587;&#x4EF6;&#x6A21;&#x677F;&#xFF0C;&#x70B9;&#x51FB;<code>webIDE</code>&#x6309;&#x94AE;&#x8FDB;&#x5165;&#x5F00;&#x53D1;&#x73AF;&#x5883;
+                                </h4>
+                                <p><img src="../../../assets/component_dev3.png" alt="&#x754C;&#x9762;&#x4ECB;&#x7ECD;">
+                                </p>
+                                <h4 id="&#x6B65;&#x9AA4;3&#x3001;&#x5F00;&#x53D1;&#x4EE3;&#x7801;">&#x6B65;&#x9AA4;3&#x3001;&#x5F00;&#x53D1;&#x4EE3;&#x7801;</h4>
+                                <p>&#x8FDB;&#x5165;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#xFF0C;&#x70B9;&#x51FB;&#x5DE6;&#x4FA7;&#x680F;&#x6587;&#x4EF6;&#x8D44;&#x6E90;&#x7BA1;&#x7406;&#x5668;&#xFF0C;&#x6253;&#x5F00;<code>&#x9879;&#x76EE;&#x540D;.js</code>&#x6587;&#x4EF6;&#xFF0C;&#x7528;&#x4E8E;&#x7F16;&#x5199;&#x7EC4;&#x4EF6;&#x7684;&#x529F;&#x80FD;&#x903B;&#x8F91;&#x4EE3;&#x7801;&#x3002;
+                                </p>
+                                <p><img src="../../../assets/component_dev7.png" alt="&#x754C;&#x9762;&#x4ECB;&#x7ECD;">
+                                </p>
+                                <p>js&#x4EE3;&#x7801;&#x5982;&#x4E0B;</p>
+                                <pre><code>var mqtt = require(&apos;mqtt&apos;)
+
+module.exports = function (RED) {
+    &quot;use strict&quot;;
+
+    function getData(getGuidJson, appName) {
+        return new Promise((resolve, reject) =&gt; {
+            var client = mqtt.connect(&quot;mqtt://172.17.0.1:1883&quot;)
+            var devID = &quot;&quot;
+            var guid = &quot;&quot;
+            var model = &quot;&quot;
+
+            // console.log(&quot;getData&quot;, getGuidJson, appName);
+
+            client.publish(appName + &apos;/get/request/database/guid&apos;, getGuidJson)
+            client.subscribe(&apos;database/get/response/&apos; + appName + &apos;/guid&apos;);
+
+            client.on(&quot;message&quot;, function (topic, message) {
+                var msg = JSON.parse(message.toString())
+                devID = msg.body[0].dev
+                guid = msg.body[0].guid
+                model = msg.body[0].model
+                console.log(&quot;dev: &quot;, devID, &quot;guid: &quot;, guid)
+                resolve({
+                    &quot;guid&quot;: guid,
+                    &quot;dev_id&quot;: devID,
+                    &quot;model&quot;: model,
+                });
+            })
+
+        });
+    }
+
+
+    function DeviceRegister(n) {
+        (async () =&gt; {
+            RED.nodes.createNode(this, n);
+            this.status({});
+            let node = this
+
+            // console.log(&quot;node: \n&quot;, n)
+            // console.log(&quot;node this: \n&quot;, this)
+
+            if (n.appName === &quot;&quot;) {
+                node.error(&quot;app&#x540D;&#x79F0;&#x4E0D;&#x80FD;&#x4E3A;&#x7A7A;&quot;)
+            }
+            if (n.modelReqBody === &quot;&quot;) {
+                node.error(&quot;&#x6A21;&#x578B;&#x6CE8;&#x518C;&#x8BF7;&#x6C42;&#x4F53;&#x4E0D;&#x80FD;&#x4E3A;&#x7A7A;&quot;)
+            } else {
+                try {
+                    JSON.stringify(JSON.parse(n.modelReqBody))
+                } catch (e) {
+                    node.error(&quot;&#x6A21;&#x578B;&#x6CE8;&#x518C;&#x8BF7;&#x6C42;&#x4F53;JSON&#x683C;&#x5F0F;&#x9519;&#x8BEF;&quot;)
+                }
+            }
+            if (n.deviceReqBody === &quot;&quot;) {
+                node.error(&quot;&#x8BBE;&#x5907;&#x6CE8;&#x518C;&#x8BF7;&#x6C42;&#x4F53;&#x4E0D;&#x80FD;&#x4E3A;&#x7A7A;&quot;)
+            } else {
+                try {
+                    JSON.stringify(JSON.parse(n.deviceReqBody))
+                } catch (e) {
+                    node.error(&quot;&#x8BBE;&#x5907;&#x6CE8;&#x518C;&#x8BF7;&#x6C42;&#x4F53;JSON&#x683C;&#x5F0F;&#x9519;&#x8BEF;&quot;)
+                }
+            }
+
+            var client = mqtt.connect(&quot;mqtt://172.17.0.1:1883&quot;)
+
+            // &#x6CE8;&#x518C;&#x6A21;&#x578B;&#x548C;&#x8BBE;&#x5907;
+            client.publish(n.appName + &apos;/set/request/database/model&apos;, n.modelReqBody)
+            client.publish(n.appName + &apos;/set/request/database/register&apos;, n.deviceReqBody)
+
+            // &#x83B7;&#x53D6; devID &#x548C; guid
+            let dataRet = await getData(n.deviceReqBody, n.appName);
+            console.log(&quot;dataRet: &quot;, dataRet)
+            // &#x5C06; devID &#x548C; guid &#x4E0B;&#x53D1;&#x5230;&#x4E0B;&#x9762;&#x7684;&#x8282;&#x70B9;
+            node.send({
+                payload: {
+                    &quot;guid&quot;: dataRet.guid,
+                    &quot;dev_id&quot;: dataRet.dev_id,
+                    &quot;app_name&quot;: n.appName,
+                    &quot;model&quot;: dataRet.model
+                },
+            })
+
+        })()
+    }
+
+    RED.nodes.registerType(&quot;linan47655117-device-register&quot;, DeviceRegister);
+}
+</code></pre>
+                                <p>&#x6253;&#x5F00;<code>&#x9879;&#x76EE;&#x540D;.html</code>&#x6587;&#x4EF6;&#xFF0C;&#x7528;&#x4E8E;&#x5B9A;&#x4E49;&#x8282;&#x70B9;&#x5C5E;&#x6027;&#xFF0C;&#x7F16;&#x8F91;&#x9762;&#x677F;&#x548C;&#x5E2E;&#x52A9;&#x6587;&#x6863;&#x3002;
+                                </p>
+                                <p><img src="../../../assets/component_dev20.png"
+                                        alt="&#x754C;&#x9762;&#x4ECB;&#x7ECD;"></p>
+                                <p><img src="../../../assets/component_dev8.png" alt="&#x754C;&#x9762;&#x4ECB;&#x7ECD;">
+                                </p>
+                                <p>html&#x4EE3;&#x7801;&#x5982;&#x4E0B;</p>
+                                <p><strong>&#x9700;&#x6CE8;&#x610F;data-template-name&#xFF08;&#x8282;&#x70B9;&#x7F16;&#x8F91;&#x9762;&#x677F;&#x540D;&#x79F0;&#xFF09;&#x3001;data-help-name&#xFF08;&#x5E2E;&#x52A9;&#x6587;&#x6863;&#x540D;&#x79F0;&#xFF09;&#x3001;registerType&#xFF08;&#x8282;&#x70B9;&#x5C5E;&#x6027;&#x540D;&#x79F0;&#xFF09;&#xFF0C;&#x6B64;&#x4E09;&#x9879;&#x6240;&#x914D;&#x7F6E;&#x7684;&#x540D;&#x79F0;&#x5FC5;&#x987B;&#x76F8;&#x540C;&#x3002;</strong>
+                                </p>
+                                <pre><code class="lang-html"><span class="hljs-tag">&lt;<span
+                                        class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span
+                                        class="hljs-string">&quot;text/html&quot;</span> <span class="hljs-attr">data-template-name</span>=<span
+                                        class="hljs-string">&quot;linan47655117-device-register&quot;</span>&gt;</span><span
+                                        class="handlebars"><span class="xml">
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span
+            class="hljs-string">&quot;form-row&quot;</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span
+                class="hljs-string">&quot;node-input-appName&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span
+                                        class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span
+                                        class="hljs-string">&quot;fa fa-tag&quot;</span>&gt;</span><span
+                                        class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span> <span
+                                        class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>app&#x540D;&#x79F0;<span
+                                        class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span
+                                        class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span
+                class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;node-input-appName&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span
+            class="hljs-string">&quot;form-row&quot;</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span
+                class="hljs-string">&quot;node-input-name&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span
+                                        class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span
+                                        class="hljs-string">&quot;fa fa-tag&quot;</span>&gt;</span><span
+                                        class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span> <span
+                                        class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span><span
+                                        class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>&#x8282;&#x70B9;&#x540D;&#x79F0;<span
+                                        class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span
+                class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;node-input-name&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span
+            class="hljs-string">&quot;form-row&quot;</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span
+                class="hljs-string">&quot;node-input-modelReqBody&quot;</span>&gt;</span><span
+                                        class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span
+                                        class="hljs-string">&quot;fa fa-tag&quot;</span>&gt;</span><span
+                                        class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span> <span
+                                        class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span><span
+                                        class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>&#x6A21;&#x578B;&#x6CE8;&#x518C;&#x8BF7;&#x6C42;&#x4F53;(JSON&#x683C;&#x5F0F;)<span
+                                        class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">textarea</span> <span class="hljs-attr">id</span>=<span
+                class="hljs-string">&quot;node-input-modelReqBody&quot;</span> <span class="hljs-attr">rows</span>=<span
+                class="hljs-string">&quot;5&quot;</span> <span class="hljs-attr">cols</span>=<span class="hljs-string">&quot;10&quot;</span>&gt;</span><span
+                                        class="hljs-tag">&lt;/<span class="hljs-name">textarea</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span
+            class="hljs-string">&quot;form-row&quot;</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span
+                class="hljs-string">&quot;node-input-deviceReqBody&quot;</span>&gt;</span><span
+                                        class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span
+                                        class="hljs-string">&quot;fa fa-tag&quot;</span>&gt;</span><span
+                                        class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span> <span
+                                        class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span><span
+                                        class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>&#x8BBE;&#x5907;&#x6CE8;&#x518C;&#x8BF7;&#x6C42;&#x4F53;(JSON&#x683C;&#x5F0F;)<span
+                                        class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">textarea</span> <span class="hljs-attr">id</span>=<span
+                class="hljs-string">&quot;node-input-deviceReqBody&quot;</span> <span
+                class="hljs-attr">rows</span>=<span class="hljs-string">&quot;5&quot;</span> <span class="hljs-attr">cols</span>=<span
+                class="hljs-string">&quot;10&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">textarea</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</span></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span
+        class="hljs-string">&quot;text/html&quot;</span> <span class="hljs-attr">data-help-name</span>=<span
+        class="hljs-string">&quot;linan47655117-device-register&quot;</span>&gt;</span><span class="handlebars"><span
+                                            class="xml"><span class="hljs-comment">&lt;!-- &#x5BF9;&#x5E94;&#x7684;&#x5E2E;&#x52A9;&#x6587;&#x6863; --&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>&#x5C06;&#x8BBE;&#x5907;&#x4FE1;&#x606F;&#x6CE8;&#x518C;&#x5230;&#x6570;&#x636E;&#x4E2D;&#x5FC3;&#x3002;<span
+                                                class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>&#x8F93;&#x5165;<span
+                                                class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">dl</span> <span class="hljs-attr">class</span>=<span
+            class="hljs-string">&quot;message-properties&quot;</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">dt</span> <span class="hljs-attr">class</span>=<span
+                class="hljs-string">&quot;optional&quot;</span>&gt;</span>&#x8282;&#x70B9;&#x540D;&#x79F0; <span
+                                                class="hljs-tag">&lt;<span class="hljs-name">span</span> <span
+                                                class="hljs-attr">class</span>=<span class="hljs-string">&quot;property-type&quot;</span>&gt;</span>&#x5B57;&#x7B26;&#x4E32;<span
+                                                class="hljs-tag">&lt;/<span
+                                                class="hljs-name">span</span>&gt;</span><span
+                                                class="hljs-tag">&lt;/<span class="hljs-name">dt</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">dd</span>&gt;</span>&#x5F53;&#x524D;&#x8282;&#x70B9;&#x540D;&#x79F0;&#x3002;<span
+                                                class="hljs-tag">&lt;/<span class="hljs-name">dd</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">dt</span> <span class="hljs-attr">class</span>=<span
+                class="hljs-string">&quot;optional&quot;</span>&gt;</span>app&#x540D;&#x79F0; <span class="hljs-tag">&lt;<span
+                                                class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span
+                                                class="hljs-string">&quot;property-type&quot;</span>&gt;</span>&#x5B57;&#x7B26;&#x4E32;<span
+                                                class="hljs-tag">&lt;/<span
+                                                class="hljs-name">span</span>&gt;</span><span
+                                                class="hljs-tag">&lt;/<span class="hljs-name">dt</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">dd</span>&gt;</span>&#x6CE8;&#x518C;&#x7684;&#x5E94;&#x7528;&#x540D;&#x79F0;&#x3002;<span
+                                                class="hljs-tag">&lt;/<span class="hljs-name">dd</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">dt</span> <span class="hljs-attr">class</span>=<span
+                class="hljs-string">&quot;optional&quot;</span>&gt;</span>&#x6A21;&#x578B;&#x6CE8;&#x518C;&#x8BF7;&#x6C42;&#x4F53; <span
+                                                class="hljs-tag">&lt;<span class="hljs-name">span</span> <span
+                                                class="hljs-attr">class</span>=<span class="hljs-string">&quot;property-type&quot;</span>&gt;</span>JSON&#x5B57;&#x7B26;&#x4E32;<span
+                                                class="hljs-tag">&lt;/<span
+                                                class="hljs-name">span</span>&gt;</span><span
+                                                class="hljs-tag">&lt;/<span class="hljs-name">dt</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">dd</span>&gt;</span>&#x6CE8;&#x518C;&#x5F53;&#x524D;&#x8BBE;&#x5907;&#x6A21;&#x578B;&#x6240;&#x9700;&#x7684;JSON&#x683C;&#x5F0F;&#x8BF7;&#x6C42;&#x4F53;&#x3002;<span
+                                                class="hljs-tag">&lt;/<span class="hljs-name">dd</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">dt</span> <span class="hljs-attr">class</span>=<span
+                class="hljs-string">&quot;optional&quot;</span>&gt;</span>&#x8BBE;&#x5907;&#x6CE8;&#x518C;&#x8BF7;&#x6C42;&#x4F53; <span
+                                                class="hljs-tag">&lt;<span class="hljs-name">span</span> <span
+                                                class="hljs-attr">class</span>=<span class="hljs-string">&quot;property-type&quot;</span>&gt;</span>JSON&#x5B57;&#x7B26;&#x4E32;<span
+                                                class="hljs-tag">&lt;/<span
+                                                class="hljs-name">span</span>&gt;</span><span
+                                                class="hljs-tag">&lt;/<span class="hljs-name">dt</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">dd</span>&gt;</span>&#x6CE8;&#x518C;&#x5F53;&#x524D;&#x8BBE;&#x5907;&#x6240;&#x9700;&#x7684;JSON&#x683C;&#x5F0F;&#x8BF7;&#x6C42;&#x4F53;&#x3002;<span
+                                                class="hljs-tag">&lt;/<span class="hljs-name">dd</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">dl</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>&#x8BE6;&#x7EC6;<span
+                                                class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>&#x7528;&#x4E8E;&#x5728;&#x5E94;&#x7528;&#x5F00;&#x53D1;&#x7684;&#x7B2C;&#x4E00;&#x6B65;&#xFF0C;&#x9700;&#x5C06;&#x5F53;&#x524D;&#x8BBE;&#x5907;&#x7684;&#x6A21;&#x578B;&#x4FE1;&#x606F;&#x53CA;&#x6570;&#x636E;&#x5B57;&#x6BB5;&#x6CE8;&#x518C;&#x5230;&#x6570;&#x636E;&#x4E2D;&#x5FC3;&#xFF0C;&#x5F53;&#x8BBE;&#x5907;&#x6A21;&#x578B;&#x521B;&#x5EFA;&#x6210;&#x529F;&#x540E;&#xFF0C;&#x9700;&#x5C06;&#x8BBE;&#x5907;&#x4E0E;&#x76F8;&#x5173;&#x6A21;&#x578B;&#x7ED1;&#x5B9A;&#xFF0C;&#x5E76;&#x4E14;&#x5C06;&#x5F53;&#x524D;&#x8BBE;&#x5907;&#x7684;&#x4FE1;&#x606F;&#x53CA;&#x8BBE;&#x5907;&#x76F8;&#x5173;&#x53C2;&#x6570;&#x6CE8;&#x518C;&#x5230;&#x6570;&#x636E;&#x4E2D;&#x5FC3;&#x3002;<span
+                                                class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+</span></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span
+        class="hljs-string">&quot;text/javascript&quot;</span>&gt;</span><span class="javascript">
+    RED.nodes.registerType(<span class="hljs-string">&apos;linan47655117-device-register&apos;</span>, { <span
+                                            class="hljs-comment">//&#x8282;&#x70B9;&#x7C7B;&#x578B;&#x5FC5;&#x987B;&#x548C;&#x4E0A;&#x9762;&#x6CE8;&#x518C;&#x7684;&#x7C7B;&#x578B;&#x5339;&#x914D;</span>
+        category: <span class="hljs-string">&apos;&#x57FA;&#x7840;&#x7EC4;&#x4EF6;test&apos;</span>,<span
+                                            class="hljs-comment">//&#x8282;&#x70B9;&#x7684;&#x7C7B;&#x522B;&#xFF0C;&#x4E0D;&#x5B58;&#x5728;&#x5219;&#x81EA;&#x52A8;&#x521B;&#x5EFA;&#x65B0;&#x5206;&#x7C7B;</span>
+        color: <span class="hljs-string">&quot;#e97b00&quot;</span>,      <span class="hljs-comment">//&#x8282;&#x70B9;&#x80CC;&#x666F;&#x989C;&#x8272;</span>
+        defaults: {            <span class="hljs-comment">//&#x8282;&#x70B9;&#x53EF;&#x7F16;&#x8F91;&#x7684;&#x5C5E;&#x6027;</span>
+            appName: {
+                value: <span class="hljs-string">&quot;&quot;</span>,
+                required: <span class="hljs-literal">true</span>
+            },
+            name: {
+                value: <span class="hljs-string">&quot;&quot;</span>
+            },
+            modelReqBody: {
+                value: <span class="hljs-string">&quot;&quot;</span>,
+                required: <span class="hljs-literal">true</span>,
+                validate: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span
+                                            class="hljs-params">v</span>) </span>{
+                    <span class="hljs-keyword">try</span> {
+                        <span class="hljs-built_in">JSON</span>.stringify(<span class="hljs-built_in">JSON</span>.parse(v))
+                        <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>
+                    } <span class="hljs-keyword">catch</span> (e) {
+                        <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>
+                    }
+                }
+            },
+            deviceReqBody: {
+                value: <span class="hljs-string">&quot;&quot;</span>,
+                required: <span class="hljs-literal">true</span>,
+                validate: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span
+                                            class="hljs-params">v</span>) </span>{
+                    <span class="hljs-keyword">try</span> {
+                        <span class="hljs-built_in">JSON</span>.stringify(<span class="hljs-built_in">JSON</span>.parse(v))
+                        <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>
+                    } <span class="hljs-keyword">catch</span> (e) {
+                        <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>
+                    }
+                }
+            }
+        },
+        paletteLabel: <span class="hljs-string">&quot;&#x8BBE;&#x5907;&#x6CE8;&#x518C;test&quot;</span>,<span
+                                            class="hljs-comment">//&#x8282;&#x70B9;&#x9762;&#x677F;&#x540D;&#x79F0;</span>
+        inputs: <span class="hljs-number">0</span>,       <span class="hljs-comment">//&#x8282;&#x70B9;&#x6709;&#x591A;&#x5C11;&#x4E2A;&#x8F93;&#x5165; 0&#x6216;&#x8005;1</span>
+        outputs: <span class="hljs-number">1</span>,      <span class="hljs-comment">//&#x8282;&#x70B9;&#x6709;&#x591A;&#x5C11;&#x4E2A;&#x8F93;&#x51FA; 0&#x6216;&#x8005;1</span>
+        icon: <span class="hljs-string">&quot;db.png&quot;</span>,  <span class="hljs-comment">//&#x8981;&#x4F7F;&#x7528;&#x7684;&#x56FE;&#x6807;</span>
+        label: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{<span
+                                            class="hljs-comment">//&#x62D6;&#x5165;&#x7F16;&#x8F91;&#x533A;&#x8981;&#x4F7F;&#x7528;&#x7684;&#x6807;&#x7B7E;&#x540D;&#x79F0;&#x9ED8;&#x8BA4;&#x503C;</span>
+            <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.name || <span
+                                            class="hljs-string">&quot;&#x8BBE;&#x5907;&#x6CE8;&#x518C;test&quot;</span>;
+        },
+        labelStyle: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span
+                                            class="hljs-params"></span>) </span>{
+            <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.name ? <span
+                                            class="hljs-string">&quot;node_label_italic&quot;</span> : <span
+                                            class="hljs-string">&quot;&quot;</span>;
+        }
+    });
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+                                <p>&#x6253;&#x5F00;package.json&#xFF0C;&#x4FEE;&#x6539;&#x8282;&#x70B9;&#x7684;&#x8BF4;&#x660E;&#xFF0C;&#x5B89;&#x88C5;&#x5305;&#x540D;&#x79F0;&#x3001;&#x7248;&#x672C;&#x53F7;&#x3001;&#x4F9D;&#x8D56;&#x5E93;&#x7B49;&#x4FE1;&#x606F;&#x3002;</p>
+                                <p>package.json&#x4EE3;&#x7801;&#x5982;&#x4E0B;</p>
+                                <ul>
+                                    <li><code>name</code>: &#x8282;&#x70B9;&#x7684;npm&#x5305;&#x540D;&#xFF0C;&#x524D;&#x7F00;&#x5FC5;&#x987B;&#x4E0E;&#x5F53;&#x524D;&#x767B;&#x9646;&#x4EBA;&#x5339;&#x914D;
+                                    </li>
+                                    <li><code>version</code>: &#x7248;&#x672C;&#x53F7;&#xFF0C;&#x5FC5;&#x987B;&#x5927;&#x4E8E;&#x73B0;&#x6709;&#x4ED3;&#x5E93;&#x4E2D;&#x7248;&#x672C;&#xFF0C;&#x5426;&#x5219;&#x4F1A;&#x51FA;&#x73B0;&#x7248;&#x672C;&#x95EE;&#x9898;
+                                    </li>
+                                    <li><code>text</code>: &#x8282;&#x70B9;&#x7684;&#x4E2D;&#x6587;&#x663E;&#x793A;&#x540D;&#x79F0;
+                                    </li>
+                                    <li><code>description</code>: &#x63CF;&#x8FF0;&#x5F53;&#x524D;&#x8282;&#x70B9;&#x7684;&#x5177;&#x4F53;&#x4F5C;&#x7528;
+                                    </li>
+                                    <li><code>keywords</code>: &#x5173;&#x952E;&#x5B57;&#xFF0C;&#x8BBE;&#x7F6E;&#x8282;&#x70B9;&#x641C;&#x7D22;&#x7D22;&#x5F15;&#x7684;&#x5206;&#x8BCD;&#x5173;&#x952E;&#x5B57;
+                                    </li>
+                                    <li><code>author</code>: &#x4F5C;&#x8005;&#x5FC5;&#x987B;&#x4E0E;&#x5F53;&#x524D;&#x767B;&#x9646;&#x4EBA;&#x5339;&#x914D;
+                                    </li>
+                                    <li><code>dependencies</code>: &#x5F53;&#x524D;&#x8282;&#x70B9;&#x6240;&#x4F9D;&#x8D56;&#x7684;&#x5176;&#x4ED6;npm&#x5305;
+                                    </li>
+                                    <li><code>nodes</code>: &#x8282;&#x70B9;&#x542F;&#x52A8;&#x65F6;&#x5F15;&#x7528;&#x7684;js&#x6587;&#x4EF6;&#xFF0C;&#x9700;&#x4E0E;&#x5F53;&#x524D;&#x9879;&#x76EE;&#x7684;js&#x6587;&#x4EF6;&#x540D;&#x76F8;&#x540C;<pre><code>{
+&quot;name&quot;: &quot;@linan47655117/device-register&quot;,
+&quot;version&quot;: &quot;1.0.0&quot;,
+&#x201C;text&#x201D;:&quot;&#x8BBE;&#x5907;&#x6CE8;&#x518C;&quot;,
+&quot;description&quot;: &quot;&#x7528;&#x4E8E;&#x5C06;&#x5E94;&#x7528;&#x914D;&#x7F6E;&#x6CE8;&#x518C;&#x5230;&#x6570;&#x636E;&#x4E2D;&#x5FC3;&quot;,
+&quot;main&quot;: &quot;index.js&quot;,
+&quot;dependencies&quot;: {
+  &quot;mqtt&quot;: &quot;^4.2.8&quot;
+},
+&quot;devDependencies&quot;: {},
+&quot;repository&quot;: {},
+&quot;keywords&quot;: [&quot;&#x6F0F;&#x4FDD;&quot;,&quot;&#x6CE8;&#x518C;&quot;,&quot;&#x4F20;&#x611F;&#x5668;&quot;,&quot;&#x8BBE;&#x5907;&quot;],
+&quot;author&quot;: &quot;linan47655117@flexcloud.com&quot;,
+&quot;license&quot;: &quot;ISC&quot;,
+&quot;node-red&quot;: {
+  &quot;nodes&quot;: {
+    &quot;linan47655117-device-register&quot;: &quot;device-register.js&quot;
+  }
+}
+}
+</code></pre>
+                                        <h4 id="&#x6B65;&#x9AA4;4&#x3001;&#x5B89;&#x88C5;&#x6D4B;&#x8BD5;">&#x6B65;&#x9AA4;4&#x3001;&#x5B89;&#x88C5;&#x6D4B;&#x8BD5;</h4>
+                                    </li>
+                                </ul>
+                                <p>&#x70B9;&#x51FB;&#x4E0B;&#x65B9;<code>&#x8282;&#x70B9;&#x5B89;&#x88C5;</code>&#x6309;&#x94AE;&#xFF0C;&#x5C06;&#x8282;&#x70B9;&#x5B89;&#x88C5;&#x5230;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#x8FDB;&#x884C;&#x6D4B;&#x8BD5;&#xFF0C;&#x5B89;&#x88C5;&#x5B8C;&#x6210;&#x540E;&#x4F1A;&#x63D0;&#x793A;&#x5B89;&#x88C5;&#x6210;&#x529F;&#x3002;
+                                </p>
+                                <p><img src="../../../assets/component_dev9.png" alt="&#x754C;&#x9762;&#x4ECB;&#x7ECD;">
+                                </p>
+                                <p>&#x5B89;&#x88C5;&#x6210;&#x529F;&#x540E;&#xFF0C;&#x8282;&#x70B9;&#x4F1A;&#x81EA;&#x52A8;&#x53D1;&#x5E03;&#x5230;&#x79C1;&#x6709;&#x4ED3;&#x5E93;&#x3002;</p>
+                                <p>&#x70B9;&#x51FB;&#x4E2A;&#x4EBA;&#x8282;&#x70B9;&#x5546;&#x5E97;&#xFF0C;&#x8282;&#x70B9;&#x5DF2;&#x4E0A;&#x4F20;&#x6210;&#x529F;&#xFF0C;&#x5217;&#x8868;&#x4E2D;&#x4F1A;&#x663E;&#x793A;&#x7EC4;&#x4EF6;&#x4FE1;&#x606F;&#x53CA;&#x4F5C;&#x8005;&#xFF0C;&#x8BBE;&#x5907;&#x6CE8;&#x518C;&#x8282;&#x70B9;&#x5DF2;&#x5F00;&#x53D1;&#x5B8C;&#x6210;&#x3002;</p>
+                                <p><img src="../../../assets/component_dev19.png"
+                                        alt="&#x754C;&#x9762;&#x4ECB;&#x7ECD;"></p>
+                                <p>&#x8FD4;&#x56DE;&#x5E73;&#x53F0;&#xFF0C;&#x65B0;&#x5EFA;&#x4E00;&#x4E2A;&#x9AD8;&#x7EA7;APP&#x9879;&#x76EE;&#x6216;&#x6253;&#x5F00;&#x4E00;&#x4E2A;&#x5DF2;&#x521B;&#x5EFA;&#x7684;&#x9AD8;&#x7EA7;APP&#x9879;&#x76EE;&#x3002;</p>
+                                <p><img src="../../../assets/component_dev10.png"
+                                        alt="&#x754C;&#x9762;&#x4ECB;&#x7ECD;"></p>
+                                <p>&#x8FDB;&#x5165;&#x9879;&#x76EE;&#xFF0C;&#x70B9;&#x51FB;<code>&#x53EF;&#x89C6;&#x5316;IDE</code>&#x6309;&#x94AE;&#xFF0C;&#x8FDB;&#x5165;&#x53EF;&#x89C6;&#x5316;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x7EC4;&#x4EF6;&#x5DF2;&#x7ECF;&#x6210;&#x529F;&#x5B89;&#x88C5;&#x5230;&#x672C;&#x5730;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#x4E2D;&#x3002;
+                                </p>
+                                <p><img src="../../../assets/component_dev11.png"
+                                        alt="&#x754C;&#x9762;&#x4ECB;&#x7ECD;"></p>
+                                <p>&#x5C06;&#x7EC4;&#x4EF6;&#x8282;&#x70B9;&#x62D6;&#x5165;&#x7F16;&#x8F91;&#x533A;&#x67E5;&#x770B;&#x662F;&#x5426;&#x6B63;&#x786E;&#xFF0C;&#x53EF;&#x5728;&#x4EE3;&#x7801;&#x4E2D;&#x5C06;&#x4E00;&#x4E9B;&#x5173;&#x952E;&#x53C2;&#x6570;&#x8F93;&#x51FA;&#xFF0C;&#x7136;&#x540E;&#x62D6;&#x5165;&#x8C03;&#x8BD5;&#x8FD0;&#x884C;&#x8282;&#x70B9;&#x89C2;&#x5BDF;&#x53C2;&#x6570;&#x662F;&#x5426;&#x6B63;&#x786E;&#x8F93;&#x51FA;&#x3002;</p>
+                                <p><img src="../../../assets/component_dev12.png"
+                                        alt="&#x754C;&#x9762;&#x4ECB;&#x7ECD;"></p>
+                                <h2 id="&#x6269;&#x5C55;&#xFF1A;js-&#x8C03;&#x7528;-c-&#x8BED;&#x8A00;&#x57FA;&#x672C;&#x4ECB;&#x7ECD;&#x53CA;&#x793A;&#x4F8B;">
+                                    &#x6269;&#x5C55;&#xFF1A;JS &#x8C03;&#x7528; C &#x8BED;&#x8A00;&#x57FA;&#x672C;&#x4ECB;&#x7ECD;&#x53CA;&#x793A;&#x4F8B;</h2>
+                                <h3 id="&#x4F7F;&#x7528;&#x7684;-npm-&#x5305;">&#x4F7F;&#x7528;&#x7684; npm
+                                    &#x5305;</h3>
+                                <p>&#x53C2;&#x8003;&#x6587;&#x732E;</p>
+                                <p><a href="https://www.npmjs.com/package/node-addon-api" target="_blank">https://www.npmjs.com/package/node-addon-api</a>
+                                </p>
+                                <p><a href="https://www.npmjs.com/package/bindings" target="_blank">https://www.npmjs.com/package/bindings</a>
+                                </p>
+                                <p>&#x6267;&#x884C;&#x5B89;&#x88C5;&#x547D;&#x4EE4;&#xFF0C;&#x7CFB;&#x7EDF;&#x4F1A;&#x81EA;&#x52A8;&#x5B89;&#x88C5;C&#x8BED;&#x8A00;&#x8282;&#x70B9;&#x5F00;&#x53D1;&#x6240;&#x9700;&#x6587;&#x4EF6;&#x5305;</p>
+                                <pre><code> npm install
+</code></pre>
+                                <p>node-red-node-test-helper&#x662F;&#x8282;&#x70B9;&#x5355;&#x5143;&#x6D4B;&#x8BD5;&#x652F;&#x6301;&#x5305;&#x3002;</p>
+                                <p>node-addon-api &#x662F; c &#x8BED;&#x8A00;&#x652F;&#x6301;&#x5305;&#x3002;</p>
+                                <p>bindings &#x5305;&#x53EF;&#x4EE5;&#x652F;&#x6301;&#x5728;&#x8C03;&#x7528; C &#x8BED;&#x8A00;&#x65F6;&#x7B80;&#x5316;&#x5F15;&#x5165;&#x8DEF;&#x5F84;&#xFF0C;&#x5982;&#x4E0B;&#xFF1A;</p>
+                                <pre><code>// const addon = require(&apos;./build/Release/nodecamera.node&apos;);  &#x7B80;&#x5316;&#x4E3A;
+
+const addon = require(&apos;bindings&apos;)(&apos;nodecamera.node&apos;);
+
+addon.helloNode();
+</code></pre>
+                                <h3 id="js-&#x4E0E;-c-&#x5E38;&#x89C1;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x88C5;&#x6362;">
+                                    JS &#x4E0E; C &#x5E38;&#x89C1;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x88C5;&#x6362;</h3>
+                                <table>
+                                    <thead>
+                                    <tr>
+                                        <th>JS</th>
+                                        <th>C</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>string</td>
+                                        <td>Napi::String</td>
+                                    </tr>
+                                    <tr>
+                                        <td>number</td>
+                                        <td>Napi::Number</td>
+                                    </tr>
+                                    <tr>
+                                        <td>boolean</td>
+                                        <td>Napi::Boolean</td>
+                                    </tr>
+                                    <tr>
+                                        <td>object</td>
+                                        <td>Napi::Object</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                                <p>&#x8BE6;&#x7EC6;&#x8BF4;&#x660E;&#x8BF7;&#x67E5;&#x770B;&#x5B98;&#x65B9;&#x6587;&#x6863;&#xFF1A;<a
+                                        href="https://github.com/nodejs/node-addon-api/blob/HEAD/doc/value.md"
+                                        target="_blank">https://github.com/nodejs/node-addon-api/blob/HEAD/doc/value.md</a>
+                                </p>
+                                <h3 id="&#x5224;&#x65AD;&#x8F93;&#x5165;&#x7684;&#x503C;&#x662F;&#x5426;&#x662F;&#x5B57;&#x7B26;&#x4E32;&#x7C7B;&#x578B;&#x5E76;&#x83B7;&#x53D6;&#x503C;">
+                                    &#x5224;&#x65AD;&#x8F93;&#x5165;&#x7684;&#x503C;&#x662F;&#x5426;&#x662F;&#x5B57;&#x7B26;&#x4E32;&#x7C7B;&#x578B;&#x5E76;&#x83B7;&#x53D6;&#x503C;</h3>
+                                <pre><code>  if (info[0].IsNumber()){ // &#x5224;&#x65AD;&#x8F93;&#x5165;&#x7684;&#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#x662F;&#x5426;&#x662F; number &#x7C7B;&#x578B;
+    info[0].As&lt;Napi::Number&gt;().Int32Value() // &#x83B7;&#x53D6;&#x503C;
+  }
+</code></pre>
+                                <h3 id="&#x793A;&#x4F8B;1&#xFF1A;js&#x8C03;&#x7528;-c-&#x8BED;&#x8A00;&#x51FD;&#x6570;&#x8FD4;&#x56DE;&#x5B57;&#x7B26;&#x4E32;">
+                                    &#x793A;&#x4F8B;1&#xFF1A;JS&#x8C03;&#x7528; C &#x8BED;&#x8A00;&#x51FD;&#x6570;&#x8FD4;&#x56DE;&#x5B57;&#x7B26;&#x4E32;</h3>
+                                <p>&#x53C2;&#x8003;&#x6587;&#x732E;&#xFF1A;<a
+                                        href="https://www.cnblogs.com/andrewwang/p/9409876.html" target="_blank">https://www.cnblogs.com/andrewwang/p/9409876.html</a>
+                                </p>
+                                <h4 id="&#x6B65;&#x9AA4;1&#x3001;&#x7F16;&#x5199;html&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#xFF0C;&#x9700;&#x6CE8;&#x610F;&#x8282;&#x70B9;&#x6CE8;&#x518C;&#x7684;&#x6807;&#x7B7E;&#x540D;&#x79F0;&#x5BF9;&#x5E94;&#x9700;&#x4E00;&#x81F4;">
+                                    &#x6B65;&#x9AA4;1&#x3001;&#x7F16;&#x5199;html&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#xFF0C;&#x9700;&#x6CE8;&#x610F;&#x8282;&#x70B9;&#x6CE8;&#x518C;&#x7684;&#x6807;&#x7B7E;&#x540D;&#x79F0;&#x5BF9;&#x5E94;&#x9700;&#x4E00;&#x81F4;</h4>
+                                <p><img src="../../../assets/component_dev22.png"
+                                        alt="&#x754C;&#x9762;&#x4ECB;&#x7ECD;"></p>
+                                <p>&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#xFF1A;</p>
+                                <pre><code>&lt;script type=&quot;text/html&quot; data-template-name=&quot;C_demo&quot;&gt;
+    &lt;div class=&quot;form-row&quot;&gt;
+        &lt;label for=&quot;node-input-appName&quot;&gt;&lt;i class=&quot;fa fa-tag&quot;&gt;&lt;/i&gt; &lt;span&gt;app&#x540D;&#x79F0;&lt;/span&gt;&lt;/label&gt;
+        &lt;input type=&quot;text&quot; id=&quot;node-input-appName&quot;&gt;
+    &lt;/div&gt;
+&lt;/script&gt;
+
+&lt;script type=&quot;text/html&quot; data-help-name=&quot;C_demo&quot;&gt;
+
+&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+    RED.nodes.registerType(&apos;C_demo&apos;, {
+        category: &apos;&#x57FA;&#x7840;&#x7EC4;&#x4EF6;test&apos;,
+        color: &quot;#e97b00&quot;,
+        defaults: {
+            name: {
+                value: &quot;&quot;
+            }
+        },
+        paletteLabel: &quot;C_demo&quot;,
+        inputs: 1,
+        outputs: 1,
+        icon: &quot;db.png&quot;,
+        label: function () {
+            return this.name || &quot;C_demo&quot;;
+        },
+        labelStyle: function () {
+            return this.name ? &quot;node_label_italic&quot; : &quot;&quot;;
+        }
+    });
+&lt;/script&gt;
+</code></pre>
+                                <h4 id="&#x6B65;&#x9AA4;2&#x3001;&#x7F16;&#x5199;js&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#xFF1A;&#x9700;&#x6CE8;&#x610F;&#x6CE8;&#x518C;&#x540D;&#x79F0;&#x8981;&#x4E0E;html&#x4E2D;&#x6807;&#x7B7E;&#x4E00;&#x81F4;">
+                                    &#x6B65;&#x9AA4;2&#x3001;&#x7F16;&#x5199;js&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#xFF1A;&#x9700;&#x6CE8;&#x610F;&#x6CE8;&#x518C;&#x540D;&#x79F0;&#x8981;&#x4E0E;html&#x4E2D;&#x6807;&#x7B7E;&#x4E00;&#x81F4;</h4>
+                                <p><img src="../../../assets/component_dev23.png"
+                                        alt="&#x754C;&#x9762;&#x4ECB;&#x7ECD;"></p>
+                                <p>&#x4EE3;&#x7801;&#x5982;&#x4E0B;</p>
+                                <pre><code>module.exports = function (RED) {
+    &quot;use strict&quot;;
+
+    const democpp = require(&quot;./build/Release/democpp.node&quot;)
+
+    function DeviceRegister(n) {
+        RED.nodes.createNode(this, n);
+        this.status({});
+        let node = this
+        let date = new Date()
+
+        console.log(&quot;nnnn &quot;, n)
+
+        node.on(&apos;input&apos;, function (msg) {
+            node.send({
+                payload: {
+                    &quot;input_msg&quot;: msg.payload,
+                    &quot;time&quot;: date.toLocaleString(),
+                    &quot;c_return&quot;: democpp.hello()
+                },
+            })
+        });
+
+    }
+
+    RED.nodes.registerType(&quot;C_demo&quot;, DeviceRegister);
+}
+</code></pre>
+                                <h4 id="&#x6B65;&#x9AA4;3&#x3001;&#x7F16;&#x5199;packagejson&#x6587;&#x4EF6;&#xFF0C;&#x7528;&#x4E8E;&#x914D;&#x7F6E;&#x5F15;&#x7528;&#x4F9D;&#x8D56;&#x53CA;&#x7EC4;&#x4EF6;&#x6743;&#x9650;">
+                                    &#x6B65;&#x9AA4;3&#x3001;&#x7F16;&#x5199;package.json&#x6587;&#x4EF6;&#xFF0C;&#x7528;&#x4E8E;&#x914D;&#x7F6E;&#x5F15;&#x7528;&#x4F9D;&#x8D56;&#x53CA;&#x7EC4;&#x4EF6;&#x6743;&#x9650;</h4>
+                                <p><img src="../../../assets/component_dev24.png"
+                                        alt="&#x754C;&#x9762;&#x4ECB;&#x7ECD;"></p>
+                                <p>&#x4EE3;&#x7801;&#x5982;&#x4E0B;</p>
+                                <pre><code>{
+  &quot;name&quot;: &quot;@47655117/C_demo&quot;,
+  &quot;version&quot;: &quot;1.0.0&quot;,
+  &quot;description&quot;: &quot;C_demo&quot;,
+  &quot;main&quot;: &quot;C_demo.js&quot;,
+  &quot;keywords&quot;: [],
+  &quot;author&quot;: &quot;47655117@flexcloud.com&quot;,
+  &quot;license&quot;: &quot;ISC&quot;,
+  &quot;dependencies&quot;: {
+    &quot;node-addon-api&quot;: &quot;^4.2.0&quot;
+  },
+  &quot;scripts&quot;: {
+    &quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;
+  },
+  &quot;node-red&quot;: {
+    &quot;nodes&quot;: {
+      &quot;C_demo&quot;: &quot;C_demo.js&quot;
+    }
+  }
+}
+</code></pre>
+                                <h4 id="&#x6B65;&#x9AA4;4&#x3001;&#x7F16;&#x5199;c&#x8BED;&#x8A00;&#x6587;&#x4EF6;&#xFF0C;&#x7528;&#x4E8E;&#x63D0;&#x4F9B;&#x51FD;&#x6570;&#x63A5;&#x53E3;">
+                                    &#x6B65;&#x9AA4;4&#x3001;&#x7F16;&#x5199;C&#x8BED;&#x8A00;&#x6587;&#x4EF6;&#xFF0C;&#x7528;&#x4E8E;&#x63D0;&#x4F9B;&#x51FD;&#x6570;&#x63A5;&#x53E3;</h4>
+                                <p><img src="../../../assets/component_dev25.png"
+                                        alt="&#x754C;&#x9762;&#x4ECB;&#x7ECD;"></p>
+                                <p>&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#xFF1A;</p>
+                                <pre><code>#include &lt;napi.h&gt;
+
+using namespace Napi;
+
+String Hello(const CallbackInfo&amp; info) {
+  return String::New(info.Env(), &quot;world&quot;);
+}
+Napi::Object  Init(Env env, Object exports) {
+  exports.Set(&quot;hello&quot;, Function::New(env, Hello));
+  return exports;
+}
+NODE_API_MODULE(addon, Init)
+</code></pre>
+                                <h4 id="&#x6B65;&#x9AA4;5&#x3001;&#x7F16;&#x5199;bindinggyp&#x6587;&#x4EF6;&#xFF0C;&#x7528;&#x4E8E;&#x7F16;&#x8BD1;&#x548C;&#x7ED1;&#x5B9A;&#xFF0C;&#x7BA1;&#x7406;&#x7F16;&#x8BD1;&#x89C4;&#x5219;">
+                                    &#x6B65;&#x9AA4;5&#x3001;&#x7F16;&#x5199;binding.gyp&#x6587;&#x4EF6;&#xFF0C;&#x7528;&#x4E8E;&#x7F16;&#x8BD1;&#x548C;&#x7ED1;&#x5B9A;&#xFF0C;&#x7BA1;&#x7406;&#x7F16;&#x8BD1;&#x89C4;&#x5219;</h4>
+                                <pre><code>{
+  &quot;targets&quot;: [
+    {
+      &quot;target_name&quot;: &quot;democpp&quot;,
+      &quot;sources&quot;: [
+        &quot;democpp.cc&quot;
+      ],
+      &quot;include_dirs&quot;: [
+        &quot;&lt;!@(node -p \&quot;require(&apos;node-addon-api&apos;).include\&quot;)&quot;
+      ],
+      &quot;dependencies&quot;: [
+        &quot;&lt;!(node -p \&quot;require(&apos;node-addon-api&apos;).gyp\&quot;)&quot;
+      ],
+      &quot;cflags!&quot;: [&quot;-fno-exceptions&quot;],
+      &quot;cflags_cc!&quot;: [&quot;-fno-exceptions&quot;],
+      &quot;defines&quot;: [&quot;NAPI_CPP_EXCEPTIONS&quot;],
+      &quot;xcode_settings&quot;: {
+        &quot;GCC_ENABLE_CPP_EXCEPTIONS&quot;: &quot;YES&quot;
+      }
+    }
+  ]
+}
+</code></pre>
+                                <h4 id="&#x6B65;&#x9AA4;6&#x3001;&#x7EC4;&#x4EF6;&#x8282;&#x70B9;&#x5B89;&#x88C5;&#x6D4B;&#x8BD5;">
+                                    &#x6B65;&#x9AA4;6&#x3001;&#x7EC4;&#x4EF6;&#x8282;&#x70B9;&#x5B89;&#x88C5;&#x6D4B;&#x8BD5;</h4>
+                                <p>&#x70B9;&#x51FB;<code>&#x7EC4;&#x4EF6;&#x5E93;</code>&#x5B89;&#x88C5;&#xFF0C;&#x5B89;&#x88C5;&#x540E;&#x6253;&#x5F00;&#x4EFB;&#x610F;&#x9AD8;&#x7EA7;APP&#x7684;&#x53EF;&#x89C6;&#x5316;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#xFF08;&#x63A8;&#x8350;&#x5355;&#x72EC;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x7528;&#x4E8E;&#x7EC4;&#x4EF6;&#x6D4B;&#x8BD5;&#x7684;&#x9AD8;&#x7EA7;APP&#x9879;&#x76EE;&#xFF09;&#xFF0C;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x5F00;&#x53D1;&#x7684;&#x8282;&#x70B9;&#xFF0C;&#x5219;&#x8BF4;&#x660E;&#x5DF2;&#x7ECF;&#x5728;&#x672C;&#x5730;&#x5B89;&#x88C5;&#x6210;&#x529F;&#xFF0C;&#x62D6;&#x5165;&#x5F00;&#x542F;&#x548C;&#x8C03;&#x8BD5;&#x8282;&#x70B9;&#x8FDB;&#x884C;&#x6D4B;&#x8BD5;&#xFF0C;&#x70B9;&#x51FB;&#x542F;&#x52A8;&#x8282;&#x70B9;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x5DF2;&#x7ECF;&#x5C06;C&#x8BED;&#x8A00;&#x51FD;&#x6570;&#x7684;&#x8FD4;&#x56DE;&#x503C;&#x8D4B;&#x503C;&#x5230;payload&#x5E76;&#x8F93;&#x51FA;&#x5230;&#x8C03;&#x8BD5;&#x7A97;&#x53E3;&#x3002;
+                                </p>
+                                <p><img src="../../../assets/component_dev29.png"
+                                        alt="&#x754C;&#x9762;&#x4ECB;&#x7ECD;"></p>
+                                <h3 id="&#x793A;&#x4F8B;2&#xFF1A;js-&#x8C03;&#x7528;-c-&#x51FD;&#x6570;&#x8FDB;&#x884C;&#x4E24;&#x6570;&#x76F8;&#x52A0;">
+                                    &#x793A;&#x4F8B;2&#xFF1A;JS &#x8C03;&#x7528; C &#x51FD;&#x6570;&#x8FDB;&#x884C;&#x4E24;&#x6570;&#x76F8;&#x52A0;</h3>
+                                <p>&#x53C2;&#x8003;&#x6587;&#x732E;&#xFF1A;<a href="https://nodejs.org/api/addons.html"
+                                                                              target="_blank">https://nodejs.org/api/addons.html</a>
+                                </p>
+                                <h4 id="&#x6B65;&#x9AA4;1&#x3001;&#x7F16;&#x5199;hellocc&#x6587;&#x4EF6;">&#x6B65;&#x9AA4;1&#x3001;&#x7F16;&#x5199;hello.cc&#x6587;&#x4EF6;</h4>
+                                <pre><code>#include &lt;napi.h&gt;
+
+// &#x5B9A;&#x4E49;&#x4E00;&#x4E2A; Add() &#x65B9;&#x6CD5;
+Napi::Value Add(const Napi::CallbackInfo&amp; info) {
+  Napi::Env env = info.Env(); // &#x83B7;&#x53D6; js &#x4E0A;&#x4E0B;&#x6587;&#x4FE1;&#x606F;
+
+  if (info.Length() &lt; 2) {
+    Napi::TypeError::New(env, &quot;Wrong number of arguments&quot;)
+        .ThrowAsJavaScriptException();
+    return env.Null();
+  }
+
+  if (!info[0].IsNumber() || !info[1].IsNumber()) {
+    Napi::TypeError::New(env, &quot;Wrong arguments&quot;).ThrowAsJavaScriptException();
+    return env.Null();
+  }
+
+  int arg0 = info[0].As&lt;Napi::Number&gt;().Int32Value();
+  int arg1 = info[1].As&lt;Napi::Number&gt;().Int32Value();
+
+  // &#x8C03;&#x7528; cal.cc &#x4E2D;&#x7684; sum &#x65B9;&#x6CD5;
+  int sum(int);
+  int arg2 = sum(arg0 + arg1);
+
+  Napi::Number num = Napi::Number::New(env, arg2);
+
+  return num;
+}
+
+// &#x5BFC;&#x51FA;&#x51FD;&#x6570;&#xFF0C;&#x53EF;&#x4F7F;&#x7528; exports.Set() &#x5BFC;&#x51FA;&#x591A;&#x4E2A;&#x51FD;&#x6570;
+Napi::Object Init(Napi::Env env, Napi::Object exports) {
+  exports.Set(Napi::String::New(env, &quot;add&quot;), Napi::Function::New(env, Add));
+  return exports;
+}
+
+NODE_API_MODULE(addon, Init)
+</code></pre>
+                                <h4 id="&#x6B65;&#x9AA4;2&#x3001;&#x7F16;&#x5199;calcc&#x6587;&#x4EF6;">&#x6B65;&#x9AA4;2&#x3001;&#x7F16;&#x5199;cal.cc&#x6587;&#x4EF6;</h4>
+                                <pre><code>#include &lt;stdio.h&gt;
+
+int sum(int n) {
+    int sum = n + 100;
+    return sum;
+}
+</code></pre>
+                                <h4 id="&#x6B65;&#x9AA4;3&#x3001;&#x7F16;&#x5199;bindinggyp&#x6587;&#x4EF6;">&#x6B65;&#x9AA4;3&#x3001;&#x7F16;&#x5199;binding.gyp&#x6587;&#x4EF6;</h4>
+                                <pre><code>{
+  &quot;targets&quot;: [
+    {
+      &quot;target_name&quot;: &quot;hello&quot;,
+      &quot;sources&quot;: [
+        &quot;hello.cc&quot;,
+        &quot;cal.cc&quot;
+      ],
+      &quot;include_dirs&quot;: [
+        &quot;&lt;!@(node -p \&quot;require(&apos;node-addon-api&apos;).include\&quot;)&quot;
+      ],
+      &quot;libraries&quot;: [
+              # &quot;&lt;(module_root_dir)/_dep/lib/libcrypto.a&quot;,
+              &quot;-L&lt;(module_root_dir)/_dep/lib&quot;
+            ],
+      &quot;dependencies&quot;: [
+        &quot;&lt;!(node -p \&quot;require(&apos;node-addon-api&apos;).gyp\&quot;)&quot;
+      ],
+      &quot;cflags!&quot;: [&quot;-fno-exceptions&quot;],
+      &quot;cflags_cc!&quot;: [&quot;-fno-exceptions&quot;],
+      &quot;defines&quot;: [&quot;NAPI_CPP_EXCEPTIONS&quot;],
+      &quot;xcode_settings&quot;: {
+        &quot;GCC_ENABLE_CPP_EXCEPTIONS&quot;: &quot;YES&quot;
+      }
+    }
+  ]
+}
+</code></pre>
+                                <ul>
+                                    <li>sources &#x6307;&#x660E; c &#x7684;&#x6E90;&#x6587;&#x4EF6;&#xFF0C;&#x5982;&#x679C;&#x6709;&#x591A;&#x4E2A;&#x6587;&#x4EF6;&#xFF0C;&#x9700;&#x8981;&#x7528;&#x9017;&#x53F7;&#x9694;&#x5F00;&#xFF0C;&#x653E;&#x5230;&#x540C;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;&#x4E2D;&#x3002;</li>
+                                    <li>include_dirs &#x662F;&#x7F16;&#x8BD1;&#x65F6;&#x4F7F;&#x7528;&#x7684;&#x5934;&#x6587;&#x4EF6;&#x5F15;&#x5165;&#x8DEF;&#x5F84;&#xFF0C;&#x8FD9;&#x91CC;&#x4F7F;&#x7528;
+                                        node -p &#x6267;&#x884C; node-addon-api &#x6A21;&#x5757;&#x4E2D;&#x7684;&#x9884;&#x7F6E;&#x53D8;&#x91CF;&#x3002;
+                                    </li>
+                                    <li>cflags! / cflags_cc! / defines &#x4E09;&#x884C;&#x6307;&#x5B9A;&#x5982;&#x679C;
+                                        c &#x7A0B;&#x5E8F;&#x78B0;&#x5230;&#x610F;&#x5916;&#x9519;&#x8BEF;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x7531;
+                                        NAPI &#x63A5;&#x53E3;&#x6765;&#x5904;&#x7406;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x901A;&#x5E38;&#x7684;&#x7531;
+                                        c &#x7A0B;&#x5E8F;&#x81EA;&#x5DF1;&#x5904;&#x7406;&#x3002;&#x8FD9;&#x9632;&#x6B62;&#x56E0;&#x4E3A;
+                                        c &#x90E8;&#x5206;&#x7A0B;&#x5E8F;&#x78B0;&#x5230;&#x610F;&#x5916;&#x76F4;&#x63A5;&#x5C31;&#x9000;&#x51FA;&#x4E86;&#x7A0B;&#x5E8F;&#xFF0C;&#x800C;&#x662F;&#x7531;
+                                        nodejs
+                                        &#x7A0B;&#x5E8F;&#x6765;&#x6355;&#x83B7;&#x5904;&#x7406;&#x3002;
+                                    </li>
+                                    <li>target_name &#x6307;&#x5B9A;&#x4E86;&#x7F16;&#x8BD1;&#x4E4B;&#x540E;&#x6A21;&#x5757;&#x7684;&#x540D;&#x79F0;</li>
+                                </ul>
+                                <h4 id="&#x6B65;&#x9AA4;4&#x3001;&#x7F16;&#x5199;hellojs&#x6587;&#x4EF6;">&#x6B65;&#x9AA4;4&#x3001;&#x7F16;&#x5199;hello.js&#x6587;&#x4EF6;</h4>
+                                <pre><code>//  require &#x5F15;&#x5165;&#xFF0C;&#x6587;&#x4EF6;&#x540D;&#x4E3A; {target_name}.node
+const hello = require(&apos;bindings&apos;)(&apos;hello.node&apos;)
+
+// &#x8C03;&#x7528;
+console.log(hello.add(3, 5))
+</code></pre>
+                                <p>&#x66F4;&#x591A;&#x4F8B;&#x5B50;&#xFF1A;<a
+                                        href="https://github.com/nodejs/node-addon-examples" target="_blank">https://github.com/nodejs/node-addon-examples</a>
+                                </p>
+                                <h3 id="&#x793A;&#x4F8B;3&#xFF1A;js-&#x8C03;&#x7528;c&#x52A8;&#x6001;&#x94FE;&#x63A5;&#x5E93;">
+                                    &#x793A;&#x4F8B;3&#xFF1A;JS &#x8C03;&#x7528;C&#x52A8;&#x6001;&#x94FE;&#x63A5;&#x5E93;</h3>
+                                <h4 id="npm-&#x5305;-ffi-napi">npm &#x5305; ffi-napi</h4>
+                                <pre><code class="lang-angular2html">npm i ffi-napi
+</code></pre>
+                                <h4 id="&#x6B65;&#x9AA4;1&#x3001;&#x7F16;&#x5199;calcc&#x6587;&#x4EF6;">&#x6B65;&#x9AA4;1&#x3001;&#x7F16;&#x5199;cal.cc&#x6587;&#x4EF6;</h4>
+                                <pre><code>#include &lt;stdio.h&gt;
+
+extern &quot;C&quot; int sum(int n) {
+    int sum = n + 100;
+    return sum;
+}
+</code></pre>
+                                <h4 id="&#x6B65;&#x9AA4;2&#x3001;&#x7F16;&#x8BD1;&#x6210;-so-&#x6587;&#x4EF6;">&#x6B65;&#x9AA4;2&#x3001;&#x7F16;&#x8BD1;&#x6210;
+                                    .so &#x6587;&#x4EF6;</h4>
+                                <pre><code>gcc cal.cc -fPIC -shared -o cal.so
+</code></pre>
+                                <h4 id="&#x6B65;&#x9AA4;3&#x3001;&#x7F16;&#x5199;demojs&#xFF0C;&#x8C03;&#x7528;c&#x8BED;&#x8A00;lib&#x5E93;&#x4E2D;&#x51FD;&#x6570;">
+                                    &#x6B65;&#x9AA4;3&#x3001;&#x7F16;&#x5199;demo.js&#xFF0C;&#x8C03;&#x7528;C&#x8BED;&#x8A00;lib&#x5E93;&#x4E2D;&#x51FD;&#x6570;</h4>
+                                <pre><code>const ffi = require(&apos;ffi-napi&apos;);
+
+// __dirname &#x83B7;&#x53D6;&#x5F53;&#x524D; js &#x6587;&#x4EF6;&#x6240;&#x5728;&#x7684;&#x7EDD;&#x5BF9;&#x8DEF;&#x5F84;&#xFF0C;&#x5982; /projects/demo
+// &#x73B0;&#x6709;&#x4E00;&#x4E2A;&#x52A8;&#x6001;&#x94FE;&#x63A5;&#x5E93; /projects/demo/_dep/lib/cal.so
+// &#x51FD;&#x6570;&#x540D;&#x4E3A; sum&#xFF0C;&#x8F93;&#x51FA;&#x4E3A; int &#x7C7B;&#x578B;&#xFF0C;&#x6709;&#x4E00;&#x4E2A;&#x8F93;&#x5165;&#x53C2;&#x6570;&#x4E3A; int &#x7C7B;&#x578B;&#xFF0C;&#x5982;&#x679C;&#x6709;&#x4E00;&#x4E2A;&#x8F93;&#x51FA;&#xFF0C;&#x4E24;&#x4E2A;&#x8F93;&#x5165;&#x53EF;&#x5199;&#x4E3A; [&apos;int&apos;,[&apos;int&apos;,&apos;int&apos;]]
+
+var libm = ffi.Library(__dirname + &apos;/_dep/lib/cal&apos;, {
+    &apos;sum&apos;: [ &apos;int&apos;, [ &apos;int&apos; ] ] // &#x591A;&#x4E2A;&#x5BFC;&#x51FA;&#x51FD;&#x6570;&#x53EF;&#x8FFD;&#x52A0;
+});
+
+console.log(libm.sum(10))
+</code></pre>
+                                <h2 id="faq">FAQ</h2>
+                                <h3 id="1-&#x5F15;&#x7528;&#x5934;&#x6587;&#x4EF6;napih&#x63D0;&#x793A;&#x5931;&#x8D25;">
+                                    1. &#x5F15;&#x7528;&#x5934;&#x6587;&#x4EF6;<code>napi.h</code>&#x63D0;&#x793A;&#x5931;&#x8D25;
+                                </h3>
+                                <p>&#x62A5;&#x9519;&#x4F4D;&#x7F6E;&#xFF1A;</p>
+                                <p><img src="../../../assets/component_dev26.png"
+                                        alt="&#x754C;&#x9762;&#x4ECB;&#x7ECD;"></p>
+                                <p>&#x5904;&#x7406;&#x65B9;&#x6CD5;&#xFF1A;</p>
+                                <ol>
+                                    <li>&#x6253;&#x5F00;&#x7EC8;&#x7AEF;&#xFF0C;&#x6267;&#x884C;<code>npm install</code>
+                                    </li>
+                                    <li>&#x9F20;&#x6807;&#x60AC;&#x6D6E;&#x5728;&#x5931;&#x8D25;&#x884C;&#x5904;&#xFF0C;&#x70B9;&#x51FB;&#x1F4A1;&#x56FE;&#x6807;&#xFF0C;&#x9009;&#x62E9;&#x7B2C;&#x4E00;&#x9879;
+                                        &#x201C;&#x6DFB;&#x52A0;&#x5230; IncludePath&#x201D;
+                                    </li>
+                                </ol>
+                                <p><img src="../../../assets/component_dev28.png"
+                                        alt="&#x754C;&#x9762;&#x4ECB;&#x7ECD;"></p>
+                                <h3 id="2-&#x5F15;&#x7528;lib&#x5E93;&#x5904;&#x7406;">2. &#x5F15;&#x7528;lib&#x5E93;&#x5904;&#x7406;</h3>
+                                <p>&#x5904;&#x7406;&#x65B9;&#x6CD5;&#xFF1A;</p>
+                                <ol>
+                                    <li>&#x76EE;&#x5F55;&#x7A97;&#x683C;&#x6253;&#x5F00;<code>building.gyp</code>&#x6587;&#x4EF6;
+                                    </li>
+                                    <li>&#x5728; <code>{&quot;targets&quot;:
+                                        [{&quot;libraries&quot;:&quot;&quot;}]}</code>&#x5904;&#x6DFB;&#x52A0;<code>-L&lt;(module_root_dir)/_dep/lib</code>&#xFF0C;&#x8868;&#x793A;&#x5F53;&#x524D;&#x9879;&#x76EE;&#x76EE;&#x5F55;&#x4E0B;<code>_dep/lib</code>&#x4E3A;&#x6240;&#x6709;&#x5E93;&#x6587;&#x4EF6;&#x3002;
+                                        &#x5982;&#xFF1A;<pre><code class="lang-json">{
+<span class="hljs-string">&quot;targets&quot;</span>: [
+ {
+   <span class="hljs-string">&quot;target_name&quot;</span>: <span class="hljs-string">&quot;main&quot;</span>,
+   <span class="hljs-string">&quot;sources&quot;</span>: [
+     <span class="hljs-string">&quot;main.cc&quot;</span>
+   ],
+   <span class="hljs-string">&quot;include_dirs&quot;</span>: [
+     <span class="hljs-string">&quot;&lt;!@(node -p \&quot;require(&apos;node-addon-api&apos;).include\&quot;)&quot;</span>,
+     <span class="hljs-string">&quot;&lt;(module_root_dir)/_dep/include&quot;</span>
+   ],
+   <span class="hljs-string">&quot;libraries&quot;</span>: [ 
+     <span class="hljs-string">&quot;&lt;(module_root_dir)/_dep/lib/libcrypto.a&quot;</span>,
+     <span class="hljs-string">&quot;&lt;(module_root_dir)/_dep/lib/libssl.a&quot;</span>,
+     <span class="hljs-string">&quot;-L&lt;(module_root_dir)/_dep/lib&quot;</span>
+   ],
+   <span class="hljs-string">&quot;dependencies&quot;</span>: [
+     <span class="hljs-string">&quot;&lt;!(node -p \&quot;require(&apos;node-addon-api&apos;).gyp\&quot;)&quot;</span>
+   ],
+   <span class="hljs-string">&quot;cflags!&quot;</span>: [<span class="hljs-string">&quot;-fno-exceptions&quot;</span>],
+   <span class="hljs-string">&quot;cflags_cc!&quot;</span>: [<span
+                                                    class="hljs-string">&quot;-fno-exceptions&quot;</span>],
+   <span class="hljs-string">&quot;defines&quot;</span>: [<span
+                                                    class="hljs-string">&quot;NAPI_CPP_EXCEPTIONS&quot;</span>],
+   <span class="hljs-string">&quot;xcode_settings&quot;</span>: {
+     <span class="hljs-string">&quot;GCC_ENABLE_CPP_EXCEPTIONS&quot;</span>: <span
+                                                    class="hljs-string">&quot;YES&quot;</span>
+   }
+ }
+]
+}
+</code></pre>
+                                    </li>
+                                </ol>
+                                <h2 id="&#x6269;&#x5C55;&#xFF1A;js-&#x8C03;&#x7528;-python&#x811A;&#x672C;&#x57FA;&#x672C;&#x4ECB;&#x7ECD;&#x53CA;&#x793A;&#x4F8B;">
+                                    &#x6269;&#x5C55;&#xFF1A;JS &#x8C03;&#x7528; Python&#x811A;&#x672C;&#x57FA;&#x672C;&#x4ECB;&#x7ECD;&#x53CA;&#x793A;&#x4F8B;</h2>
+                                <h3 id="&#x793A;&#x4F8B;1&#xFF1A;js-&#x8C03;&#x7528;python&#x811A;&#x672C;&#x8FDB;&#x884C;&#x4E24;&#x6570;&#x76F8;&#x52A0;">
+                                    &#x793A;&#x4F8B;1&#xFF1A;JS &#x8C03;&#x7528;Python&#x811A;&#x672C;&#x8FDB;&#x884C;&#x4E24;&#x6570;&#x76F8;&#x52A0;</h3>
+                                <h4 id="&#x6B65;&#x9AA4;1&#x3001;&#x7F16;&#x5199;mainpy&#x811A;&#x672C;&#x6587;&#x4EF6;">
+                                    &#x6B65;&#x9AA4;1&#x3001;&#x7F16;&#x5199;main.py&#x811A;&#x672C;&#x6587;&#x4EF6;</h4>
+                                <pre><code>import sys
+
+if len(sys.argv) != 3:
+    sys.stderr.write(&quot;param error: add1 add2&quot;)
+    sys.exit(1)
+
+add1 = sys.argv[1]
+add2 = sys.argv[2]
+
+
+def add(a, b):
+    sys.stdout.write(str(float(a) + float(b)))
+    return float(a) + float(b)
+
+
+add(add1, add2)
+</code></pre>
+                                <h4 id="&#x6B65;&#x9AA4;2&#x3001;&#x5728;js&#x6587;&#x4EF6;&#x4E2D;&#x8C03;&#x7528;py&#x811A;&#x672C;">
+                                    &#x6B65;&#x9AA4;2&#x3001;&#x5728;js&#x6587;&#x4EF6;&#x4E2D;&#x8C03;&#x7528;py&#x811A;&#x672C;</h4>
+                                <pre><code>const exec = require(&quot;child_process&quot;).exec;
+
+let pyCommand = &apos;python &apos; + __dirname + &apos;/main.py&apos;
+
+
+module.exports = function(RED) {
+    function Fn(config) {
+        RED.nodes.createNode(this,config);
+        var node = this;
+
+        f = new Promise((resolve, reject) =&gt; {
+            let sumCommand = `${pyCommand} ${config.add1} ${config.add2}`
+            exec(sumCommand, (err, stdout, stderr) =&gt; {
+              resolve(stdout)
+            });
+          }).then(data =&gt; {
+                node.send({
+                    payload:{
+                        &quot;sum&quot;:data
+                    }
+                })
+            })
+
+
+    }
+    RED.nodes.registerType(&quot;weibin-mqtt&quot;,Fn); //&#x7ED1;&#x5B9A;&#x51FD;&#x6570;
+}
+</code></pre>
+                                <script>console.log("plugin-popup....");
+                                document.onclick = function (e) {
+                                    e.target.tagName === "IMG" && window.open(e.target.src, e.target.src)
+                                }</script>
+                                <style>img {
+                                    cursor: pointer
+                                }</style>
+
+                            </section>
+
+                        </div>
+                        <div class="search-results">
+                            <div class="has-results">
+
+                                <h1 class="search-results-title"><span class='search-results-count'></span> results
+                                    matching "<span class='search-query'></span>"</h1>
+                                <ul class="search-results-list"></ul>
+
+                            </div>
+                            <div class="no-results">
+
+                                <h1 class="search-results-title">No results matching "<span class='search-query'></span>"
+                                </h1>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <a href="seniorapp_dev.html" class="navigation navigation-prev " aria-label="Previous page: 高级APP开发">
+            <i class="fa fa-angle-left"></i>
+        </a>
+
+
+        <a href="function_dev.html" class="navigation navigation-next " aria-label="Next page: 自定义函数">
+            <i class="fa fa-angle-right"></i>
+        </a>
+
+
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function () {
+            gitbook.page.hasChanged({
+                "page": {
+                    "title": "组件节点开发",
+                    "level": "1.5.2",
+                    "depth": 2,
+                    "next": {
+                        "title": "自定义函数",
+                        "level": "1.5.3",
+                        "depth": 2,
+                        "path": "docs/features/example/function_dev.md",
+                        "ref": "docs/features/example/function_dev.md",
+                        "articles": []
+                    },
+                    "previous": {
+                        "title": "高级APP开发",
+                        "level": "1.5.1",
+                        "depth": 2,
+                        "path": "docs/features/example/seniorapp_dev.md",
+                        "ref": "docs/features/example/seniorapp_dev.md",
+                        "articles": []
+                    },
+                    "dir": "ltr"
+                },
+                "config": {
+                    "plugins": ["-sharing", "code", "intopic-toc", "back-to-top-button", "emphasize", "popup", "chapter-fold", "splitter", "expandable-chapters"],
+                    "styles": {
+                        "website": "styles/website.css",
+                        "pdf": "styles/pdf.css",
+                        "epub": "styles/epub.css",
+                        "mobi": "styles/mobi.css",
+                        "ebook": "styles/ebook.css",
+                        "print": "styles/print.css"
+                    },
+                    "pluginsConfig": {
+                        "chapter-fold": {},
+                        "emphasize": {},
+                        "intopic-toc": {
+                            "isCollapsed": true,
+                            "isScrollspyActive": true,
+                            "label": "In this article",
+                            "maxDepth": 6,
+                            "mode": "nested",
+                            "selector": ".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6",
+                            "visible": true
+                        },
+                        "splitter": {},
+                        "search": {},
+                        "popup": {},
+                        "lunr": {"maxIndexSize": 1000000, "ignoreSpecialCharacters": false},
+                        "code": {"copyButtons": true},
+                        "fontsettings": {"theme": "white", "family": "sans", "size": 2},
+                        "highlight": {},
+                        "back-to-top-button": {},
+                        "theme-default": {
+                            "styles": {
+                                "website": "styles/website.css",
+                                "pdf": "styles/pdf.css",
+                                "epub": "styles/epub.css",
+                                "mobi": "styles/mobi.css",
+                                "ebook": "styles/ebook.css",
+                                "print": "styles/print.css"
+                            }, "showLevel": false
+                        },
+                        "expandable-chapters": {}
+                    },
+                    "theme": "default",
+                    "author": "希云科技",
+                    "pdf": {
+                        "pageNumbers": true,
+                        "fontSize": 12,
+                        "fontFamily": "Arial",
+                        "paperSize": "a4",
+                        "chapterMark": "pagebreak",
+                        "pageBreaksBefore": "/",
+                        "margin": {"right": 62, "left": 62, "top": 56, "bottom": 56}
+                    },
+                    "structure": {
+                        "langs": "LANGS.md",
+                        "readme": "README.md",
+                        "glossary": "GLOSSARY.md",
+                        "summary": "SUMMARY.md"
+                    },
+                    "variables": {},
+                    "title": "柔性开发仿真一体化云平台",
+                    "language": "zh-hans",
+                    "gitbook": "*",
+                    "description": "使用手册",
+                    "extension": null
+                },
+                "file": {
+                    "path": "docs/features/example/component_dev.md",
+                    "mtime": "2022-07-07T03:23:28.244Z",
+                    "type": "markdown"
+                },
+                "gitbook": {"version": "3.2.3", "time": "2022-07-20T09:42:29.593Z"},
+                "basePath": "../../..",
+                "book": {"language": ""}
+            });
+        });
+    </script>
+</div>
+
+
+<script src="../../../gitbook/gitbook.js"></script>
+<script src="../../../gitbook/theme.js"></script>
+
+
+<script src="../../../gitbook/gitbook-plugin-code/plugin.js"></script>
+
+
+<script src="../../../gitbook/gitbook-plugin-intopic-toc/anchor.min.js"></script>
+
+
+<script src="../../../gitbook/gitbook-plugin-intopic-toc/gumshoe.polyfills.min.js"></script>
+
+
+<script src="../../../gitbook/gitbook-plugin-intopic-toc/plugin.js"></script>
+
+
+<script src="../../../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+
+
+<script src="../../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+
+
+<script src="../../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+
+
+<script src="../../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+
+
+<script src="../../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+
+
+<script src="../../../gitbook/gitbook-plugin-search/search.js"></script>
+
+
+<script src="../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+
+
+<script src="../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+
+
+<script src="../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+
+
+</body>
+</html>
+

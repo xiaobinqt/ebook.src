@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<h2>SSE</h2>
+
+</body>
+
+
+<script>
+    const source = new EventSource('http://127.0.0.1:8080/sse');
+    source.onopen = () => {
+        console.log('链接成功');
+    }
+    source.onmessage = (res) => {
+        console.log('获得的数据是:' + res.data);
+    }
+    source.onerror = (err) => {
+        console.log(err);
+    }
+</script>
+</html>

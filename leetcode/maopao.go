@@ -7,9 +7,10 @@ func maopao(nums []int) []int {
 		return nums
 	}
 
+	// 从小到大排
 	length := len(nums)
 	for i := 0; i < length-1; i++ {
-		for j := 0; j < length-i-1; j++ {
+		for j := 0; j < length-1-i; j++ {
 			if nums[j] > nums[j+1] {
 				tmp := nums[j]
 				nums[j] = nums[j+1]

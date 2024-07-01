@@ -1,0 +1,39 @@
+
+<script type="text/javascript">
+    RED.nodes.registerType('tmp-encrypt-linantest001-tmp-encrypt-clone-linantest001',{
+        category: '分类',                      //category: （字符串）节点的分类类别
+        color: '#a6bbcf',                     //color: (字符串)节点要使用的背景颜色
+        defaults: {                           //defaults: （对象）节点的可编辑属性
+            name: {value:"tmp-encrypt"}
+        },
+        inputs:1,                             //inputs: （数字）的节点有多少输入具有，无论是0或1
+        outputs:1,                            //outputs: (数字) 节点有多少个输出。可以0或更多
+        icon: "file.png",                     //icon: （字符串）要使用的图标
+        paletteLabel: "tmp-encrypt",            //paletteLabel: (字符串|函数)控件区中显示的节点名称
+        label: function() {                   //label: (字符串|函数)工作区中显示的节点名称
+            if (this.name === "") {
+                this.name = this._def.paletteLabel
+            }
+            return this.name || this._def.paletteLabel
+        },
+        oneditprepare: function () {          //oneditprepare:（函数）在构建编辑对话框时调用的自定义编辑行为
+        },
+        oneditsave: function () {             //oneditsave: （函数）在编辑对话框正常时调用的自定义编辑行为
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="tmp-encrypt-linantest001-tmp-encrypt-clone-linantest001">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<style>
+    pre{
+        width: 500px;
+    }
+</style>
+
+

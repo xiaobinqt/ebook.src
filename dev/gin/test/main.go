@@ -1,12 +1,11 @@
 package main
 
-import "github.com/gin-gonic/gin"
+import (
+	"fmt"
+	"strings"
+)
 
 func main() {
-	route := gin.New()
-	route.GET("/test", func(ctx *gin.Context) {
-		ctx.JSON(200, "111")
-	})
-
-	route.Run()
+	x := " 1 "
+	fmt.Println(strings.TrimSpace(x))
 }

@@ -1,0 +1,105 @@
+cpu:
+  tag:
+    - X86
+    - ARM
+  suggest:
+    - 可迁移，建议选用海光、鲲鹏、飞腾、龙芯、兆芯、申威等
+    - 可迁移，建议选用海光、鲲鹏、飞腾、龙芯、兆芯、申威等
+os:
+  tag:
+    - Windows
+    - Linux
+  suggest:
+    - 可迁移，Java、Python、C++等语言可跨平台兼容，建议使用麒麟、统信等操作系统
+    - 可迁移，完全兼容，建议使用麒麟、统信等操作系统
+language:
+  tag:
+    - Java
+    - Python
+    - PHP
+    - C&C++
+    - C#
+    - Golang
+  suggest:
+    - 可迁移，需重新编译
+    - 可迁移，跨平台完全兼容
+    - 可迁移，跨平台完全兼容
+    - 可迁移，需重新编译
+    - 无法迁移，建议使用其他语言进行代码重构
+    - 可迁移，需重新编译
+
+middleware:
+  tag:
+    - Tomcat
+    - Weblogic
+    - Apache
+    - Nginx
+    - IIS
+  suggest:
+    - 可迁移，跨平台兼容，可复用或更换东方通、宝兰德、金蝶天燕等国产主流中间件
+    - 可迁移，跨平台兼容，可复用或更换东方通、宝兰德、金蝶天燕等国产主流中间件
+    - 可迁移，跨平台兼容，可复用或更换东方通、宝兰德、金蝶天燕等国产主流中间件
+    - 可迁移，跨平台兼容，可复用或更换东方通、宝兰德、金蝶天燕等国产主流中间件
+    - 需更换其他中间件,建议使用东方通
+
+database:
+  tag:
+    - Oracle
+    - SQLserver
+    - MySQL
+    - PgSQL
+  suggest:
+    - 可迁移，推荐使用达梦数据库
+    - 可迁移，推荐使用达梦数据库
+    - 部分兼容，推荐使用人大金仓、达梦等国产主流数据库
+    - 可迁移，推荐使用人大金仓数据库
+
+browser:
+  tag:
+    - Chrome
+    - 360
+    - FireFox
+    - Edge
+    - IE
+  suggest:
+    - 部分兼容，推荐使用奇安信、360、红莲花等国产主流浏览器进行测试
+    - 可完全复用
+    - 部分兼容，推荐使用奇安信、360、红莲花等国产主流浏览器进行测试
+    - 部分兼容，推荐使用奇安信、360、红莲花等国产主流浏览器进行测试
+    - 较老版本的IE浏览器兼容性较差，推荐使用奇安信、360、红莲花等浏览器进行测试
+
+components:
+  tag:
+    - JDK 1.8
+    - JDK 1.7
+    - JDK 1.6
+    - Redis
+    - Nginx
+  suggest:
+    - 可迁移，跨平台兼容，需更换迁移目标相应操作系统的版本
+    - 可迁移，跨平台兼容，需更换迁移目标相应操作系统的版本
+    - 可迁移，跨平台兼容，需更换迁移目标相应操作系统的版本
+    - 可迁移，跨平台兼容，需更换迁移目标相应操作系统的版本
+    - 可迁移，跨平台兼容，需更换迁移目标相应操作系统的版本
+
+no_source_code: Java应用可通过反编译进行尝试适配，其他语言建议进行代码重构
+
+summary:
+  X86+Windows+Java: 可迁移，Java语言跨操作系统，对各操作系统兼容性较强，从X86到国产CPU的迁移基本可行性和成功率也相对较高
+  X86+Windows+Python: 可迁移，Python语言跨操作系统，对各操作系统兼容性较强，从X86到国产CPU的迁移基本可行性和成功率也相对较高
+  X86+Windows+PHP: 可迁移
+  X86+Windows+C&C++: 可迁移
+  X86+Windows+C#: winform应用无法迁移，其他应用可迁移
+  X86+Windows+Golang: 可迁移
+  X86+Linux+Java: 可迁移
+  X86+Linux+Python: 可迁移
+  X86+Linux+PHP: 可迁移
+  X86+Linux+C&C++: 可迁移
+  X86+Linux+C#: 可迁移
+  X86+Linux+Golang: 可迁移
+  ARM+Linux+Java: 可迁移
+  ARM+Linux+Python: 可迁移
+  ARM+Linux+PHP: 可迁移
+  ARM+Linux+C&C++: 可迁移
+  ARM+Linux+C#: 可迁移
+  ARM+Linux+Golang: 可迁移
